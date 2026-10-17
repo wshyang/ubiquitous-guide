@@ -4,6 +4,7 @@ import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { readFile, writeFile } from "node:fs/promises";
 import { buildStore, type SpriteStore } from "../src/lib/sprites";
 import type { SpriteImage, SpriteManifest } from "../src/lib/types";
+import { backdropTheme, type BackdropLayers } from "../src/scene/scene";
 
 export async function loadNodeStore(): Promise<SpriteStore> {
   const raw = await readFile("src/generated/sprite-manifest.json", "utf8");
@@ -11,8 +12,12 @@ export async function loadNodeStore(): Promise<SpriteStore> {
   return buildStore(manifest, async (entry) => loadImage(`public${entry.url}`) as Promise<SpriteImage>);
 }
 
-export async function loadBackdrop(): Promise<SpriteImage> {
-  return loadImage("public/backdrops/kallang-day-clean.jpeg") as Promise<SpriteImage>;
+export async function loadBackdrop(themeId = "day"): Promise<BackdropLayers> {
+  const theme = backdropTheme(themeId);
+  const [sky, scene] = await Promise.all([
+    loadImage(`public${theme.skyUrl}`), loadImage(`public${theme.sceneUrl}`),
+  ]);
+  return { sky: sky as SpriteImage, scene: scene as SpriteImage };
 }
 
 export { createCanvas };

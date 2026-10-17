@@ -1,5 +1,6 @@
-/** Scene composition (spec §5): backdrop + layers of animated entities.
- *  All placements are world pixels in the 2752x1536 backdrop space; tuned
+/** Scene composition (spec §5): two-layer backdrop (sky + transparent
+ *  scene plate, addendum 0009) + layers of animated entities. All
+ *  placements are world pixels in the 2752x1536 backdrop space; tuned
  *  against QA stills and the populated-reference backdrop. */
 import { createRng } from "../lib/rng";
 import type { SpriteStore } from "../lib/sprites";
@@ -16,7 +17,31 @@ import { placeWaterEffects } from "./waterMap";
 
 export const WORLD_WIDTH = 2752;
 export const WORLD_HEIGHT = 1536;
-export const BACKDROP_URL = "/backdrops/kallang-day-clean.jpeg";
+/** Lighting themes for the layered backdrop: three scene plates
+ *  (dawn/day/dusk, published as transparent PNGs by
+ *  tools/prepare_backdrops.py) composited over five sky gradients. */
+export type BackdropThemeId = "dawn" | "morning" | "day" | "evening" | "dusk";
+
+export interface BackdropTheme {
+  id: BackdropThemeId; label: string; skyUrl: string; sceneUrl: string;
+}
+
+export const BACKDROP_THEMES: readonly BackdropTheme[] = [
+  { id: "dawn", label: "Dawn", skyUrl: "/backdrops/sky-early-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-dawn.png" },
+  { id: "morning", label: "Morning", skyUrl: "/backdrops/sky-late-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
+  { id: "day", label: "Day", skyUrl: "/backdrops/sky-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
+  { id: "evening", label: "Evening", skyUrl: "/backdrops/sky-late-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
+  { id: "dusk", label: "Dusk", skyUrl: "/backdrops/sky-dusk.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
+];
+
+const DAY_THEME: BackdropTheme = BACKDROP_THEMES[2] as BackdropTheme;
+
+export function backdropTheme(id: string | null | undefined): BackdropTheme {
+  return BACKDROP_THEMES.find((theme) => theme.id === id) ?? DAY_THEME;
+}
+
+/** Loaded layers: sky drawn first, transparent scene plate over it. */
+export interface BackdropLayers { sky: SpriteImage; scene: SpriteImage }
 
 const L = { cloud: 10, propBack: 20, peopleBack: 26, propFront: 30, peopleFront: 36,
             boatFar: 40, ripple: 45, boatMid: 50, boatNear: 60 } as const;
@@ -53,9 +78,10 @@ export function buildScene(store: SpriteStore, anchors: Anchors, seed: number): 
   return entities.sort((a, b) => a.layer - b.layer);
 }
 
-export function renderScene(ctx: Ctx, backdrop: SpriteImage, entities: readonly Entity[], env: RenderEnv): void {
+export function renderScene(ctx: Ctx, backdrop: BackdropLayers, entities: readonly Entity[], env: RenderEnv): void {
   ctx.imageSmoothingEnabled = false;
-  ctx.drawImage(backdrop as CanvasImageSource, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
+  ctx.drawImage(backdrop.sky as CanvasImageSource, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
+  ctx.drawImage(backdrop.scene as CanvasImageSource, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
   for (const entity of entities) entity.draw(ctx, env);
 }
 

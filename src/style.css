@@ -18,11 +18,11 @@ main { max-width: 1200px; margin: 0 auto; padding: 12px 16px 40px; }
   color: #dceefb; font-size: 18px;
 }
 .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 4px; }
-.controls button, .controls a {
+.controls button, .controls a, .controls select {
   font: inherit; padding: 8px 14px; border-radius: 8px; cursor: pointer;
   border: 1px solid #3d6a8f; background: #17334d; color: #e8f1f8; text-decoration: none;
 }
-.controls button:hover, .controls a:hover { background: #1f4568; }
+.controls button:hover, .controls a:hover, .controls select:hover { background: #1f4568; }
 .controls button[aria-pressed="true"] { background: #7a4a12; border-color: #c98a2d; }
 .notes { color: #b9d2e4; line-height: 1.55; }
 .notes h2 { color: #e8f1f8; font-size: 19px; margin-bottom: 6px; }

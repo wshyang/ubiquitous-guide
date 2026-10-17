@@ -12,7 +12,9 @@ unconfirmed AI content; we keep that habit here (addendum 0001).
 A web app that renders the Singapore Kallang waterfront ("THE KALLANG",
 Sports Hub) as a living pixel-art scene for a sports / active day:
 
-- The clean daylight Kallang backdrop is the stage.
+- The Kallang backdrop is a two-layer composition (sky gradient + keyed
+  transparent scene plate) with dawn/morning/day/evening/dusk themes
+  (addendum 0009); the original clean daylight plate remains published.
 - Extracted sprites populate it: drifting clouds, characters walking /
   running / cheering on the promenade and plaza, dragon boats and kayaks
   racing on the water with synchronised paddling, wakes and splashes, and
@@ -23,13 +25,15 @@ Sports Hub) as a living pixel-art scene for a sports / active day:
 
 ## 2. Source assets (see docs/asset-manifest.json)
 
-11 unique images in `src/images/` (2 exact duplicates removed):
+19 unique images in `src/images/` (11 from the original import, 2 exact duplicates removed; 8 layered-backdrop assets added from `main` in addendum 0009):
 
 | Role | Count | Use |
 |---|---|---|
 | backdrop | 3 | day-clean = stage; sunset-front + magenta-sky-front = alternate-geometry variants |
 | backdrop-reference | 1 | populated mockup guiding placement/scale |
 | sky-plate | 1 | gradient for sky replacement / fills |
+| backdrop-scene-layer | 3 | dawn/day/dusk magenta-sky plates, keyed transparent |
+| backdrop-sky-layer | 5 | full-frame sky gradients composited under scene plates |
 | sprite-sheet | 5 | characters, boats, clouds, water-effects+props v1 & v2 |
 | reference-photo | 1 | real Sports Hub photo (likeness reference, not rendered) |
 
@@ -70,7 +74,7 @@ cycle, ripple pulse), props (static set dressing with flag/bunting sway).
 
 ## 5. Scene composition (src/scene/)
 
-Layer order (back→front): backdrop → drifting clouds (sky band) → land props
+Layer order (back→front): backdrop sky → backdrop scene plate → drifting clouds (sky band) → land props
 → land characters (plaza & promenade paths) → water traffic far→near lanes
 (boats with wakes/splashes, depth-scaled) → foreground sparkles [DRAFT].
 

@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sheet_config import SHEETS, Region, Sheet  # noqa: E402
 from sprite_pipeline import Component, find_labelled, key_magenta, sort_reading_order  # noqa: E402
 from repair_dragon_rower_arm import repair_paths  # noqa: E402
+from prepare_backdrops import prepare_all as prepare_backdrops  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_SPRITES = ROOT / "public" / "sprites"
@@ -175,6 +176,8 @@ def publish_backdrops() -> None:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, destination)
     print(f"Published {len(WEB_BACKDROPS)} backdrops to public/backdrops/")
+    for report in prepare_backdrops():  # layered themes (addendum 0009)
+        print(f"  layered backdrop: {report['published']} ({report['bytes']}B)")
 
 
 def main() -> None:

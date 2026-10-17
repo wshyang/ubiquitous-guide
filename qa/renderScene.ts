@@ -1,5 +1,6 @@
 /** Render full-scene stills at chosen times (defaults 2s and 6.5s).
- *  Flags: --grid (world-coordinate grid), --watermap (shoreline/pontoon/
+ *  Flags: --theme=<dawn|morning|day|evening|dusk> (layered backdrop),
+ *  --grid (world-coordinate grid), --watermap (shoreline/pontoon/
  *  promenade/courts/effect-placement/boat-rect overlay for layout proof). */
 import { loadAnchors } from "../src/lib/anchors";
 import type { Ctx } from "../src/lib/types";
@@ -14,7 +15,8 @@ import { createCanvas, loadBackdrop, loadNodeStore, saveCanvas } from "./nodeCan
 const SEED = 20261017;
 const store = await loadNodeStore();
 const anchors = loadAnchors();
-const backdrop = await loadBackdrop();
+const themeArg = process.argv.find((a) => a.startsWith("--theme="))?.split("=")[1] ?? "day";
+const backdrop = await loadBackdrop(themeArg);
 const entities = buildScene(store, anchors, SEED);
 const withGrid = process.argv.includes("--grid");
 const withWatermap = process.argv.includes("--watermap");
@@ -26,7 +28,7 @@ for (const t of times) {
   renderScene(ctx as never, backdrop, entities, { timeSec: t, showAnchors: false });
   if (withGrid) drawGrid(ctx as never);
   if (withWatermap) drawWatermap(ctx as never, t);
-  const suffix = withWatermap ? "-watermap" : withGrid ? "-grid" : "";
+  const suffix = `${themeArg !== "day" ? `-${themeArg}` : ""}${withWatermap ? "-watermap" : withGrid ? "-grid" : ""}`;
   await saveCanvas(canvas, `qa/scene-t${String(t).replace(".", "_")}${suffix}.png`);
 }
 

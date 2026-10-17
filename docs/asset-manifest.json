@@ -109,6 +109,86 @@
       "width": 2528,
       "height": 1696,
       "bytes": 2859115
+    },
+    {
+      "path": "src/images/backdrops/kallang-scene-dawn.jpeg",
+      "originalName": "backdrop dawn (sky corruption).jpeg",
+      "role": "backdrop-scene-layer",
+      "notes": "Dawn-lit scene plate with magenta key sky (layered backdrop, addendum 0009). Sky corrupted: mirrored ghost skyline rows 3-355; removed by tools/prepare_backdrops.py. Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "9fea3e884f84c90d59ffacf9a40336783a99c673c4fee4e8dc8bd946ed60b790",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 3028145
+    },
+    {
+      "path": "src/images/backdrops/kallang-scene-day.jpeg",
+      "originalName": "backdrop day.jpeg",
+      "role": "backdrop-scene-layer",
+      "notes": "Day-lit scene plate with magenta key sky; clean single-component silhouette (addendum 0009). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "53a9bc3e98be1989ce522a595ecabc8919cb8838b92c1c8d61ee8893b09a01ce",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2805742
+    },
+    {
+      "path": "src/images/backdrops/kallang-scene-dusk.jpeg",
+      "originalName": "backdrop dusk.jpeg",
+      "role": "backdrop-scene-layer",
+      "notes": "Dusk-lit scene plate with magenta key sky. Same duplicate-strip sky corruption as dawn (rows 29-354), found on induction; removed by tools/prepare_backdrops.py. Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "472f53a5968a0de1d8da9a7719e102a7c19fba5597281552cd2d771edb0b753b",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2886816
+    },
+    {
+      "path": "src/images/backdrops/sky-early-morning.jpeg",
+      "originalName": "sky early morning.jpeg",
+      "role": "backdrop-sky-layer",
+      "notes": "Full-frame dithered gradient sky for the dawn theme (layered backdrop). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "28223b996016ee7d63062128a59c7e6caf51709344d1d5733872216abc15cc03",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 3428195
+    },
+    {
+      "path": "src/images/backdrops/sky-late-morning.jpeg",
+      "originalName": "sky late morning.jpeg",
+      "role": "backdrop-sky-layer",
+      "notes": "Full-frame dithered gradient sky for the morning theme (layered backdrop). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "f33701ff776886308aa2ed0dea54bb4b9d59a970da4df95154f7a9457afb4e5b",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2360383
+    },
+    {
+      "path": "src/images/backdrops/sky-afternoon.jpeg",
+      "originalName": "sky afternoon.jpeg",
+      "role": "backdrop-sky-layer",
+      "notes": "Full-frame dithered gradient sky for the day theme (layered backdrop). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "831378b692ec7b12f9180feaccf6c86862bbe85751cfd0b53681965ecf8a5067",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2704497
+    },
+    {
+      "path": "src/images/backdrops/sky-late-afternoon.jpeg",
+      "originalName": "sky late afternoon.jpeg",
+      "role": "backdrop-sky-layer",
+      "notes": "Full-frame dithered gradient sky for the evening theme (layered backdrop). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "d89dfc008a91b0806b4f5c672d18daf6a608aa7f886cb8c1d5088edd032d801b",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2874696
+    },
+    {
+      "path": "src/images/backdrops/sky-dusk.jpeg",
+      "originalName": "sky dusk.jpeg",
+      "role": "backdrop-sky-layer",
+      "notes": "Full-frame dithered gradient sky for the dusk theme (layered backdrop). Source: main branch commit 357c3fb (Added more base images).",
+      "sha256": "20284c2758e65411239f6d9447a424eb87d72360fc498d9ac3a2c37328d86901",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 2796213
     }
   ]
 }

@@ -28,8 +28,23 @@ test("sprite atlas lists every extracted sprite", async ({ page }) => {
 test("public sprite URLs resolve", async ({ request }) => {
   for (const url of ["/sprites/dragon-boats/dragon-boat-red.png",
                      "/sprites/paddles/paddle-wood-07.png",
-                     "/backdrops/kallang-day-clean.jpeg"]) {
+                     "/backdrops/kallang-scene-dawn.png",
+                     "/backdrops/kallang-scene-day.png",
+                     "/backdrops/kallang-scene-dusk.png",
+                     "/backdrops/sky-afternoon.jpeg",
+                     "/backdrops/sky-dusk.jpeg"]) {
     const response = await request.get(url);
     expect(response.status(), url).toBe(200);
   }
+});
+
+test("backdrop theme switcher swaps the layered backdrop", async ({ page }) => {
+  await page.goto("/?seed=20261017&theme=day");
+  const canvas = page.getByTestId("app__canvas");
+  await expect(page.getByTestId("app__loading")).toBeHidden();
+  const dayFrame = await canvas.evaluate((c: HTMLCanvasElement) => c.toDataURL());
+  await page.getByTestId("controls__theme").selectOption("dusk");
+  await page.waitForTimeout(800);
+  const duskFrame = await canvas.evaluate((c: HTMLCanvasElement) => c.toDataURL());
+  expect(duskFrame).not.toBe(dayFrame);
 });

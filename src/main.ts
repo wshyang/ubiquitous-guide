@@ -4,13 +4,22 @@ import { loadAnchors } from "./lib/anchors";
 import { buildStore } from "./lib/sprites";
 import type { SpriteEntry, SpriteImage, SpriteManifest } from "./lib/types";
 import { buildLab, LAB_HEIGHT, LAB_WIDTH, renderLab } from "./scene/lab";
-import { BACKDROP_URL, buildScene, renderScene, WORLD_HEIGHT, WORLD_WIDTH } from "./scene/scene";
+import {
+  backdropTheme, buildScene, renderScene, WORLD_HEIGHT, WORLD_WIDTH,
+  type BackdropLayers, type BackdropTheme,
+} from "./scene/scene";
 
 interface Controls {
   pause: HTMLButtonElement;
   speed: HTMLButtonElement;
   view: HTMLButtonElement;
   anchors: HTMLButtonElement;
+  theme: HTMLSelectElement;
+}
+
+async function loadBackdropLayers(theme: BackdropTheme): Promise<BackdropLayers> {
+  const [sky, scene] = await Promise.all([loadHtmlImage(theme.skyUrl), loadHtmlImage(theme.sceneUrl)]);
+  return { sky, scene };
 }
 
 const SPEEDS = [0.5, 1, 2] as const;
@@ -35,6 +44,7 @@ function parseParams() {
     seed: Number(params.get("seed") ?? "20261017"),
     startAt: Number(params.get("t") ?? "0"),
     view: params.get("view") === "lab" ? ("lab" as const) : ("scene" as const),
+    theme: backdropTheme(params.get("theme")),
   };
 }
 
@@ -46,11 +56,12 @@ async function boot(): Promise<void> {
     speed: must(document.querySelector<HTMLButtonElement>("#btn-speed"), "#btn-speed"),
     view: must(document.querySelector<HTMLButtonElement>("#btn-view"), "#btn-view"),
     anchors: must(document.querySelector<HTMLButtonElement>("#btn-anchors"), "#btn-anchors"),
+    theme: must(document.querySelector<HTMLSelectElement>("#theme-select"), "#theme-select"),
   };
   const params = parseParams();
   const manifest = manifestJson as SpriteManifest;
   const store = await buildStore(manifest, (entry: SpriteEntry) => loadHtmlImage(entry.url));
-  const backdrop = await loadHtmlImage(BACKDROP_URL);
+  const backdrop = await loadBackdropLayers(params.theme);
   const anchors = loadAnchors();
   const scene = buildScene(store, anchors, params.seed);
   const lab = buildLab(store, anchors);
@@ -59,9 +70,12 @@ async function boot(): Promise<void> {
   const state: MutableState = {
     paused: false, speedIndex: 1, view: params.view, showAnchors: false, time: params.startAt,
   };
+  controls.theme.value = params.theme.id;
   wireControls(controls, state, () => applyView(canvas, controls, state.view));
   applyView(canvas, controls, state.view);
-  startClock(ctx, { backdrop, scene, lab, state });
+  const clockArgs: ClockArgs = { backdrop, scene, lab, state };
+  wireThemeSelect(controls.theme, clockArgs);
+  startClock(ctx, clockArgs);
 }
 
 function wireControls(controls: Controls, state: MutableState, onViewChange: () => void): void {
@@ -96,8 +110,18 @@ function applyView(canvas: HTMLCanvasElement, controls: Controls, view: "scene" 
   controls.view.textContent = isLab ? "View: Composite lab" : "View: Scene";
 }
 
+function wireThemeSelect(select: HTMLSelectElement, clockArgs: ClockArgs): void {
+  let request = 0;
+  select.addEventListener("change", () => {
+    const mine = (request += 1);
+    void loadBackdropLayers(backdropTheme(select.value)).then((layers) => {
+      if (mine === request) clockArgs.backdrop = layers; // ignore stale loads
+    });
+  });
+}
+
 interface ClockArgs {
-  backdrop: SpriteImage;
+  backdrop: BackdropLayers;
   scene: ReturnType<typeof buildScene>;
   lab: ReturnType<typeof buildLab>;
   state: MutableState;
