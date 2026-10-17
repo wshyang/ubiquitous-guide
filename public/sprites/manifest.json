@@ -1,0 +1,7868 @@
+{
+  "characters": [
+    {
+      "file": "/sprites/characters/characters-000-140x260.png",
+      "path": "public/sprites/characters/characters-000-140x260.png",
+      "bbox": [
+        19,
+        39,
+        167,
+        307
+      ],
+      "size": [
+        140,
+        260
+      ],
+      "area": 25116,
+      "label": 2
+    },
+    {
+      "file": "/sprites/characters/characters-001-139x262.png",
+      "path": "public/sprites/characters/characters-001-139x262.png",
+      "bbox": [
+        200,
+        37,
+        347,
+        307
+      ],
+      "size": [
+        139,
+        262
+      ],
+      "area": 24727,
+      "label": 1
+    },
+    {
+      "file": "/sprites/characters/characters-002-108x260.png",
+      "path": "public/sprites/characters/characters-002-108x260.png",
+      "bbox": [
+        397,
+        39,
+        513,
+        307
+      ],
+      "size": [
+        108,
+        260
+      ],
+      "area": 18534,
+      "label": 3
+    },
+    {
+      "file": "/sprites/characters/characters-003-109x260.png",
+      "path": "public/sprites/characters/characters-003-109x260.png",
+      "bbox": [
+        571,
+        39,
+        688,
+        307
+      ],
+      "size": [
+        109,
+        260
+      ],
+      "area": 18574,
+      "label": 4
+    },
+    {
+      "file": "/sprites/characters/characters-004-159x259.png",
+      "path": "public/sprites/characters/characters-004-159x259.png",
+      "bbox": [
+        817,
+        40,
+        984,
+        307
+      ],
+      "size": [
+        159,
+        259
+      ],
+      "area": 23846,
+      "label": 5
+    },
+    {
+      "file": "/sprites/characters/characters-005-159x259.png",
+      "path": "public/sprites/characters/characters-005-159x259.png",
+      "bbox": [
+        1020,
+        40,
+        1187,
+        307
+      ],
+      "size": [
+        159,
+        259
+      ],
+      "area": 23887,
+      "label": 6
+    },
+    {
+      "file": "/sprites/characters/characters-006-173x259.png",
+      "path": "public/sprites/characters/characters-006-173x259.png",
+      "bbox": [
+        1226,
+        40,
+        1407,
+        307
+      ],
+      "size": [
+        173,
+        259
+      ],
+      "area": 26812,
+      "label": 7
+    },
+    {
+      "file": "/sprites/characters/characters-007-163x255.png",
+      "path": "public/sprites/characters/characters-007-163x255.png",
+      "bbox": [
+        1423,
+        44,
+        1594,
+        307
+      ],
+      "size": [
+        163,
+        255
+      ],
+      "area": 25741,
+      "label": 8
+    },
+    {
+      "file": "/sprites/characters/characters-008-144x251.png",
+      "path": "public/sprites/characters/characters-008-144x251.png",
+      "bbox": [
+        1636,
+        50,
+        1788,
+        309
+      ],
+      "size": [
+        144,
+        251
+      ],
+      "area": 21225,
+      "label": 9
+    },
+    {
+      "file": "/sprites/characters/characters-009-147x249.png",
+      "path": "public/sprites/characters/characters-009-147x249.png",
+      "bbox": [
+        1831,
+        50,
+        1986,
+        307
+      ],
+      "size": [
+        147,
+        249
+      ],
+      "area": 21165,
+      "label": 10
+    },
+    {
+      "file": "/sprites/characters/characters-010-182x249.png",
+      "path": "public/sprites/characters/characters-010-182x249.png",
+      "bbox": [
+        2005,
+        50,
+        2195,
+        307
+      ],
+      "size": [
+        182,
+        249
+      ],
+      "area": 26401,
+      "label": 11
+    },
+    {
+      "file": "/sprites/characters/characters-011-183x249.png",
+      "path": "public/sprites/characters/characters-011-183x249.png",
+      "bbox": [
+        2197,
+        50,
+        2388,
+        307
+      ],
+      "size": [
+        183,
+        249
+      ],
+      "area": 26407,
+      "label": 12
+    },
+    {
+      "file": "/sprites/characters/characters-012-140x254.png",
+      "path": "public/sprites/characters/characters-012-140x254.png",
+      "bbox": [
+        19,
+        411,
+        167,
+        673
+      ],
+      "size": [
+        140,
+        254
+      ],
+      "area": 24546,
+      "label": 14
+    },
+    {
+      "file": "/sprites/characters/characters-013-140x259.png",
+      "path": "public/sprites/characters/characters-013-140x259.png",
+      "bbox": [
+        200,
+        406,
+        348,
+        673
+      ],
+      "size": [
+        140,
+        259
+      ],
+      "area": 24686,
+      "label": 13
+    },
+    {
+      "file": "/sprites/characters/characters-014-108x254.png",
+      "path": "public/sprites/characters/characters-014-108x254.png",
+      "bbox": [
+        397,
+        411,
+        513,
+        673
+      ],
+      "size": [
+        108,
+        254
+      ],
+      "area": 18091,
+      "label": 15
+    },
+    {
+      "file": "/sprites/characters/characters-015-109x255.png",
+      "path": "public/sprites/characters/characters-015-109x255.png",
+      "bbox": [
+        571,
+        411,
+        688,
+        674
+      ],
+      "size": [
+        109,
+        255
+      ],
+      "area": 18112,
+      "label": 16
+    },
+    {
+      "file": "/sprites/characters/characters-016-160x254.png",
+      "path": "public/sprites/characters/characters-016-160x254.png",
+      "bbox": [
+        817,
+        411,
+        985,
+        673
+      ],
+      "size": [
+        160,
+        254
+      ],
+      "area": 23475,
+      "label": 17
+    },
+    {
+      "file": "/sprites/characters/characters-017-158x254.png",
+      "path": "public/sprites/characters/characters-017-158x254.png",
+      "bbox": [
+        1020,
+        411,
+        1186,
+        673
+      ],
+      "size": [
+        158,
+        254
+      ],
+      "area": 23564,
+      "label": 18
+    },
+    {
+      "file": "/sprites/characters/characters-018-173x255.png",
+      "path": "public/sprites/characters/characters-018-173x255.png",
+      "bbox": [
+        1226,
+        411,
+        1407,
+        674
+      ],
+      "size": [
+        173,
+        255
+      ],
+      "area": 26537,
+      "label": 19
+    },
+    {
+      "file": "/sprites/characters/characters-019-164x253.png",
+      "path": "public/sprites/characters/characters-019-164x253.png",
+      "bbox": [
+        1423,
+        413,
+        1595,
+        674
+      ],
+      "size": [
+        164,
+        253
+      ],
+      "area": 25502,
+      "label": 20
+    },
+    {
+      "file": "/sprites/characters/characters-020-143x247.png",
+      "path": "public/sprites/characters/characters-020-143x247.png",
+      "bbox": [
+        1636,
+        418,
+        1787,
+        673
+      ],
+      "size": [
+        143,
+        247
+      ],
+      "area": 21106,
+      "label": 22
+    },
+    {
+      "file": "/sprites/characters/characters-021-149x245.png",
+      "path": "public/sprites/characters/characters-021-149x245.png",
+      "bbox": [
+        1829,
+        419,
+        1986,
+        672
+      ],
+      "size": [
+        149,
+        245
+      ],
+      "area": 20934,
+      "label": 24
+    },
+    {
+      "file": "/sprites/characters/characters-022-182x247.png",
+      "path": "public/sprites/characters/characters-022-182x247.png",
+      "bbox": [
+        2005,
+        418,
+        2195,
+        673
+      ],
+      "size": [
+        182,
+        247
+      ],
+      "area": 26112,
+      "label": 23
+    },
+    {
+      "file": "/sprites/characters/characters-023-183x248.png",
+      "path": "public/sprites/characters/characters-023-183x248.png",
+      "bbox": [
+        2197,
+        417,
+        2388,
+        673
+      ],
+      "size": [
+        183,
+        248
+      ],
+      "area": 26230,
+      "label": 21
+    },
+    {
+      "file": "/sprites/characters/characters-024-141x252.png",
+      "path": "public/sprites/characters/characters-024-141x252.png",
+      "bbox": [
+        18,
+        749,
+        167,
+        1009
+      ],
+      "size": [
+        141,
+        252
+      ],
+      "area": 24495,
+      "label": 27
+    },
+    {
+      "file": "/sprites/characters/characters-025-141x255.png",
+      "path": "public/sprites/characters/characters-025-141x255.png",
+      "bbox": [
+        199,
+        746,
+        348,
+        1009
+      ],
+      "size": [
+        141,
+        255
+      ],
+      "area": 24576,
+      "label": 25
+    },
+    {
+      "file": "/sprites/characters/characters-026-109x248.png",
+      "path": "public/sprites/characters/characters-026-109x248.png",
+      "bbox": [
+        396,
+        753,
+        513,
+        1009
+      ],
+      "size": [
+        109,
+        248
+      ],
+      "area": 17680,
+      "label": 30
+    },
+    {
+      "file": "/sprites/characters/characters-027-108x248.png",
+      "path": "public/sprites/characters/characters-027-108x248.png",
+      "bbox": [
+        571,
+        753,
+        687,
+        1009
+      ],
+      "size": [
+        108,
+        248
+      ],
+      "area": 17600,
+      "label": 31
+    },
+    {
+      "file": "/sprites/characters/characters-028-161x249.png",
+      "path": "public/sprites/characters/characters-028-161x249.png",
+      "bbox": [
+        817,
+        753,
+        986,
+        1010
+      ],
+      "size": [
+        161,
+        249
+      ],
+      "area": 23434,
+      "label": 32
+    },
+    {
+      "file": "/sprites/characters/characters-029-158x249.png",
+      "path": "public/sprites/characters/characters-029-158x249.png",
+      "bbox": [
+        1020,
+        752,
+        1186,
+        1009
+      ],
+      "size": [
+        158,
+        249
+      ],
+      "area": 23199,
+      "label": 28
+    },
+    {
+      "file": "/sprites/characters/characters-030-171x254.png",
+      "path": "public/sprites/characters/characters-030-171x254.png",
+      "bbox": [
+        1227,
+        748,
+        1406,
+        1010
+      ],
+      "size": [
+        171,
+        254
+      ],
+      "area": 26412,
+      "label": 26
+    },
+    {
+      "file": "/sprites/characters/characters-031-163x250.png",
+      "path": "public/sprites/characters/characters-031-163x250.png",
+      "bbox": [
+        1423,
+        752,
+        1594,
+        1010
+      ],
+      "size": [
+        163,
+        250
+      ],
+      "area": 25153,
+      "label": 29
+    },
+    {
+      "file": "/sprites/characters/characters-032-144x249.png",
+      "path": "public/sprites/characters/characters-032-144x249.png",
+      "bbox": [
+        1636,
+        754,
+        1788,
+        1011
+      ],
+      "size": [
+        144,
+        249
+      ],
+      "area": 21172,
+      "label": 33
+    },
+    {
+      "file": "/sprites/characters/characters-033-148x243.png",
+      "path": "public/sprites/characters/characters-033-148x243.png",
+      "bbox": [
+        1830,
+        759,
+        1986,
+        1010
+      ],
+      "size": [
+        148,
+        243
+      ],
+      "area": 20368,
+      "label": 34
+    },
+    {
+      "file": "/sprites/characters/characters-034-182x243.png",
+      "path": "public/sprites/characters/characters-034-182x243.png",
+      "bbox": [
+        2005,
+        759,
+        2195,
+        1010
+      ],
+      "size": [
+        182,
+        243
+      ],
+      "area": 25944,
+      "label": 35
+    },
+    {
+      "file": "/sprites/characters/characters-035-182x243.png",
+      "path": "public/sprites/characters/characters-035-182x243.png",
+      "bbox": [
+        2197,
+        759,
+        2387,
+        1010
+      ],
+      "size": [
+        182,
+        243
+      ],
+      "area": 25810,
+      "label": 36
+    },
+    {
+      "file": "/sprites/characters/characters-036-140x253.png",
+      "path": "public/sprites/characters/characters-036-140x253.png",
+      "bbox": [
+        200,
+        1054,
+        348,
+        1315
+      ],
+      "size": [
+        140,
+        253
+      ],
+      "area": 24218,
+      "label": 38
+    },
+    {
+      "file": "/sprites/characters/characters-037-171x252.png",
+      "path": "public/sprites/characters/characters-037-171x252.png",
+      "bbox": [
+        1226,
+        1053,
+        1405,
+        1313
+      ],
+      "size": [
+        171,
+        252
+      ],
+      "area": 26055,
+      "label": 37
+    },
+    {
+      "file": "/sprites/characters/characters-038-163x251.png",
+      "path": "public/sprites/characters/characters-038-163x251.png",
+      "bbox": [
+        1423,
+        1055,
+        1594,
+        1314
+      ],
+      "size": [
+        163,
+        251
+      ],
+      "area": 25149,
+      "label": 39
+    },
+    {
+      "file": "/sprites/characters/characters-039-141x251.png",
+      "path": "public/sprites/characters/characters-039-141x251.png",
+      "bbox": [
+        19,
+        1056,
+        168,
+        1315
+      ],
+      "size": [
+        141,
+        251
+      ],
+      "area": 24253,
+      "label": 40
+    },
+    {
+      "file": "/sprites/characters/characters-040-109x247.png",
+      "path": "public/sprites/characters/characters-040-109x247.png",
+      "bbox": [
+        396,
+        1060,
+        513,
+        1315
+      ],
+      "size": [
+        109,
+        247
+      ],
+      "area": 17419,
+      "label": 43
+    },
+    {
+      "file": "/sprites/characters/characters-041-109x247.png",
+      "path": "public/sprites/characters/characters-041-109x247.png",
+      "bbox": [
+        571,
+        1060,
+        688,
+        1315
+      ],
+      "size": [
+        109,
+        247
+      ],
+      "area": 17532,
+      "label": 44
+    },
+    {
+      "file": "/sprites/characters/characters-042-154x247.png",
+      "path": "public/sprites/characters/characters-042-154x247.png",
+      "bbox": [
+        819,
+        1059,
+        981,
+        1314
+      ],
+      "size": [
+        154,
+        247
+      ],
+      "area": 22831,
+      "label": 42
+    },
+    {
+      "file": "/sprites/characters/characters-043-157x246.png",
+      "path": "public/sprites/characters/characters-043-157x246.png",
+      "bbox": [
+        1019,
+        1057,
+        1184,
+        1311
+      ],
+      "size": [
+        157,
+        246
+      ],
+      "area": 22842,
+      "label": 41
+    },
+    {
+      "file": "/sprites/characters/characters-044-143x246.png",
+      "path": "public/sprites/characters/characters-044-143x246.png",
+      "bbox": [
+        1637,
+        1060,
+        1788,
+        1314
+      ],
+      "size": [
+        143,
+        246
+      ],
+      "area": 20856,
+      "label": 45
+    },
+    {
+      "file": "/sprites/characters/characters-045-147x241.png",
+      "path": "public/sprites/characters/characters-045-147x241.png",
+      "bbox": [
+        1830,
+        1065,
+        1985,
+        1314
+      ],
+      "size": [
+        147,
+        241
+      ],
+      "area": 20069,
+      "label": 46
+    },
+    {
+      "file": "/sprites/characters/characters-046-180x238.png",
+      "path": "public/sprites/characters/characters-046-180x238.png",
+      "bbox": [
+        2006,
+        1069,
+        2194,
+        1315
+      ],
+      "size": [
+        180,
+        238
+      ],
+      "area": 25234,
+      "label": 48
+    },
+    {
+      "file": "/sprites/characters/characters-047-180x241.png",
+      "path": "public/sprites/characters/characters-047-180x241.png",
+      "bbox": [
+        2198,
+        1066,
+        2386,
+        1315
+      ],
+      "size": [
+        180,
+        241
+      ],
+      "area": 25330,
+      "label": 47
+    },
+    {
+      "file": "/sprites/characters/characters-048-136x229.png",
+      "path": "public/sprites/characters/characters-048-136x229.png",
+      "bbox": [
+        25,
+        1324,
+        169,
+        1561
+      ],
+      "size": [
+        136,
+        229
+      ],
+      "area": 21691,
+      "label": 52
+    },
+    {
+      "file": "/sprites/characters/characters-049-136x231.png",
+      "path": "public/sprites/characters/characters-049-136x231.png",
+      "bbox": [
+        200,
+        1322,
+        344,
+        1561
+      ],
+      "size": [
+        136,
+        231
+      ],
+      "area": 21933,
+      "label": 49
+    },
+    {
+      "file": "/sprites/characters/characters-050-104x225.png",
+      "path": "public/sprites/characters/characters-050-104x225.png",
+      "bbox": [
+        373,
+        1328,
+        485,
+        1561
+      ],
+      "size": [
+        104,
+        225
+      ],
+      "area": 15336,
+      "label": 56
+    },
+    {
+      "file": "/sprites/characters/characters-051-104x225.png",
+      "path": "public/sprites/characters/characters-051-104x225.png",
+      "bbox": [
+        523,
+        1328,
+        635,
+        1561
+      ],
+      "size": [
+        104,
+        225
+      ],
+      "area": 15371,
+      "label": 57
+    },
+    {
+      "file": "/sprites/characters/characters-052-122x228.png",
+      "path": "public/sprites/characters/characters-052-122x228.png",
+      "bbox": [
+        675,
+        1325,
+        805,
+        1561
+      ],
+      "size": [
+        122,
+        228
+      ],
+      "area": 18756,
+      "label": 54
+    },
+    {
+      "file": "/sprites/characters/characters-053-141x228.png",
+      "path": "public/sprites/characters/characters-053-141x228.png",
+      "bbox": [
+        833,
+        1324,
+        982,
+        1560
+      ],
+      "size": [
+        141,
+        228
+      ],
+      "area": 19252,
+      "label": 53
+    },
+    {
+      "file": "/sprites/characters/characters-054-142x228.png",
+      "path": "public/sprites/characters/characters-054-142x228.png",
+      "bbox": [
+        1031,
+        1326,
+        1181,
+        1562
+      ],
+      "size": [
+        142,
+        228
+      ],
+      "area": 19223,
+      "label": 55
+    },
+    {
+      "file": "/sprites/characters/characters-055-158x231.png",
+      "path": "public/sprites/characters/characters-055-158x231.png",
+      "bbox": [
+        1229,
+        1322,
+        1395,
+        1561
+      ],
+      "size": [
+        158,
+        231
+      ],
+      "area": 21405,
+      "label": 50
+    },
+    {
+      "file": "/sprites/characters/characters-056-154x232.png",
+      "path": "public/sprites/characters/characters-056-154x232.png",
+      "bbox": [
+        1429,
+        1322,
+        1591,
+        1562
+      ],
+      "size": [
+        154,
+        232
+      ],
+      "area": 20023,
+      "label": 51
+    },
+    {
+      "file": "/sprites/characters/characters-057-130x220.png",
+      "path": "public/sprites/characters/characters-057-130x220.png",
+      "bbox": [
+        1645,
+        1329,
+        1783,
+        1557
+      ],
+      "size": [
+        130,
+        220
+      ],
+      "area": 17808,
+      "label": 58
+    },
+    {
+      "file": "/sprites/characters/characters-058-143x206.png",
+      "path": "public/sprites/characters/characters-058-143x206.png",
+      "bbox": [
+        1833,
+        1335,
+        1984,
+        1549
+      ],
+      "size": [
+        143,
+        206
+      ],
+      "area": 18035,
+      "label": 59
+    },
+    {
+      "file": "/sprites/characters/characters-059-172x219.png",
+      "path": "public/sprites/characters/characters-059-172x219.png",
+      "bbox": [
+        2010,
+        1335,
+        2190,
+        1562
+      ],
+      "size": [
+        172,
+        219
+      ],
+      "area": 22799,
+      "label": 60
+    },
+    {
+      "file": "/sprites/characters/characters-060-173x219.png",
+      "path": "public/sprites/characters/characters-060-173x219.png",
+      "bbox": [
+        2201,
+        1335,
+        2382,
+        1562
+      ],
+      "size": [
+        173,
+        219
+      ],
+      "area": 22458,
+      "label": 61
+    },
+    {
+      "file": "/sprites/characters/characters-061-135x225.png",
+      "path": "public/sprites/characters/characters-061-135x225.png",
+      "bbox": [
+        24,
+        1563,
+        167,
+        1792
+      ],
+      "size": [
+        135,
+        225
+      ],
+      "area": 21273,
+      "label": 65
+    },
+    {
+      "file": "/sprites/characters/characters-062-136x227.png",
+      "path": "public/sprites/characters/characters-062-136x227.png",
+      "bbox": [
+        200,
+        1561,
+        344,
+        1792
+      ],
+      "size": [
+        136,
+        227
+      ],
+      "area": 21646,
+      "label": 64
+    },
+    {
+      "file": "/sprites/characters/characters-063-103x225.png",
+      "path": "public/sprites/characters/characters-063-103x225.png",
+      "bbox": [
+        371,
+        1563,
+        482,
+        1792
+      ],
+      "size": [
+        103,
+        225
+      ],
+      "area": 15233,
+      "label": 66
+    },
+    {
+      "file": "/sprites/characters/characters-064-102x225.png",
+      "path": "public/sprites/characters/characters-064-102x225.png",
+      "bbox": [
+        523,
+        1563,
+        633,
+        1792
+      ],
+      "size": [
+        102,
+        225
+      ],
+      "area": 15209,
+      "label": 67
+    },
+    {
+      "file": "/sprites/characters/characters-065-121x225.png",
+      "path": "public/sprites/characters/characters-065-121x225.png",
+      "bbox": [
+        674,
+        1563,
+        803,
+        1792
+      ],
+      "size": [
+        121,
+        225
+      ],
+      "area": 18690,
+      "label": 68
+    },
+    {
+      "file": "/sprites/characters/characters-066-141x225.png",
+      "path": "public/sprites/characters/characters-066-141x225.png",
+      "bbox": [
+        833,
+        1563,
+        982,
+        1792
+      ],
+      "size": [
+        141,
+        225
+      ],
+      "area": 19003,
+      "label": 69
+    },
+    {
+      "file": "/sprites/characters/characters-067-144x225.png",
+      "path": "public/sprites/characters/characters-067-144x225.png",
+      "bbox": [
+        1030,
+        1563,
+        1182,
+        1792
+      ],
+      "size": [
+        144,
+        225
+      ],
+      "area": 19379,
+      "label": 70
+    },
+    {
+      "file": "/sprites/characters/characters-068-160x231.png",
+      "path": "public/sprites/characters/characters-068-160x231.png",
+      "bbox": [
+        1229,
+        1557,
+        1397,
+        1792
+      ],
+      "size": [
+        160,
+        231
+      ],
+      "area": 21556,
+      "label": 62
+    },
+    {
+      "file": "/sprites/characters/characters-069-154x231.png",
+      "path": "public/sprites/characters/characters-069-154x231.png",
+      "bbox": [
+        1429,
+        1557,
+        1591,
+        1792
+      ],
+      "size": [
+        154,
+        231
+      ],
+      "area": 20383,
+      "label": 63
+    },
+    {
+      "file": "/sprites/characters/characters-070-130x222.png",
+      "path": "public/sprites/characters/characters-070-130x222.png",
+      "bbox": [
+        1645,
+        1563,
+        1783,
+        1792
+      ],
+      "size": [
+        130,
+        222
+      ],
+      "area": 17978,
+      "label": 71
+    },
+    {
+      "file": "/sprites/characters/characters-071-144x208.png",
+      "path": "public/sprites/characters/characters-071-144x208.png",
+      "bbox": [
+        1833,
+        1571,
+        1985,
+        1787
+      ],
+      "size": [
+        144,
+        208
+      ],
+      "area": 18215,
+      "label": 73
+    },
+    {
+      "file": "/sprites/characters/characters-072-171x217.png",
+      "path": "public/sprites/characters/characters-072-171x217.png",
+      "bbox": [
+        2010,
+        1571,
+        2189,
+        1792
+      ],
+      "size": [
+        171,
+        217
+      ],
+      "area": 22701,
+      "label": 74
+    },
+    {
+      "file": "/sprites/characters/characters-073-172x219.png",
+      "path": "public/sprites/characters/characters-073-172x219.png",
+      "bbox": [
+        2201,
+        1569,
+        2381,
+        1792
+      ],
+      "size": [
+        172,
+        219
+      ],
+      "area": 22477,
+      "label": 72
+    }
+  ],
+  "boats": [
+    {
+      "file": "/sprites/boats/boats-000-1147x187.png",
+      "path": "public/sprites/boats/boats-000-1147x187.png",
+      "bbox": [
+        25,
+        14,
+        1180,
+        209
+      ],
+      "size": [
+        1147,
+        187
+      ],
+      "area": 122605,
+      "label": 1
+    },
+    {
+      "file": "/sprites/boats/boats-001-524x125.png",
+      "path": "public/sprites/boats/boats-001-524x125.png",
+      "bbox": [
+        1238,
+        44,
+        1770,
+        177
+      ],
+      "size": [
+        524,
+        125
+      ],
+      "area": 27881,
+      "label": 2
+    },
+    {
+      "file": "/sprites/boats/boats-002-526x125.png",
+      "path": "public/sprites/boats/boats-002-526x125.png",
+      "bbox": [
+        1813,
+        44,
+        2347,
+        177
+      ],
+      "size": [
+        526,
+        125
+      ],
+      "area": 28001,
+      "label": 3
+    },
+    {
+      "file": "/sprites/boats/boats-003-1147x186.png",
+      "path": "public/sprites/boats/boats-003-1147x186.png",
+      "bbox": [
+        25,
+        211,
+        1180,
+        405
+      ],
+      "size": [
+        1147,
+        186
+      ],
+      "area": 123209,
+      "label": 4
+    },
+    {
+      "file": "/sprites/boats/boats-004-535x126.png",
+      "path": "public/sprites/boats/boats-004-535x126.png",
+      "bbox": [
+        1233,
+        231,
+        1776,
+        365
+      ],
+      "size": [
+        535,
+        126
+      ],
+      "area": 29517,
+      "label": 5
+    },
+    {
+      "file": "/sprites/boats/boats-005-548x126.png",
+      "path": "public/sprites/boats/boats-005-548x126.png",
+      "bbox": [
+        1802,
+        231,
+        2358,
+        365
+      ],
+      "size": [
+        548,
+        126
+      ],
+      "area": 30087,
+      "label": 6
+    },
+    {
+      "file": "/sprites/boats/boats-006-1146x187.png",
+      "path": "public/sprites/boats/boats-006-1146x187.png",
+      "bbox": [
+        25,
+        405,
+        1179,
+        600
+      ],
+      "size": [
+        1146,
+        187
+      ],
+      "area": 123372,
+      "label": 7
+    },
+    {
+      "file": "/sprites/boats/boats-007-538x130.png",
+      "path": "public/sprites/boats/boats-007-538x130.png",
+      "bbox": [
+        1232,
+        421,
+        1778,
+        559
+      ],
+      "size": [
+        538,
+        130
+      ],
+      "area": 33079,
+      "label": 8
+    },
+    {
+      "file": "/sprites/boats/boats-008-556x128.png",
+      "path": "public/sprites/boats/boats-008-556x128.png",
+      "bbox": [
+        1799,
+        423,
+        2363,
+        559
+      ],
+      "size": [
+        556,
+        128
+      ],
+      "area": 33626,
+      "label": 9
+    },
+    {
+      "file": "/sprites/boats/boats-009-1147x187.png",
+      "path": "public/sprites/boats/boats-009-1147x187.png",
+      "bbox": [
+        25,
+        600,
+        1180,
+        795
+      ],
+      "size": [
+        1147,
+        187
+      ],
+      "area": 123933,
+      "label": 10
+    },
+    {
+      "file": "/sprites/boats/boats-010-538x129.png",
+      "path": "public/sprites/boats/boats-010-538x129.png",
+      "bbox": [
+        1233,
+        616,
+        1779,
+        753
+      ],
+      "size": [
+        538,
+        129
+      ],
+      "area": 33538,
+      "label": 11
+    },
+    {
+      "file": "/sprites/boats/boats-011-556x127.png",
+      "path": "public/sprites/boats/boats-011-556x127.png",
+      "bbox": [
+        1799,
+        618,
+        2363,
+        753
+      ],
+      "size": [
+        556,
+        127
+      ],
+      "area": 33720,
+      "label": 12
+    },
+    {
+      "file": "/sprites/boats/boats-012-1147x188.png",
+      "path": "public/sprites/boats/boats-012-1147x188.png",
+      "bbox": [
+        25,
+        794,
+        1180,
+        990
+      ],
+      "size": [
+        1147,
+        188
+      ],
+      "area": 124226,
+      "label": 13
+    },
+    {
+      "file": "/sprites/boats/boats-013-537x127.png",
+      "path": "public/sprites/boats/boats-013-537x127.png",
+      "bbox": [
+        1233,
+        813,
+        1778,
+        948
+      ],
+      "size": [
+        537,
+        127
+      ],
+      "area": 36059,
+      "label": 14
+    },
+    {
+      "file": "/sprites/boats/boats-014-556x127.png",
+      "path": "public/sprites/boats/boats-014-556x127.png",
+      "bbox": [
+        1799,
+        813,
+        2363,
+        948
+      ],
+      "size": [
+        556,
+        127
+      ],
+      "area": 37000,
+      "label": 15
+    },
+    {
+      "file": "/sprites/boats/boats-015-1147x187.png",
+      "path": "public/sprites/boats/boats-015-1147x187.png",
+      "bbox": [
+        25,
+        989,
+        1180,
+        1184
+      ],
+      "size": [
+        1147,
+        187
+      ],
+      "area": 124627,
+      "label": 16
+    },
+    {
+      "file": "/sprites/boats/boats-016-537x128.png",
+      "path": "public/sprites/boats/boats-016-537x128.png",
+      "bbox": [
+        1233,
+        1007,
+        1778,
+        1143
+      ],
+      "size": [
+        537,
+        128
+      ],
+      "area": 32964,
+      "label": 17
+    },
+    {
+      "file": "/sprites/boats/boats-017-556x126.png",
+      "path": "public/sprites/boats/boats-017-556x126.png",
+      "bbox": [
+        1799,
+        1009,
+        2363,
+        1143
+      ],
+      "size": [
+        556,
+        126
+      ],
+      "area": 36734,
+      "label": 18
+    },
+    {
+      "file": "/sprites/boats/boats-018-70x175.png",
+      "path": "public/sprites/boats/boats-018-70x175.png",
+      "bbox": [
+        216,
+        1234,
+        294,
+        1417
+      ],
+      "size": [
+        70,
+        175
+      ],
+      "area": 3976,
+      "label": 26
+    },
+    {
+      "file": "/sprites/boats/boats-019-55x179.png",
+      "path": "public/sprites/boats/boats-019-55x179.png",
+      "bbox": [
+        320,
+        1234,
+        383,
+        1421
+      ],
+      "size": [
+        55,
+        179
+      ],
+      "area": 4040,
+      "label": 27
+    },
+    {
+      "file": "/sprites/boats/boats-020-42x180.png",
+      "path": "public/sprites/boats/boats-020-42x180.png",
+      "bbox": [
+        424,
+        1234,
+        474,
+        1422
+      ],
+      "size": [
+        42,
+        180
+      ],
+      "area": 4021,
+      "label": 28
+    },
+    {
+      "file": "/sprites/boats/boats-021-34x180.png",
+      "path": "public/sprites/boats/boats-021-34x180.png",
+      "bbox": [
+        529,
+        1234,
+        571,
+        1422
+      ],
+      "size": [
+        34,
+        180
+      ],
+      "area": 4011,
+      "label": 29
+    },
+    {
+      "file": "/sprites/boats/boats-022-34x180.png",
+      "path": "public/sprites/boats/boats-022-34x180.png",
+      "bbox": [
+        629,
+        1234,
+        671,
+        1422
+      ],
+      "size": [
+        34,
+        180
+      ],
+      "area": 4083,
+      "label": 30
+    },
+    {
+      "file": "/sprites/boats/boats-023-34x181.png",
+      "path": "public/sprites/boats/boats-023-34x181.png",
+      "bbox": [
+        727,
+        1234,
+        769,
+        1423
+      ],
+      "size": [
+        34,
+        181
+      ],
+      "area": 4050,
+      "label": 31
+    },
+    {
+      "file": "/sprites/boats/boats-024-34x180.png",
+      "path": "public/sprites/boats/boats-024-34x180.png",
+      "bbox": [
+        825,
+        1234,
+        867,
+        1422
+      ],
+      "size": [
+        34,
+        180
+      ],
+      "area": 4005,
+      "label": 32
+    },
+    {
+      "file": "/sprites/boats/boats-025-41x180.png",
+      "path": "public/sprites/boats/boats-025-41x180.png",
+      "bbox": [
+        922,
+        1234,
+        971,
+        1422
+      ],
+      "size": [
+        41,
+        180
+      ],
+      "area": 3987,
+      "label": 33
+    },
+    {
+      "file": "/sprites/boats/boats-026-40x179.png",
+      "path": "public/sprites/boats/boats-026-40x179.png",
+      "bbox": [
+        1021,
+        1235,
+        1069,
+        1422
+      ],
+      "size": [
+        40,
+        179
+      ],
+      "area": 3983,
+      "label": 35
+    },
+    {
+      "file": "/sprites/boats/boats-027-35x180.png",
+      "path": "public/sprites/boats/boats-027-35x180.png",
+      "bbox": [
+        1122,
+        1234,
+        1165,
+        1422
+      ],
+      "size": [
+        35,
+        180
+      ],
+      "area": 4099,
+      "label": 34
+    },
+    {
+      "file": "/sprites/boats/boats-028-178x75.png",
+      "path": "public/sprites/boats/boats-028-178x75.png",
+      "bbox": [
+        1616,
+        1226,
+        1802,
+        1309
+      ],
+      "size": [
+        178,
+        75
+      ],
+      "area": 4478,
+      "label": 19
+    },
+    {
+      "file": "/sprites/boats/boats-029-34x189.png",
+      "path": "public/sprites/boats/boats-029-34x189.png",
+      "bbox": [
+        1843,
+        1226,
+        1885,
+        1423
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4605,
+      "label": 20
+    },
+    {
+      "file": "/sprites/boats/boats-030-34x189.png",
+      "path": "public/sprites/boats/boats-030-34x189.png",
+      "bbox": [
+        1957,
+        1226,
+        1999,
+        1423
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4631,
+      "label": 21
+    },
+    {
+      "file": "/sprites/boats/boats-031-34x189.png",
+      "path": "public/sprites/boats/boats-031-34x189.png",
+      "bbox": [
+        2024,
+        1226,
+        2066,
+        1423
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4656,
+      "label": 22
+    },
+    {
+      "file": "/sprites/boats/boats-032-34x189.png",
+      "path": "public/sprites/boats/boats-032-34x189.png",
+      "bbox": [
+        2091,
+        1226,
+        2133,
+        1423
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4726,
+      "label": 23
+    },
+    {
+      "file": "/sprites/boats/boats-033-65x191.png",
+      "path": "public/sprites/boats/boats-033-65x191.png",
+      "bbox": [
+        2185,
+        1226,
+        2258,
+        1425
+      ],
+      "size": [
+        65,
+        191
+      ],
+      "area": 5230,
+      "label": 24
+    },
+    {
+      "file": "/sprites/boats/boats-034-57x191.png",
+      "path": "public/sprites/boats/boats-034-57x191.png",
+      "bbox": [
+        2275,
+        1226,
+        2340,
+        1425
+      ],
+      "size": [
+        57,
+        191
+      ],
+      "area": 5108,
+      "label": 25
+    },
+    {
+      "file": "/sprites/boats/boats-035-96x163.png",
+      "path": "public/sprites/boats/boats-035-96x163.png",
+      "bbox": [
+        7,
+        1239,
+        111,
+        1410
+      ],
+      "size": [
+        96,
+        163
+      ],
+      "area": 3879,
+      "label": 37
+    },
+    {
+      "file": "/sprites/boats/boats-036-83x170.png",
+      "path": "public/sprites/boats/boats-036-83x170.png",
+      "bbox": [
+        112,
+        1236,
+        203,
+        1414
+      ],
+      "size": [
+        83,
+        170
+      ],
+      "area": 3860,
+      "label": 36
+    },
+    {
+      "file": "/sprites/boats/boats-037-180x32.png",
+      "path": "public/sprites/boats/boats-037-180x32.png",
+      "bbox": [
+        1214,
+        1249,
+        1402,
+        1289
+      ],
+      "size": [
+        180,
+        32
+      ],
+      "area": 4373,
+      "label": 38
+    },
+    {
+      "file": "/sprites/boats/boats-038-178x32.png",
+      "path": "public/sprites/boats/boats-038-178x32.png",
+      "bbox": [
+        1413,
+        1249,
+        1599,
+        1289
+      ],
+      "size": [
+        178,
+        32
+      ],
+      "area": 4337,
+      "label": 39
+    },
+    {
+      "file": "/sprites/boats/boats-039-173x86.png",
+      "path": "public/sprites/boats/boats-039-173x86.png",
+      "bbox": [
+        1414,
+        1325,
+        1595,
+        1419
+      ],
+      "size": [
+        173,
+        86
+      ],
+      "area": 4410,
+      "label": 41
+    },
+    {
+      "file": "/sprites/boats/boats-040-173x90.png",
+      "path": "public/sprites/boats/boats-040-173x90.png",
+      "bbox": [
+        1618,
+        1323,
+        1799,
+        1421
+      ],
+      "size": [
+        173,
+        90
+      ],
+      "area": 4369,
+      "label": 40
+    },
+    {
+      "file": "/sprites/boats/boats-041-178x31.png",
+      "path": "public/sprites/boats/boats-041-178x31.png",
+      "bbox": [
+        1215,
+        1357,
+        1401,
+        1396
+      ],
+      "size": [
+        178,
+        31
+      ],
+      "area": 4149,
+      "label": 42
+    },
+    {
+      "file": "/sprites/boats/boats-042-61x161.png",
+      "path": "public/sprites/boats/boats-042-61x161.png",
+      "bbox": [
+        129,
+        1432,
+        198,
+        1601
+      ],
+      "size": [
+        61,
+        161
+      ],
+      "area": 3419,
+      "label": 51
+    },
+    {
+      "file": "/sprites/boats/boats-043-46x160.png",
+      "path": "public/sprites/boats/boats-043-46x160.png",
+      "bbox": [
+        229,
+        1431,
+        283,
+        1599
+      ],
+      "size": [
+        46,
+        160
+      ],
+      "area": 3438,
+      "label": 49
+    },
+    {
+      "file": "/sprites/boats/boats-044-37x160.png",
+      "path": "public/sprites/boats/boats-044-37x160.png",
+      "bbox": [
+        329,
+        1430,
+        374,
+        1598
+      ],
+      "size": [
+        37,
+        160
+      ],
+      "area": 3391,
+      "label": 48
+    },
+    {
+      "file": "/sprites/boats/boats-045-30x159.png",
+      "path": "public/sprites/boats/boats-045-30x159.png",
+      "bbox": [
+        431,
+        1431,
+        469,
+        1598
+      ],
+      "size": [
+        30,
+        159
+      ],
+      "area": 2905,
+      "label": 50
+    },
+    {
+      "file": "/sprites/boats/boats-046-21x160.png",
+      "path": "public/sprites/boats/boats-046-21x160.png",
+      "bbox": [
+        533,
+        1433,
+        562,
+        1601
+      ],
+      "size": [
+        21,
+        160
+      ],
+      "area": 2345,
+      "label": 55
+    },
+    {
+      "file": "/sprites/boats/boats-047-30x160.png",
+      "path": "public/sprites/boats/boats-047-30x160.png",
+      "bbox": [
+        627,
+        1433,
+        665,
+        1601
+      ],
+      "size": [
+        30,
+        160
+      ],
+      "area": 2462,
+      "label": 56
+    },
+    {
+      "file": "/sprites/boats/boats-048-41x162.png",
+      "path": "public/sprites/boats/boats-048-41x162.png",
+      "bbox": [
+        721,
+        1432,
+        770,
+        1602
+      ],
+      "size": [
+        41,
+        162
+      ],
+      "area": 3193,
+      "label": 52
+    },
+    {
+      "file": "/sprites/boats/boats-049-54x162.png",
+      "path": "public/sprites/boats/boats-049-54x162.png",
+      "bbox": [
+        812,
+        1432,
+        874,
+        1602
+      ],
+      "size": [
+        54,
+        162
+      ],
+      "area": 3454,
+      "label": 53
+    },
+    {
+      "file": "/sprites/boats/boats-050-66x161.png",
+      "path": "public/sprites/boats/boats-050-66x161.png",
+      "bbox": [
+        901,
+        1432,
+        975,
+        1601
+      ],
+      "size": [
+        66,
+        161
+      ],
+      "area": 3480,
+      "label": 54
+    },
+    {
+      "file": "/sprites/boats/boats-051-82x158.png",
+      "path": "public/sprites/boats/boats-051-82x158.png",
+      "bbox": [
+        21,
+        1437,
+        111,
+        1603
+      ],
+      "size": [
+        82,
+        158
+      ],
+      "area": 3303,
+      "label": 57
+    },
+    {
+      "file": "/sprites/boats/boats-052-81x159.png",
+      "path": "public/sprites/boats/boats-052-81x159.png",
+      "bbox": [
+        989,
+        1439,
+        1078,
+        1606
+      ],
+      "size": [
+        81,
+        159
+      ],
+      "area": 3330,
+      "label": 58
+    },
+    {
+      "file": "/sprites/boats/boats-053-89x155.png",
+      "path": "public/sprites/boats/boats-053-89x155.png",
+      "bbox": [
+        1081,
+        1444,
+        1178,
+        1607
+      ],
+      "size": [
+        89,
+        155
+      ],
+      "area": 3190,
+      "label": 60
+    },
+    {
+      "file": "/sprites/boats/boats-054-175x90.png",
+      "path": "public/sprites/boats/boats-054-175x90.png",
+      "bbox": [
+        1413,
+        1444,
+        1596,
+        1542
+      ],
+      "size": [
+        175,
+        90
+      ],
+      "area": 4399,
+      "label": 61
+    },
+    {
+      "file": "/sprites/boats/boats-055-172x99.png",
+      "path": "public/sprites/boats/boats-055-172x99.png",
+      "bbox": [
+        1619,
+        1440,
+        1799,
+        1547
+      ],
+      "size": [
+        172,
+        99
+      ],
+      "area": 4340,
+      "label": 59
+    },
+    {
+      "file": "/sprites/boats/boats-056-34x189.png",
+      "path": "public/sprites/boats/boats-056-34x189.png",
+      "bbox": [
+        1843,
+        1450,
+        1885,
+        1647
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4643,
+      "label": 62
+    },
+    {
+      "file": "/sprites/boats/boats-057-34x189.png",
+      "path": "public/sprites/boats/boats-057-34x189.png",
+      "bbox": [
+        1957,
+        1450,
+        1999,
+        1647
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4695,
+      "label": 63
+    },
+    {
+      "file": "/sprites/boats/boats-058-35x189.png",
+      "path": "public/sprites/boats/boats-058-35x189.png",
+      "bbox": [
+        2023,
+        1450,
+        2066,
+        1647
+      ],
+      "size": [
+        35,
+        189
+      ],
+      "area": 4651,
+      "label": 64
+    },
+    {
+      "file": "/sprites/boats/boats-059-34x189.png",
+      "path": "public/sprites/boats/boats-059-34x189.png",
+      "bbox": [
+        2091,
+        1450,
+        2133,
+        1647
+      ],
+      "size": [
+        34,
+        189
+      ],
+      "area": 4636,
+      "label": 65
+    },
+    {
+      "file": "/sprites/boats/boats-060-71x191.png",
+      "path": "public/sprites/boats/boats-060-71x191.png",
+      "bbox": [
+        2178,
+        1450,
+        2257,
+        1649
+      ],
+      "size": [
+        71,
+        191
+      ],
+      "area": 5541,
+      "label": 66
+    },
+    {
+      "file": "/sprites/boats/boats-061-82x190.png",
+      "path": "public/sprites/boats/boats-061-82x190.png",
+      "bbox": [
+        2268,
+        1450,
+        2358,
+        1648
+      ],
+      "size": [
+        82,
+        190
+      ],
+      "area": 6090,
+      "label": 67
+    },
+    {
+      "file": "/sprites/boats/boats-062-178x32.png",
+      "path": "public/sprites/boats/boats-062-178x32.png",
+      "bbox": [
+        1215,
+        1478,
+        1401,
+        1518
+      ],
+      "size": [
+        178,
+        32
+      ],
+      "area": 4280,
+      "label": 68
+    },
+    {
+      "file": "/sprites/boats/boats-063-173x88.png",
+      "path": "public/sprites/boats/boats-063-173x88.png",
+      "bbox": [
+        1414,
+        1553,
+        1595,
+        1649
+      ],
+      "size": [
+        173,
+        88
+      ],
+      "area": 4357,
+      "label": 70
+    },
+    {
+      "file": "/sprites/boats/boats-064-172x97.png",
+      "path": "public/sprites/boats/boats-064-172x97.png",
+      "bbox": [
+        1619,
+        1550,
+        1799,
+        1655
+      ],
+      "size": [
+        172,
+        97
+      ],
+      "area": 4351,
+      "label": 69
+    },
+    {
+      "file": "/sprites/boats/boats-065-179x33.png",
+      "path": "public/sprites/boats/boats-065-179x33.png",
+      "bbox": [
+        1214,
+        1581,
+        1401,
+        1622
+      ],
+      "size": [
+        179,
+        33
+      ],
+      "area": 4390,
+      "label": 72
+    },
+    {
+      "file": "/sprites/boats/boats-066-82x159.png",
+      "path": "public/sprites/boats/boats-066-82x159.png",
+      "bbox": [
+        20,
+        1615,
+        110,
+        1782
+      ],
+      "size": [
+        82,
+        159
+      ],
+      "area": 3716,
+      "label": 87
+    },
+    {
+      "file": "/sprites/boats/boats-067-48x163.png",
+      "path": "public/sprites/boats/boats-067-48x163.png",
+      "bbox": [
+        131,
+        1610,
+        187,
+        1781
+      ],
+      "size": [
+        48,
+        163
+      ],
+      "area": 3760,
+      "label": 78
+    },
+    {
+      "file": "/sprites/boats/boats-068-32x162.png",
+      "path": "public/sprites/boats/boats-068-32x162.png",
+      "bbox": [
+        235,
+        1610,
+        275,
+        1780
+      ],
+      "size": [
+        32,
+        162
+      ],
+      "area": 3642,
+      "label": 79
+    },
+    {
+      "file": "/sprites/boats/boats-069-35x162.png",
+      "path": "public/sprites/boats/boats-069-35x162.png",
+      "bbox": [
+        332,
+        1610,
+        375,
+        1780
+      ],
+      "size": [
+        35,
+        162
+      ],
+      "area": 3820,
+      "label": 80
+    },
+    {
+      "file": "/sprites/boats/boats-070-34x162.png",
+      "path": "public/sprites/boats/boats-070-34x162.png",
+      "bbox": [
+        432,
+        1610,
+        474,
+        1780
+      ],
+      "size": [
+        34,
+        162
+      ],
+      "area": 3793,
+      "label": 81
+    },
+    {
+      "file": "/sprites/boats/boats-071-34x162.png",
+      "path": "public/sprites/boats/boats-071-34x162.png",
+      "bbox": [
+        530,
+        1610,
+        572,
+        1780
+      ],
+      "size": [
+        34,
+        162
+      ],
+      "area": 3796,
+      "label": 82
+    },
+    {
+      "file": "/sprites/boats/boats-072-33x162.png",
+      "path": "public/sprites/boats/boats-072-33x162.png",
+      "bbox": [
+        629,
+        1610,
+        670,
+        1780
+      ],
+      "size": [
+        33,
+        162
+      ],
+      "area": 3724,
+      "label": 83
+    },
+    {
+      "file": "/sprites/boats/boats-073-33x162.png",
+      "path": "public/sprites/boats/boats-073-33x162.png",
+      "bbox": [
+        728,
+        1610,
+        769,
+        1780
+      ],
+      "size": [
+        33,
+        162
+      ],
+      "area": 3726,
+      "label": 84
+    },
+    {
+      "file": "/sprites/boats/boats-074-46x165.png",
+      "path": "public/sprites/boats/boats-074-46x165.png",
+      "bbox": [
+        819,
+        1610,
+        873,
+        1783
+      ],
+      "size": [
+        46,
+        165
+      ],
+      "area": 3613,
+      "label": 85
+    },
+    {
+      "file": "/sprites/boats/boats-075-65x164.png",
+      "path": "public/sprites/boats/boats-075-65x164.png",
+      "bbox": [
+        904,
+        1610,
+        977,
+        1782
+      ],
+      "size": [
+        65,
+        164
+      ],
+      "area": 3716,
+      "label": 86
+    },
+    {
+      "file": "/sprites/boats/boats-076-87x160.png",
+      "path": "public/sprites/boats/boats-076-87x160.png",
+      "bbox": [
+        986,
+        1618,
+        1081,
+        1786
+      ],
+      "size": [
+        87,
+        160
+      ],
+      "area": 3754,
+      "label": 88
+    },
+    {
+      "file": "/sprites/boats/boats-077-171x83.png",
+      "path": "public/sprites/boats/boats-077-171x83.png",
+      "bbox": [
+        2186,
+        1671,
+        2365,
+        1762
+      ],
+      "size": [
+        171,
+        83
+      ],
+      "area": 5868,
+      "label": 93
+    },
+    {
+      "file": "/sprites/boats/boats-078-104x47.png",
+      "path": "public/sprites/boats/boats-078-104x47.png",
+      "bbox": [
+        1371,
+        1694,
+        1483,
+        1749
+      ],
+      "size": [
+        104,
+        47
+      ],
+      "area": 1854,
+      "label": 106
+    },
+    {
+      "file": "/sprites/boats/boats-079-157x69.png",
+      "path": "public/sprites/boats/boats-079-157x69.png",
+      "bbox": [
+        2010,
+        1685,
+        2175,
+        1762
+      ],
+      "size": [
+        157,
+        69
+      ],
+      "area": 4751,
+      "label": 99
+    },
+    {
+      "file": "/sprites/boats/boats-080-84x20.png",
+      "path": "public/sprites/boats/boats-080-84x20.png",
+      "bbox": [
+        1220,
+        1709,
+        1312,
+        1737
+      ],
+      "size": [
+        84,
+        20
+      ],
+      "area": 519,
+      "label": 115
+    },
+    {
+      "file": "/sprites/boats/boats-081-99x54.png",
+      "path": "public/sprites/boats/boats-081-99x54.png",
+      "bbox": [
+        1523,
+        1699,
+        1630,
+        1761
+      ],
+      "size": [
+        99,
+        54
+      ],
+      "area": 2872,
+      "label": 111
+    },
+    {
+      "file": "/sprites/boats/boats-082-123x57.png",
+      "path": "public/sprites/boats/boats-082-123x57.png",
+      "bbox": [
+        1688,
+        1697,
+        1819,
+        1762
+      ],
+      "size": [
+        123,
+        57
+      ],
+      "area": 2501,
+      "label": 108
+    },
+    {
+      "file": "/sprites/boats/boats-083-66x29.png",
+      "path": "public/sprites/boats/boats-083-66x29.png",
+      "bbox": [
+        1921,
+        1714,
+        1995,
+        1751
+      ],
+      "size": [
+        66,
+        29
+      ],
+      "area": 725,
+      "label": 119
+    },
+    {
+      "file": "/sprites/boats/boats-084-102x22.png",
+      "path": "public/sprites/boats/boats-084-102x22.png",
+      "bbox": [
+        1221,
+        1730,
+        1331,
+        1760
+      ],
+      "size": [
+        102,
+        22
+      ],
+      "area": 1078,
+      "label": 136
+    },
+    {
+      "file": "/sprites/boats/boats-085-66x15.png",
+      "path": "public/sprites/boats/boats-085-66x15.png",
+      "bbox": [
+        1236,
+        1719,
+        1310,
+        1742
+      ],
+      "size": [
+        66,
+        15
+      ],
+      "area": 415,
+      "label": 126
+    },
+    {
+      "file": "/sprites/boats/boats-086-78x29.png",
+      "path": "public/sprites/boats/boats-086-78x29.png",
+      "bbox": [
+        1400,
+        1725,
+        1486,
+        1762
+      ],
+      "size": [
+        78,
+        29
+      ],
+      "area": 745,
+      "label": 135
+    },
+    {
+      "file": "/sprites/boats/boats-087-39x27.png",
+      "path": "public/sprites/boats/boats-087-39x27.png",
+      "bbox": [
+        1506,
+        1724,
+        1553,
+        1759
+      ],
+      "size": [
+        39,
+        27
+      ],
+      "area": 364,
+      "label": 131
+    },
+    {
+      "file": "/sprites/boats/boats-088-33x26.png",
+      "path": "public/sprites/boats/boats-088-33x26.png",
+      "bbox": [
+        1647,
+        1724,
+        1688,
+        1758
+      ],
+      "size": [
+        33,
+        26
+      ],
+      "area": 331,
+      "label": 132
+    },
+    {
+      "file": "/sprites/boats/boats-089-74x36.png",
+      "path": "public/sprites/boats/boats-089-74x36.png",
+      "bbox": [
+        1833,
+        1717,
+        1915,
+        1761
+      ],
+      "size": [
+        74,
+        36
+      ],
+      "area": 1042,
+      "label": 124
+    },
+    {
+      "file": "/sprites/boats/boats-090-57x20.png",
+      "path": "public/sprites/boats/boats-090-57x20.png",
+      "bbox": [
+        1918,
+        1733,
+        1983,
+        1761
+      ],
+      "size": [
+        57,
+        20
+      ],
+      "area": 483,
+      "label": 140
+    }
+  ],
+  "clouds": [
+    {
+      "file": "/sprites/clouds/clouds-000-398x192.png",
+      "path": "public/sprites/clouds/clouds-000-398x192.png",
+      "bbox": [
+        1755,
+        23,
+        2161,
+        223
+      ],
+      "size": [
+        398,
+        192
+      ],
+      "area": 47725,
+      "label": 1
+    },
+    {
+      "file": "/sprites/clouds/clouds-001-236x134.png",
+      "path": "public/sprites/clouds/clouds-001-236x134.png",
+      "bbox": [
+        397,
+        52,
+        641,
+        194
+      ],
+      "size": [
+        236,
+        134
+      ],
+      "area": 21325,
+      "label": 5
+    },
+    {
+      "file": "/sprites/clouds/clouds-002-236x157.png",
+      "path": "public/sprites/clouds/clouds-002-236x157.png",
+      "bbox": [
+        735,
+        41,
+        979,
+        206
+      ],
+      "size": [
+        236,
+        157
+      ],
+      "area": 25715,
+      "label": 2
+    },
+    {
+      "file": "/sprites/clouds/clouds-003-265x145.png",
+      "path": "public/sprites/clouds/clouds-003-265x145.png",
+      "bbox": [
+        1068,
+        47,
+        1341,
+        200
+      ],
+      "size": [
+        265,
+        145
+      ],
+      "area": 26549,
+      "label": 3
+    },
+    {
+      "file": "/sprites/clouds/clouds-004-266x145.png",
+      "path": "public/sprites/clouds/clouds-004-266x145.png",
+      "bbox": [
+        1411,
+        47,
+        1685,
+        200
+      ],
+      "size": [
+        266,
+        145
+      ],
+      "area": 26360,
+      "label": 4
+    },
+    {
+      "file": "/sprites/clouds/clouds-005-305x134.png",
+      "path": "public/sprites/clouds/clouds-005-305x134.png",
+      "bbox": [
+        2243,
+        52,
+        2556,
+        194
+      ],
+      "size": [
+        305,
+        134
+      ],
+      "area": 26612,
+      "label": 6
+    },
+    {
+      "file": "/sprites/clouds/clouds-006-174x100.png",
+      "path": "public/sprites/clouds/clouds-006-174x100.png",
+      "bbox": [
+        98,
+        69,
+        280,
+        177
+      ],
+      "size": [
+        174,
+        100
+      ],
+      "area": 12268,
+      "label": 7
+    },
+    {
+      "file": "/sprites/clouds/clouds-007-260x179.png",
+      "path": "public/sprites/clouds/clouds-007-260x179.png",
+      "bbox": [
+        385,
+        259,
+        653,
+        446
+      ],
+      "size": [
+        260,
+        179
+      ],
+      "area": 31675,
+      "label": 8
+    },
+    {
+      "file": "/sprites/clouds/clouds-008-254x168.png",
+      "path": "public/sprites/clouds/clouds-008-254x168.png",
+      "bbox": [
+        729,
+        265,
+        991,
+        441
+      ],
+      "size": [
+        254,
+        168
+      ],
+      "area": 30364,
+      "label": 9
+    },
+    {
+      "file": "/sprites/clouds/clouds-009-351x168.png",
+      "path": "public/sprites/clouds/clouds-009-351x168.png",
+      "bbox": [
+        2220,
+        265,
+        2579,
+        441
+      ],
+      "size": [
+        351,
+        168
+      ],
+      "area": 38714,
+      "label": 10
+    },
+    {
+      "file": "/sprites/clouds/clouds-010-243x123.png",
+      "path": "public/sprites/clouds/clouds-010-243x123.png",
+      "bbox": [
+        1079,
+        287,
+        1330,
+        418
+      ],
+      "size": [
+        243,
+        123
+      ],
+      "area": 19476,
+      "label": 12
+    },
+    {
+      "file": "/sprites/clouds/clouds-011-272x157.png",
+      "path": "public/sprites/clouds/clouds-011-272x157.png",
+      "bbox": [
+        1411,
+        276,
+        1691,
+        441
+      ],
+      "size": [
+        272,
+        157
+      ],
+      "area": 30518,
+      "label": 11
+    },
+    {
+      "file": "/sprites/clouds/clouds-012-404x152.png",
+      "path": "public/sprites/clouds/clouds-012-404x152.png",
+      "bbox": [
+        1749,
+        287,
+        2161,
+        447
+      ],
+      "size": [
+        404,
+        152
+      ],
+      "area": 38404,
+      "label": 13
+    },
+    {
+      "file": "/sprites/clouds/clouds-013-173x99.png",
+      "path": "public/sprites/clouds/clouds-013-173x99.png",
+      "bbox": [
+        99,
+        305,
+        280,
+        412
+      ],
+      "size": [
+        173,
+        99
+      ],
+      "area": 12572,
+      "label": 14
+    },
+    {
+      "file": "/sprites/clouds/clouds-014-534x283.png",
+      "path": "public/sprites/clouds/clouds-014-534x283.png",
+      "bbox": [
+        403,
+        476,
+        945,
+        767
+      ],
+      "size": [
+        534,
+        283
+      ],
+      "area": 92569,
+      "label": 15
+    },
+    {
+      "file": "/sprites/clouds/clouds-015-808x271.png",
+      "path": "public/sprites/clouds/clouds-015-808x271.png",
+      "bbox": [
+        1039,
+        488,
+        1855,
+        767
+      ],
+      "size": [
+        808,
+        271
+      ],
+      "area": 120006,
+      "label": 16
+    },
+    {
+      "file": "/sprites/clouds/clouds-016-753x225.png",
+      "path": "public/sprites/clouds/clouds-016-753x225.png",
+      "bbox": [
+        1916,
+        517,
+        2677,
+        750
+      ],
+      "size": [
+        753,
+        225
+      ],
+      "area": 95247,
+      "label": 17
+    },
+    {
+      "file": "/sprites/clouds/clouds-017-247x156.png",
+      "path": "public/sprites/clouds/clouds-017-247x156.png",
+      "bbox": [
+        87,
+        557,
+        342,
+        721
+      ],
+      "size": [
+        247,
+        156
+      ],
+      "area": 25148,
+      "label": 18
+    },
+    {
+      "file": "/sprites/clouds/clouds-018-908x301.png",
+      "path": "public/sprites/clouds/clouds-018-908x301.png",
+      "bbox": [
+        75,
+        780,
+        991,
+        1089
+      ],
+      "size": [
+        908,
+        301
+      ],
+      "area": 159450,
+      "label": 19
+    },
+    {
+      "file": "/sprites/clouds/clouds-019-891x283.png",
+      "path": "public/sprites/clouds/clouds-019-891x283.png",
+      "bbox": [
+        1067,
+        803,
+        1966,
+        1094
+      ],
+      "size": [
+        891,
+        283
+      ],
+      "area": 158421,
+      "label": 20
+    },
+    {
+      "file": "/sprites/clouds/clouds-020-781x128.png",
+      "path": "public/sprites/clouds/clouds-020-781x128.png",
+      "bbox": [
+        93,
+        1165,
+        882,
+        1301
+      ],
+      "size": [
+        781,
+        128
+      ],
+      "area": 52715,
+      "label": 22
+    },
+    {
+      "file": "/sprites/clouds/clouds-021-753x128.png",
+      "path": "public/sprites/clouds/clouds-021-753x128.png",
+      "bbox": [
+        953,
+        1165,
+        1714,
+        1301
+      ],
+      "size": [
+        753,
+        128
+      ],
+      "area": 40034,
+      "label": 23
+    },
+    {
+      "file": "/sprites/clouds/clouds-022-558x111.png",
+      "path": "public/sprites/clouds/clouds-022-558x111.png",
+      "bbox": [
+        1790,
+        1164,
+        2356,
+        1283
+      ],
+      "size": [
+        558,
+        111
+      ],
+      "area": 27641,
+      "label": 21
+    },
+    {
+      "file": "/sprites/clouds/clouds-023-118x42.png",
+      "path": "public/sprites/clouds/clouds-023-118x42.png",
+      "bbox": [
+        1442,
+        1239,
+        1568,
+        1289
+      ],
+      "size": [
+        118,
+        42
+      ],
+      "area": 2253,
+      "label": 26
+    },
+    {
+      "file": "/sprites/clouds/clouds-024-175x37.png",
+      "path": "public/sprites/clouds/clouds-024-175x37.png",
+      "bbox": [
+        2012,
+        1250,
+        2195,
+        1295
+      ],
+      "size": [
+        175,
+        37
+      ],
+      "area": 3654,
+      "label": 28
+    },
+    {
+      "file": "/sprites/clouds/clouds-025-608x126.png",
+      "path": "public/sprites/clouds/clouds-025-608x126.png",
+      "bbox": [
+        87,
+        1350,
+        703,
+        1484
+      ],
+      "size": [
+        608,
+        126
+      ],
+      "area": 32993,
+      "label": 30
+    },
+    {
+      "file": "/sprites/clouds/clouds-026-124x43.png",
+      "path": "public/sprites/clouds/clouds-026-124x43.png",
+      "bbox": [
+        682,
+        1353,
+        814,
+        1404
+      ],
+      "size": [
+        124,
+        43
+      ],
+      "area": 2709,
+      "label": 31
+    },
+    {
+      "file": "/sprites/clouds/clouds-027-116x30.png",
+      "path": "public/sprites/clouds/clouds-027-116x30.png",
+      "bbox": [
+        1107,
+        1371,
+        1231,
+        1409
+      ],
+      "size": [
+        116,
+        30
+      ],
+      "area": 2383,
+      "label": 33
+    },
+    {
+      "file": "/sprites/clouds/clouds-028-547x83.png",
+      "path": "public/sprites/clouds/clouds-028-547x83.png",
+      "bbox": [
+        918,
+        1388,
+        1473,
+        1479
+      ],
+      "size": [
+        547,
+        83
+      ],
+      "area": 22533,
+      "label": 37
+    },
+    {
+      "file": "/sprites/clouds/clouds-029-241x71.png",
+      "path": "public/sprites/clouds/clouds-029-241x71.png",
+      "bbox": [
+        1733,
+        1382,
+        1982,
+        1461
+      ],
+      "size": [
+        241,
+        71
+      ],
+      "area": 10357,
+      "label": 35
+    },
+    {
+      "file": "/sprites/clouds/clouds-030-63x26.png",
+      "path": "public/sprites/clouds/clouds-030-63x26.png",
+      "bbox": [
+        1980,
+        1382,
+        2051,
+        1416
+      ],
+      "size": [
+        63,
+        26
+      ],
+      "area": 1061,
+      "label": 36
+    },
+    {
+      "file": "/sprites/clouds/clouds-031-195x65.png",
+      "path": "public/sprites/clouds/clouds-031-195x65.png",
+      "bbox": [
+        2187,
+        1388,
+        2390,
+        1461
+      ],
+      "size": [
+        195,
+        65
+      ],
+      "area": 6442,
+      "label": 38
+    },
+    {
+      "file": "/sprites/clouds/clouds-032-46x24.png",
+      "path": "public/sprites/clouds/clouds-032-46x24.png",
+      "bbox": [
+        2314,
+        1377,
+        2368,
+        1409
+      ],
+      "size": [
+        46,
+        24
+      ],
+      "area": 692,
+      "label": 34
+    },
+    {
+      "file": "/sprites/clouds/clouds-033-65x21.png",
+      "path": "public/sprites/clouds/clouds-033-65x21.png",
+      "bbox": [
+        1532,
+        1427,
+        1605,
+        1456
+      ],
+      "size": [
+        65,
+        21
+      ],
+      "area": 909,
+      "label": 39
+    },
+    {
+      "file": "/sprites/clouds/clouds-034-58x20.png",
+      "path": "public/sprites/clouds/clouds-034-58x20.png",
+      "bbox": [
+        2187,
+        1428,
+        2253,
+        1456
+      ],
+      "size": [
+        58,
+        20
+      ],
+      "area": 862,
+      "label": 40
+    }
+  ],
+  "waterfx": [
+    {
+      "file": "/sprites/waterfx/waterfx-000-111x37.png",
+      "path": "public/sprites/waterfx/waterfx-000-111x37.png",
+      "bbox": [
+        333,
+        106,
+        452,
+        151
+      ],
+      "size": [
+        111,
+        37
+      ],
+      "area": 3283,
+      "label": 8
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-001-119x37.png",
+      "path": "public/sprites/waterfx/waterfx-001-119x37.png",
+      "bbox": [
+        449,
+        106,
+        576,
+        151
+      ],
+      "size": [
+        119,
+        37
+      ],
+      "area": 3616,
+      "label": 9
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-002-120x45.png",
+      "path": "public/sprites/waterfx/waterfx-002-120x45.png",
+      "bbox": [
+        1107,
+        106,
+        1235,
+        159
+      ],
+      "size": [
+        120,
+        45
+      ],
+      "area": 3807,
+      "label": 10
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-003-30x37.png",
+      "path": "public/sprites/waterfx/waterfx-003-30x37.png",
+      "bbox": [
+        1233,
+        106,
+        1271,
+        151
+      ],
+      "size": [
+        30,
+        37
+      ],
+      "area": 888,
+      "label": 11
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-004-106x45.png",
+      "path": "public/sprites/waterfx/waterfx-004-106x45.png",
+      "bbox": [
+        1269,
+        106,
+        1383,
+        159
+      ],
+      "size": [
+        106,
+        45
+      ],
+      "area": 3366,
+      "label": 12
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-005-137x37.png",
+      "path": "public/sprites/waterfx/waterfx-005-137x37.png",
+      "bbox": [
+        1381,
+        106,
+        1526,
+        151
+      ],
+      "size": [
+        137,
+        37
+      ],
+      "area": 4292,
+      "label": 13
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-006-129x45.png",
+      "path": "public/sprites/waterfx/waterfx-006-129x45.png",
+      "bbox": [
+        2163,
+        106,
+        2300,
+        159
+      ],
+      "size": [
+        129,
+        45
+      ],
+      "area": 4151,
+      "label": 14
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-007-799x96.png",
+      "path": "public/sprites/waterfx/waterfx-007-799x96.png",
+      "bbox": [
+        66,
+        167,
+        873,
+        271
+      ],
+      "size": [
+        799,
+        96
+      ],
+      "area": 48948,
+      "label": 15
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-008-17x18.png",
+      "path": "public/sprites/waterfx/waterfx-008-17x18.png",
+      "bbox": [
+        1334,
+        175,
+        1359,
+        201
+      ],
+      "size": [
+        17,
+        18
+      ],
+      "area": 212,
+      "label": 17
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-009-18x20.png",
+      "path": "public/sprites/waterfx/waterfx-009-18x20.png",
+      "bbox": [
+        1767,
+        168,
+        1793,
+        196
+      ],
+      "size": [
+        18,
+        20
+      ],
+      "area": 289,
+      "label": 16
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-010-16x18.png",
+      "path": "public/sprites/waterfx/waterfx-010-16x18.png",
+      "bbox": [
+        1551,
+        185,
+        1575,
+        211
+      ],
+      "size": [
+        16,
+        18
+      ],
+      "area": 231,
+      "label": 22
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-011-111x24.png",
+      "path": "public/sprites/waterfx/waterfx-011-111x24.png",
+      "bbox": [
+        2061,
+        182,
+        2180,
+        214
+      ],
+      "size": [
+        111,
+        24
+      ],
+      "area": 1322,
+      "label": 19
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-012-135x77.png",
+      "path": "public/sprites/waterfx/waterfx-012-135x77.png",
+      "bbox": [
+        2310,
+        195,
+        2453,
+        280
+      ],
+      "size": [
+        135,
+        77
+      ],
+      "area": 4034,
+      "label": 26
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-013-121x22.png",
+      "path": "public/sprites/waterfx/waterfx-013-121x22.png",
+      "bbox": [
+        2317,
+        176,
+        2446,
+        206
+      ],
+      "size": [
+        121,
+        22
+      ],
+      "area": 1530,
+      "label": 18
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-014-45x14.png",
+      "path": "public/sprites/waterfx/waterfx-014-45x14.png",
+      "bbox": [
+        194,
+        209,
+        247,
+        231
+      ],
+      "size": [
+        45,
+        14
+      ],
+      "area": 369,
+      "label": 37
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-015-20x20.png",
+      "path": "public/sprites/waterfx/waterfx-015-20x20.png",
+      "bbox": [
+        1043,
+        197,
+        1071,
+        225
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "area": 285,
+      "label": 28
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-016-18x16.png",
+      "path": "public/sprites/waterfx/waterfx-016-18x16.png",
+      "bbox": [
+        1183,
+        207,
+        1209,
+        231
+      ],
+      "size": [
+        18,
+        16
+      ],
+      "area": 216,
+      "label": 34
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-017-152x88.png",
+      "path": "public/sprites/waterfx/waterfx-017-152x88.png",
+      "bbox": [
+        1204,
+        203,
+        1364,
+        299
+      ],
+      "size": [
+        152,
+        88
+      ],
+      "area": 7883,
+      "label": 32
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-018-16x19.png",
+      "path": "public/sprites/waterfx/waterfx-018-16x19.png",
+      "bbox": [
+        1771,
+        211,
+        1795,
+        238
+      ],
+      "size": [
+        16,
+        19
+      ],
+      "area": 243,
+      "label": 39
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-019-28x64.png",
+      "path": "public/sprites/waterfx/waterfx-019-28x64.png",
+      "bbox": [
+        2028,
+        200,
+        2064,
+        272
+      ],
+      "size": [
+        28,
+        64
+      ],
+      "area": 887,
+      "label": 30
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-020-27x56.png",
+      "path": "public/sprites/waterfx/waterfx-020-27x56.png",
+      "bbox": [
+        2173,
+        208,
+        2208,
+        272
+      ],
+      "size": [
+        27,
+        56
+      ],
+      "area": 758,
+      "label": 36
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-021-37x75.png",
+      "path": "public/sprites/waterfx/waterfx-021-37x75.png",
+      "bbox": [
+        2279,
+        197,
+        2324,
+        280
+      ],
+      "size": [
+        37,
+        75
+      ],
+      "area": 1203,
+      "label": 29
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-022-34x72.png",
+      "path": "public/sprites/waterfx/waterfx-022-34x72.png",
+      "bbox": [
+        2443,
+        196,
+        2485,
+        276
+      ],
+      "size": [
+        34,
+        72
+      ],
+      "area": 1109,
+      "label": 27
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-023-18x16.png",
+      "path": "public/sprites/waterfx/waterfx-023-18x16.png",
+      "bbox": [
+        943,
+        223,
+        969,
+        247
+      ],
+      "size": [
+        18,
+        16
+      ],
+      "area": 222,
+      "label": 45
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-024-85x71.png",
+      "path": "public/sprites/waterfx/waterfx-024-85x71.png",
+      "bbox": [
+        962,
+        217,
+        1055,
+        296
+      ],
+      "size": [
+        85,
+        71
+      ],
+      "area": 3477,
+      "label": 42
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-025-18x22.png",
+      "path": "public/sprites/waterfx/waterfx-025-18x22.png",
+      "bbox": [
+        1641,
+        220,
+        1667,
+        250
+      ],
+      "size": [
+        18,
+        22
+      ],
+      "area": 316,
+      "label": 44
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-026-363x183.png",
+      "path": "public/sprites/waterfx/waterfx-026-363x183.png",
+      "bbox": [
+        1493,
+        248,
+        1864,
+        439
+      ],
+      "size": [
+        363,
+        183
+      ],
+      "area": 38708,
+      "label": 53
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-027-18x18.png",
+      "path": "public/sprites/waterfx/waterfx-027-18x18.png",
+      "bbox": [
+        1577,
+        238,
+        1603,
+        264
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "area": 254,
+      "label": 49
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-028-21x24.png",
+      "path": "public/sprites/waterfx/waterfx-028-21x24.png",
+      "bbox": [
+        1732,
+        247,
+        1761,
+        279
+      ],
+      "size": [
+        21,
+        24
+      ],
+      "area": 406,
+      "label": 52
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-029-22x19.png",
+      "path": "public/sprites/waterfx/waterfx-029-22x19.png",
+      "bbox": [
+        1809,
+        240,
+        1839,
+        267
+      ],
+      "size": [
+        22,
+        19
+      ],
+      "area": 306,
+      "label": 50
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-030-21x19.png",
+      "path": "public/sprites/waterfx/waterfx-030-21x19.png",
+      "bbox": [
+        1494,
+        274,
+        1523,
+        301
+      ],
+      "size": [
+        21,
+        19
+      ],
+      "area": 322,
+      "label": 59
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-031-107x23.png",
+      "path": "public/sprites/waterfx/waterfx-031-107x23.png",
+      "bbox": [
+        2058,
+        261,
+        2173,
+        292
+      ],
+      "size": [
+        107,
+        23
+      ],
+      "area": 1260,
+      "label": 56
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-032-125x24.png",
+      "path": "public/sprites/waterfx/waterfx-032-125x24.png",
+      "bbox": [
+        2318,
+        267,
+        2451,
+        299
+      ],
+      "size": [
+        125,
+        24
+      ],
+      "area": 1572,
+      "label": 57
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-033-701x143.png",
+      "path": "public/sprites/waterfx/waterfx-033-701x143.png",
+      "bbox": [
+        56,
+        294,
+        765,
+        445
+      ],
+      "size": [
+        701,
+        143
+      ],
+      "area": 62751,
+      "label": 61
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-034-21x19.png",
+      "path": "public/sprites/waterfx/waterfx-034-21x19.png",
+      "bbox": [
+        1859,
+        292,
+        1888,
+        319
+      ],
+      "size": [
+        21,
+        19
+      ],
+      "area": 311,
+      "label": 60
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-035-16x17.png",
+      "path": "public/sprites/waterfx/waterfx-035-16x17.png",
+      "bbox": [
+        1896,
+        306,
+        1920,
+        331
+      ],
+      "size": [
+        16,
+        17
+      ],
+      "area": 222,
+      "label": 62
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-036-16x19.png",
+      "path": "public/sprites/waterfx/waterfx-036-16x19.png",
+      "bbox": [
+        1009,
+        337,
+        1033,
+        364
+      ],
+      "size": [
+        16,
+        19
+      ],
+      "area": 218,
+      "label": 63
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-037-16x18.png",
+      "path": "public/sprites/waterfx/waterfx-037-16x18.png",
+      "bbox": [
+        1059,
+        354,
+        1083,
+        380
+      ],
+      "size": [
+        16,
+        18
+      ],
+      "area": 218,
+      "label": 72
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-038-18x18.png",
+      "path": "public/sprites/waterfx/waterfx-038-18x18.png",
+      "bbox": [
+        1157,
+        339,
+        1183,
+        365
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "area": 232,
+      "label": 65
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-039-16x21.png",
+      "path": "public/sprites/waterfx/waterfx-039-16x21.png",
+      "bbox": [
+        1249,
+        338,
+        1273,
+        367
+      ],
+      "size": [
+        16,
+        21
+      ],
+      "area": 271,
+      "label": 64
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-040-16x18.png",
+      "path": "public/sprites/waterfx/waterfx-040-16x18.png",
+      "bbox": [
+        1353,
+        343,
+        1377,
+        369
+      ],
+      "size": [
+        16,
+        18
+      ],
+      "area": 224,
+      "label": 66
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-041-17x18.png",
+      "path": "public/sprites/waterfx/waterfx-041-17x18.png",
+      "bbox": [
+        945,
+        361,
+        970,
+        387
+      ],
+      "size": [
+        17,
+        18
+      ],
+      "area": 223,
+      "label": 77
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-042-229x140.png",
+      "path": "public/sprites/waterfx/waterfx-042-229x140.png",
+      "bbox": [
+        1164,
+        359,
+        1401,
+        507
+      ],
+      "size": [
+        229,
+        140
+      ],
+      "area": 18893,
+      "label": 76
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-043-19x20.png",
+      "path": "public/sprites/waterfx/waterfx-043-19x20.png",
+      "bbox": [
+        1197,
+        357,
+        1224,
+        385
+      ],
+      "size": [
+        19,
+        20
+      ],
+      "area": 292,
+      "label": 75
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-044-20x19.png",
+      "path": "public/sprites/waterfx/waterfx-044-20x19.png",
+      "bbox": [
+        1383,
+        369,
+        1411,
+        396
+      ],
+      "size": [
+        20,
+        19
+      ],
+      "area": 283,
+      "label": 86
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-045-63x64.png",
+      "path": "public/sprites/waterfx/waterfx-045-63x64.png",
+      "bbox": [
+        1814,
+        365,
+        1885,
+        437
+      ],
+      "size": [
+        63,
+        64
+      ],
+      "area": 1208,
+      "label": 83
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-046-95x104.png",
+      "path": "public/sprites/waterfx/waterfx-046-95x104.png",
+      "bbox": [
+        1997,
+        375,
+        2100,
+        487
+      ],
+      "size": [
+        95,
+        104
+      ],
+      "area": 2270,
+      "label": 88
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-047-173x105.png",
+      "path": "public/sprites/waterfx/waterfx-047-173x105.png",
+      "bbox": [
+        2026,
+        363,
+        2207,
+        476
+      ],
+      "size": [
+        173,
+        105
+      ],
+      "area": 10727,
+      "label": 79
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-048-64x85.png",
+      "path": "public/sprites/waterfx/waterfx-048-64x85.png",
+      "bbox": [
+        2168,
+        367,
+        2240,
+        460
+      ],
+      "size": [
+        64,
+        85
+      ],
+      "area": 1403,
+      "label": 84
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-049-171x118.png",
+      "path": "public/sprites/waterfx/waterfx-049-171x118.png",
+      "bbox": [
+        2292,
+        356,
+        2471,
+        482
+      ],
+      "size": [
+        171,
+        118
+      ],
+      "area": 11859,
+      "label": 74
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-050-55x40.png",
+      "path": "public/sprites/waterfx/waterfx-050-55x40.png",
+      "bbox": [
+        2418,
+        363,
+        2481,
+        411
+      ],
+      "size": [
+        55,
+        40
+      ],
+      "area": 654,
+      "label": 80
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-051-136x105.png",
+      "path": "public/sprites/waterfx/waterfx-051-136x105.png",
+      "bbox": [
+        937,
+        389,
+        1081,
+        502
+      ],
+      "size": [
+        136,
+        105
+      ],
+      "area": 9493,
+      "label": 91
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-052-20x17.png",
+      "path": "public/sprites/waterfx/waterfx-052-20x17.png",
+      "bbox": [
+        1157,
+        384,
+        1185,
+        409
+      ],
+      "size": [
+        20,
+        17
+      ],
+      "area": 283,
+      "label": 90
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-053-51x34.png",
+      "path": "public/sprites/waterfx/waterfx-053-51x34.png",
+      "bbox": [
+        1507,
+        400,
+        1566,
+        442
+      ],
+      "size": [
+        51,
+        34
+      ],
+      "area": 657,
+      "label": 95
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-054-156x22.png",
+      "path": "public/sprites/waterfx/waterfx-054-156x22.png",
+      "bbox": [
+        1639,
+        431,
+        1803,
+        461
+      ],
+      "size": [
+        156,
+        22
+      ],
+      "area": 1798,
+      "label": 98
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-055-41x53.png",
+      "path": "public/sprites/waterfx/waterfx-055-41x53.png",
+      "bbox": [
+        2441,
+        418,
+        2490,
+        479
+      ],
+      "size": [
+        41,
+        53
+      ],
+      "area": 736,
+      "label": 96
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-056-81x32.png",
+      "path": "public/sprites/waterfx/waterfx-056-81x32.png",
+      "bbox": [
+        2127,
+        451,
+        2216,
+        491
+      ],
+      "size": [
+        81,
+        32
+      ],
+      "area": 981,
+      "label": 100
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-057-51x36.png",
+      "path": "public/sprites/waterfx/waterfx-057-51x36.png",
+      "bbox": [
+        2285,
+        446,
+        2344,
+        490
+      ],
+      "size": [
+        51,
+        36
+      ],
+      "area": 614,
+      "label": 99
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-058-32x16.png",
+      "path": "public/sprites/waterfx/waterfx-058-32x16.png",
+      "bbox": [
+        73,
+        467,
+        113,
+        491
+      ],
+      "size": [
+        32,
+        16
+      ],
+      "area": 402,
+      "label": 103
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-059-20x20.png",
+      "path": "public/sprites/waterfx/waterfx-059-20x20.png",
+      "bbox": [
+        117,
+        466,
+        145,
+        494
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "area": 310,
+      "label": 102
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-060-528x148.png",
+      "path": "public/sprites/waterfx/waterfx-060-528x148.png",
+      "bbox": [
+        121,
+        469,
+        657,
+        625
+      ],
+      "size": [
+        528,
+        148
+      ],
+      "area": 43080,
+      "label": 105
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-061-22x18.png",
+      "path": "public/sprites/waterfx/waterfx-061-22x18.png",
+      "bbox": [
+        1181,
+        469,
+        1211,
+        495
+      ],
+      "size": [
+        22,
+        18
+      ],
+      "area": 248,
+      "label": 106
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-062-26x22.png",
+      "path": "public/sprites/waterfx/waterfx-062-26x22.png",
+      "bbox": [
+        1361,
+        459,
+        1395,
+        489
+      ],
+      "size": [
+        26,
+        22
+      ],
+      "area": 298,
+      "label": 101
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-063-72x17.png",
+      "path": "public/sprites/waterfx/waterfx-063-72x17.png",
+      "bbox": [
+        2353,
+        472,
+        2433,
+        497
+      ],
+      "size": [
+        72,
+        17
+      ],
+      "area": 767,
+      "label": 107
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-064-27x15.png",
+      "path": "public/sprites/waterfx/waterfx-064-27x15.png",
+      "bbox": [
+        1324,
+        480,
+        1359,
+        503
+      ],
+      "size": [
+        27,
+        15
+      ],
+      "area": 216,
+      "label": 109
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-065-196x36.png",
+      "path": "public/sprites/waterfx/waterfx-065-196x36.png",
+      "bbox": [
+        1463,
+        491,
+        1667,
+        535
+      ],
+      "size": [
+        196,
+        36
+      ],
+      "area": 5880,
+      "label": 110
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-066-160x44.png",
+      "path": "public/sprites/waterfx/waterfx-066-160x44.png",
+      "bbox": [
+        1664,
+        491,
+        1832,
+        543
+      ],
+      "size": [
+        160,
+        44
+      ],
+      "area": 4822,
+      "label": 111
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-067-18x16.png",
+      "path": "public/sprites/waterfx/waterfx-067-18x16.png",
+      "bbox": [
+        201,
+        515,
+        227,
+        539
+      ],
+      "size": [
+        18,
+        16
+      ],
+      "area": 219,
+      "label": 113
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-068-32x29.png",
+      "path": "public/sprites/waterfx/waterfx-068-32x29.png",
+      "bbox": [
+        225,
+        515,
+        265,
+        552
+      ],
+      "size": [
+        32,
+        29
+      ],
+      "area": 536,
+      "label": 114
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-069-20x18.png",
+      "path": "public/sprites/waterfx/waterfx-069-20x18.png",
+      "bbox": [
+        257,
+        519,
+        285,
+        545
+      ],
+      "size": [
+        20,
+        18
+      ],
+      "area": 281,
+      "label": 116
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-070-179x146.png",
+      "path": "public/sprites/waterfx/waterfx-070-179x146.png",
+      "bbox": [
+        1402,
+        519,
+        1589,
+        673
+      ],
+      "size": [
+        179,
+        146
+      ],
+      "area": 7660,
+      "label": 117
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-071-26x18.png",
+      "path": "public/sprites/waterfx/waterfx-071-26x18.png",
+      "bbox": [
+        250,
+        545,
+        284,
+        571
+      ],
+      "size": [
+        26,
+        18
+      ],
+      "area": 354,
+      "label": 120
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-072-20x21.png",
+      "path": "public/sprites/waterfx/waterfx-072-20x21.png",
+      "bbox": [
+        1546,
+        548,
+        1574,
+        577
+      ],
+      "size": [
+        20,
+        21
+      ],
+      "area": 293,
+      "label": 121
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-073-103x41.png",
+      "path": "public/sprites/waterfx/waterfx-073-103x41.png",
+      "bbox": [
+        2040,
+        559,
+        2151,
+        608
+      ],
+      "size": [
+        103,
+        41
+      ],
+      "area": 1293,
+      "label": 127
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-074-60x115.png",
+      "path": "public/sprites/waterfx/waterfx-074-60x115.png",
+      "bbox": [
+        2155,
+        571,
+        2223,
+        694
+      ],
+      "size": [
+        60,
+        115
+      ],
+      "area": 1576,
+      "label": 129
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-075-180x201.png",
+      "path": "public/sprites/waterfx/waterfx-075-180x201.png",
+      "bbox": [
+        887,
+        587,
+        1075,
+        796
+      ],
+      "size": [
+        180,
+        201
+      ],
+      "area": 5626,
+      "label": 135
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-076-224x208.png",
+      "path": "public/sprites/waterfx/waterfx-076-224x208.png",
+      "bbox": [
+        1067,
+        587,
+        1299,
+        803
+      ],
+      "size": [
+        224,
+        208
+      ],
+      "area": 8177,
+      "label": 136
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-077-222x210.png",
+      "path": "public/sprites/waterfx/waterfx-077-222x210.png",
+      "bbox": [
+        1235,
+        589,
+        1465,
+        807
+      ],
+      "size": [
+        222,
+        210
+      ],
+      "area": 9046,
+      "label": 137
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-078-240x207.png",
+      "path": "public/sprites/waterfx/waterfx-078-240x207.png",
+      "bbox": [
+        1519,
+        586,
+        1767,
+        801
+      ],
+      "size": [
+        240,
+        207
+      ],
+      "area": 9287,
+      "label": 134
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-079-21x19.png",
+      "path": "public/sprites/waterfx/waterfx-079-21x19.png",
+      "bbox": [
+        1563,
+        579,
+        1592,
+        606
+      ],
+      "size": [
+        21,
+        19
+      ],
+      "area": 263,
+      "label": 131
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-080-219x204.png",
+      "path": "public/sprites/waterfx/waterfx-080-219x204.png",
+      "bbox": [
+        1727,
+        585,
+        1954,
+        797
+      ],
+      "size": [
+        219,
+        204
+      ],
+      "area": 8613,
+      "label": 133
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-081-164x140.png",
+      "path": "public/sprites/waterfx/waterfx-081-164x140.png",
+      "bbox": [
+        2034,
+        580,
+        2206,
+        728
+      ],
+      "size": [
+        164,
+        140
+      ],
+      "area": 7186,
+      "label": 132
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-082-151x119.png",
+      "path": "public/sprites/waterfx/waterfx-082-151x119.png",
+      "bbox": [
+        2292,
+        578,
+        2451,
+        705
+      ],
+      "size": [
+        151,
+        119
+      ],
+      "area": 3742,
+      "label": 130
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-083-57x84.png",
+      "path": "public/sprites/waterfx/waterfx-083-57x84.png",
+      "bbox": [
+        2314,
+        595,
+        2379,
+        687
+      ],
+      "size": [
+        57,
+        84
+      ],
+      "area": 939,
+      "label": 138
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-084-28x19.png",
+      "path": "public/sprites/waterfx/waterfx-084-28x19.png",
+      "bbox": [
+        84,
+        598,
+        120,
+        625
+      ],
+      "size": [
+        28,
+        19
+      ],
+      "area": 389,
+      "label": 139
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-085-19x31.png",
+      "path": "public/sprites/waterfx/waterfx-085-19x31.png",
+      "bbox": [
+        2022,
+        600,
+        2049,
+        639
+      ],
+      "size": [
+        19,
+        31
+      ],
+      "area": 295,
+      "label": 140
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-086-97x86.png",
+      "path": "public/sprites/waterfx/waterfx-086-97x86.png",
+      "bbox": [
+        2067,
+        607,
+        2172,
+        701
+      ],
+      "size": [
+        97,
+        86
+      ],
+      "area": 2503,
+      "label": 143
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-087-142x113.png",
+      "path": "public/sprites/waterfx/waterfx-087-142x113.png",
+      "bbox": [
+        2322,
+        606,
+        2472,
+        727
+      ],
+      "size": [
+        142,
+        113
+      ],
+      "area": 3656,
+      "label": 142
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-088-18x25.png",
+      "path": "public/sprites/waterfx/waterfx-088-18x25.png",
+      "bbox": [
+        1434,
+        623,
+        1460,
+        656
+      ],
+      "size": [
+        18,
+        25
+      ],
+      "area": 301,
+      "label": 146
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-089-18x23.png",
+      "path": "public/sprites/waterfx/waterfx-089-18x23.png",
+      "bbox": [
+        1581,
+        622,
+        1607,
+        653
+      ],
+      "size": [
+        18,
+        23
+      ],
+      "area": 247,
+      "label": 145
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-090-20x18.png",
+      "path": "public/sprites/waterfx/waterfx-090-20x18.png",
+      "bbox": [
+        99,
+        655,
+        127,
+        681
+      ],
+      "size": [
+        20,
+        18
+      ],
+      "area": 277,
+      "label": 151
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-091-36x42.png",
+      "path": "public/sprites/waterfx/waterfx-091-36x42.png",
+      "bbox": [
+        171,
+        649,
+        215,
+        699
+      ],
+      "size": [
+        36,
+        42
+      ],
+      "area": 829,
+      "label": 149
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-092-286x133.png",
+      "path": "public/sprites/waterfx/waterfx-092-286x133.png",
+      "bbox": [
+        185,
+        651,
+        479,
+        792
+      ],
+      "size": [
+        286,
+        133
+      ],
+      "area": 26111,
+      "label": 150
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-093-18x18.png",
+      "path": "public/sprites/waterfx/waterfx-093-18x18.png",
+      "bbox": [
+        357,
+        648,
+        383,
+        674
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "area": 260,
+      "label": 148
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-094-84x96.png",
+      "path": "public/sprites/waterfx/waterfx-094-84x96.png",
+      "bbox": [
+        2017,
+        641,
+        2109,
+        745
+      ],
+      "size": [
+        84,
+        96
+      ],
+      "area": 1563,
+      "label": 147
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-095-23x24.png",
+      "path": "public/sprites/waterfx/waterfx-095-23x24.png",
+      "bbox": [
+        136,
+        665,
+        167,
+        697
+      ],
+      "size": [
+        23,
+        24
+      ],
+      "area": 414,
+      "label": 152
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-096-16x16.png",
+      "path": "public/sprites/waterfx/waterfx-096-16x16.png",
+      "bbox": [
+        85,
+        687,
+        109,
+        711
+      ],
+      "size": [
+        16,
+        16
+      ],
+      "area": 207,
+      "label": 154
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-097-16x16.png",
+      "path": "public/sprites/waterfx/waterfx-097-16x16.png",
+      "bbox": [
+        1431,
+        693,
+        1455,
+        717
+      ],
+      "size": [
+        16,
+        16
+      ],
+      "area": 204,
+      "label": 155
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-098-38x19.png",
+      "path": "public/sprites/waterfx/waterfx-098-38x19.png",
+      "bbox": [
+        2334,
+        681,
+        2380,
+        708
+      ],
+      "size": [
+        38,
+        19
+      ],
+      "area": 271,
+      "label": 153
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-099-17x18.png",
+      "path": "public/sprites/waterfx/waterfx-099-17x18.png",
+      "bbox": [
+        162,
+        701,
+        187,
+        727
+      ],
+      "size": [
+        17,
+        18
+      ],
+      "area": 250,
+      "label": 157
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-100-16x18.png",
+      "path": "public/sprites/waterfx/waterfx-100-16x18.png",
+      "bbox": [
+        1559,
+        715,
+        1583,
+        741
+      ],
+      "size": [
+        16,
+        18
+      ],
+      "area": 215,
+      "label": 161
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-101-74x37.png",
+      "path": "public/sprites/waterfx/waterfx-101-74x37.png",
+      "bbox": [
+        2116,
+        702,
+        2198,
+        747
+      ],
+      "size": [
+        74,
+        37
+      ],
+      "area": 941,
+      "label": 158
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-102-17x18.png",
+      "path": "public/sprites/waterfx/waterfx-102-17x18.png",
+      "bbox": [
+        1256,
+        729,
+        1281,
+        755
+      ],
+      "size": [
+        17,
+        18
+      ],
+      "area": 221,
+      "label": 165
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-103-15x18.png",
+      "path": "public/sprites/waterfx/waterfx-103-15x18.png",
+      "bbox": [
+        1416,
+        716,
+        1439,
+        742
+      ],
+      "size": [
+        15,
+        18
+      ],
+      "area": 205,
+      "label": 162
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-104-23x24.png",
+      "path": "public/sprites/waterfx/waterfx-104-23x24.png",
+      "bbox": [
+        136,
+        745,
+        167,
+        777
+      ],
+      "size": [
+        23,
+        24
+      ],
+      "area": 415,
+      "label": 169
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-105-36x40.png",
+      "path": "public/sprites/waterfx/waterfx-105-36x40.png",
+      "bbox": [
+        171,
+        743,
+        215,
+        791
+      ],
+      "size": [
+        36,
+        40
+      ],
+      "area": 807,
+      "label": 168
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-106-19x18.png",
+      "path": "public/sprites/waterfx/waterfx-106-19x18.png",
+      "bbox": [
+        100,
+        759,
+        127,
+        785
+      ],
+      "size": [
+        19,
+        18
+      ],
+      "area": 269,
+      "label": 171
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-107-35x34.png",
+      "path": "public/sprites/waterfx/waterfx-107-35x34.png",
+      "bbox": [
+        1067,
+        757,
+        1110,
+        799
+      ],
+      "size": [
+        35,
+        34
+      ],
+      "area": 483,
+      "label": 170
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-108-14x19.png",
+      "path": "public/sprites/waterfx/waterfx-108-14x19.png",
+      "bbox": [
+        1654,
+        759,
+        1676,
+        786
+      ],
+      "size": [
+        14,
+        19
+      ],
+      "area": 200,
+      "label": 172
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-109-31x9.png",
+      "path": "public/sprites/waterfx/waterfx-109-31x9.png",
+      "bbox": [
+        1039,
+        787,
+        1078,
+        804
+      ],
+      "size": [
+        31,
+        9
+      ],
+      "area": 242,
+      "label": 174
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-110-42x12.png",
+      "path": "public/sprites/waterfx/waterfx-110-42x12.png",
+      "bbox": [
+        1214,
+        788,
+        1264,
+        808
+      ],
+      "size": [
+        42,
+        12
+      ],
+      "area": 440,
+      "label": 175
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-111-59x58.png",
+      "path": "public/sprites/waterfx/waterfx-111-59x58.png",
+      "bbox": [
+        598,
+        860,
+        665,
+        926
+      ],
+      "size": [
+        59,
+        58
+      ],
+      "area": 2448,
+      "label": 176
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-112-237x65.png",
+      "path": "public/sprites/waterfx/waterfx-112-237x65.png",
+      "bbox": [
+        670,
+        860,
+        915,
+        933
+      ],
+      "size": [
+        237,
+        65
+      ],
+      "area": 10543,
+      "label": 177
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-113-201x71.png",
+      "path": "public/sprites/waterfx/waterfx-113-201x71.png",
+      "bbox": [
+        920,
+        860,
+        1129,
+        939
+      ],
+      "size": [
+        201,
+        71
+      ],
+      "area": 9216,
+      "label": 178
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-114-113x71.png",
+      "path": "public/sprites/waterfx/waterfx-114-113x71.png",
+      "bbox": [
+        1135,
+        860,
+        1256,
+        939
+      ],
+      "size": [
+        113,
+        71
+      ],
+      "area": 5812,
+      "label": 179
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-115-191x71.png",
+      "path": "public/sprites/waterfx/waterfx-115-191x71.png",
+      "bbox": [
+        1261,
+        860,
+        1460,
+        939
+      ],
+      "size": [
+        191,
+        71
+      ],
+      "area": 8264,
+      "label": 180
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-116-48x58.png",
+      "path": "public/sprites/waterfx/waterfx-116-48x58.png",
+      "bbox": [
+        1465,
+        860,
+        1521,
+        926
+      ],
+      "size": [
+        48,
+        58
+      ],
+      "area": 2232,
+      "label": 181
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-117-174x58.png",
+      "path": "public/sprites/waterfx/waterfx-117-174x58.png",
+      "bbox": [
+        1526,
+        860,
+        1708,
+        926
+      ],
+      "size": [
+        174,
+        58
+      ],
+      "area": 8105,
+      "label": 182
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-118-231x71.png",
+      "path": "public/sprites/waterfx/waterfx-118-231x71.png",
+      "bbox": [
+        1712,
+        860,
+        1951,
+        939
+      ],
+      "size": [
+        231,
+        71
+      ],
+      "area": 11480,
+      "label": 183
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-119-104x36.png",
+      "path": "public/sprites/waterfx/waterfx-119-104x36.png",
+      "bbox": [
+        167,
+        943,
+        279,
+        987
+      ],
+      "size": [
+        104,
+        36
+      ],
+      "area": 3110,
+      "label": 184
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-120-145x36.png",
+      "path": "public/sprites/waterfx/waterfx-120-145x36.png",
+      "bbox": [
+        277,
+        943,
+        430,
+        987
+      ],
+      "size": [
+        145,
+        36
+      ],
+      "area": 4126,
+      "label": 185
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-121-140x44.png",
+      "path": "public/sprites/waterfx/waterfx-121-140x44.png",
+      "bbox": [
+        750,
+        943,
+        898,
+        995
+      ],
+      "size": [
+        140,
+        44
+      ],
+      "area": 4237,
+      "label": 186
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-122-103x36.png",
+      "path": "public/sprites/waterfx/waterfx-122-103x36.png",
+      "bbox": [
+        895,
+        943,
+        1006,
+        987
+      ],
+      "size": [
+        103,
+        36
+      ],
+      "area": 2947,
+      "label": 187
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-123-103x36.png",
+      "path": "public/sprites/waterfx/waterfx-123-103x36.png",
+      "bbox": [
+        1224,
+        943,
+        1335,
+        987
+      ],
+      "size": [
+        103,
+        36
+      ],
+      "area": 3095,
+      "label": 188
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-124-257x36.png",
+      "path": "public/sprites/waterfx/waterfx-124-257x36.png",
+      "bbox": [
+        1332,
+        943,
+        1597,
+        987
+      ],
+      "size": [
+        257,
+        36
+      ],
+      "area": 7365,
+      "label": 189
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-125-112x36.png",
+      "path": "public/sprites/waterfx/waterfx-125-112x36.png",
+      "bbox": [
+        1724,
+        943,
+        1844,
+        987
+      ],
+      "size": [
+        112,
+        36
+      ],
+      "area": 3232,
+      "label": 190
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-126-173x44.png",
+      "path": "public/sprites/waterfx/waterfx-126-173x44.png",
+      "bbox": [
+        1842,
+        943,
+        2023,
+        995
+      ],
+      "size": [
+        173,
+        44
+      ],
+      "area": 5028,
+      "label": 191
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-127-182x44.png",
+      "path": "public/sprites/waterfx/waterfx-127-182x44.png",
+      "bbox": [
+        2109,
+        943,
+        2299,
+        995
+      ],
+      "size": [
+        182,
+        44
+      ],
+      "area": 5604,
+      "label": 192
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-128-29x36.png",
+      "path": "public/sprites/waterfx/waterfx-128-29x36.png",
+      "bbox": [
+        2297,
+        943,
+        2334,
+        987
+      ],
+      "size": [
+        29,
+        36
+      ],
+      "area": 879,
+      "label": 193
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-129-147x36.png",
+      "path": "public/sprites/waterfx/waterfx-129-147x36.png",
+      "bbox": [
+        2332,
+        943,
+        2487,
+        987
+      ],
+      "size": [
+        147,
+        36
+      ],
+      "area": 4205,
+      "label": 194
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-130-226x202.png",
+      "path": "public/sprites/waterfx/waterfx-130-226x202.png",
+      "bbox": [
+        633,
+        995,
+        867,
+        1205
+      ],
+      "size": [
+        226,
+        202
+      ],
+      "area": 33146,
+      "label": 195
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-131-226x202.png",
+      "path": "public/sprites/waterfx/waterfx-131-226x202.png",
+      "bbox": [
+        880,
+        995,
+        1114,
+        1205
+      ],
+      "size": [
+        226,
+        202
+      ],
+      "area": 33043,
+      "label": 196
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-132-410x102.png",
+      "path": "public/sprites/waterfx/waterfx-132-410x102.png",
+      "bbox": [
+        34,
+        996,
+        452,
+        1106
+      ],
+      "size": [
+        410,
+        102
+      ],
+      "area": 27742,
+      "label": 197
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-133-81x243.png",
+      "path": "public/sprites/waterfx/waterfx-133-81x243.png",
+      "bbox": [
+        466,
+        996,
+        555,
+        1247
+      ],
+      "size": [
+        81,
+        243
+      ],
+      "area": 12281,
+      "label": 198
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-134-422x225.png",
+      "path": "public/sprites/waterfx/waterfx-134-422x225.png",
+      "bbox": [
+        1195,
+        996,
+        1625,
+        1229
+      ],
+      "size": [
+        422,
+        225
+      ],
+      "area": 45532,
+      "label": 199
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-135-166x103.png",
+      "path": "public/sprites/waterfx/waterfx-135-166x103.png",
+      "bbox": [
+        2129,
+        1002,
+        2303,
+        1113
+      ],
+      "size": [
+        166,
+        103
+      ],
+      "area": 12193,
+      "label": 200
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-136-166x103.png",
+      "path": "public/sprites/waterfx/waterfx-136-166x103.png",
+      "bbox": [
+        2309,
+        1002,
+        2483,
+        1113
+      ],
+      "size": [
+        166,
+        103
+      ],
+      "area": 12218,
+      "label": 201
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-137-281x133.png",
+      "path": "public/sprites/waterfx/waterfx-137-281x133.png",
+      "bbox": [
+        1739,
+        1018,
+        2028,
+        1159
+      ],
+      "size": [
+        281,
+        133
+      ],
+      "area": 30219,
+      "label": 202
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-138-275x120.png",
+      "path": "public/sprites/waterfx/waterfx-138-275x120.png",
+      "bbox": [
+        36,
+        1119,
+        319,
+        1247
+      ],
+      "size": [
+        275,
+        120
+      ],
+      "area": 21501,
+      "label": 203
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-139-86x118.png",
+      "path": "public/sprites/waterfx/waterfx-139-86x118.png",
+      "bbox": [
+        351,
+        1120,
+        445,
+        1246
+      ],
+      "size": [
+        86,
+        118
+      ],
+      "area": 3669,
+      "label": 205
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-140-166x102.png",
+      "path": "public/sprites/waterfx/waterfx-140-166x102.png",
+      "bbox": [
+        2309,
+        1119,
+        2483,
+        1229
+      ],
+      "size": [
+        166,
+        102
+      ],
+      "area": 12195,
+      "label": 204
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-141-63x80.png",
+      "path": "public/sprites/waterfx/waterfx-141-63x80.png",
+      "bbox": [
+        2132,
+        1139,
+        2203,
+        1227
+      ],
+      "size": [
+        63,
+        80
+      ],
+      "area": 3352,
+      "label": 206
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-142-62x80.png",
+      "path": "public/sprites/waterfx/waterfx-142-62x80.png",
+      "bbox": [
+        2221,
+        1139,
+        2291,
+        1227
+      ],
+      "size": [
+        62,
+        80
+      ],
+      "area": 3330,
+      "label": 207
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-143-64x168.png",
+      "path": "public/sprites/waterfx/waterfx-143-64x168.png",
+      "bbox": [
+        1952,
+        1177,
+        2024,
+        1353
+      ],
+      "size": [
+        64,
+        168
+      ],
+      "area": 3784,
+      "label": 208
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-144-63x168.png",
+      "path": "public/sprites/waterfx/waterfx-144-63x168.png",
+      "bbox": [
+        2014,
+        1177,
+        2085,
+        1353
+      ],
+      "size": [
+        63,
+        168
+      ],
+      "area": 3760,
+      "label": 209
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-145-225x202.png",
+      "path": "public/sprites/waterfx/waterfx-145-225x202.png",
+      "bbox": [
+        633,
+        1207,
+        866,
+        1417
+      ],
+      "size": [
+        225,
+        202
+      ],
+      "area": 32943,
+      "label": 211
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-146-226x202.png",
+      "path": "public/sprites/waterfx/waterfx-146-226x202.png",
+      "bbox": [
+        880,
+        1207,
+        1114,
+        1417
+      ],
+      "size": [
+        226,
+        202
+      ],
+      "area": 32877,
+      "label": 212
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-147-225x140.png",
+      "path": "public/sprites/waterfx/waterfx-147-225x140.png",
+      "bbox": [
+        1715,
+        1203,
+        1948,
+        1351
+      ],
+      "size": [
+        225,
+        140
+      ],
+      "area": 20725,
+      "label": 210
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-148-192x195.png",
+      "path": "public/sprites/waterfx/waterfx-148-192x195.png",
+      "bbox": [
+        1201,
+        1234,
+        1401,
+        1437
+      ],
+      "size": [
+        192,
+        195
+      ],
+      "area": 17057,
+      "label": 213
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-149-192x195.png",
+      "path": "public/sprites/waterfx/waterfx-149-192x195.png",
+      "bbox": [
+        1419,
+        1234,
+        1619,
+        1437
+      ],
+      "size": [
+        192,
+        195
+      ],
+      "area": 17113,
+      "label": 214
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-150-36x88.png",
+      "path": "public/sprites/waterfx/waterfx-150-36x88.png",
+      "bbox": [
+        298,
+        1255,
+        342,
+        1351
+      ],
+      "size": [
+        36,
+        88
+      ],
+      "area": 1526,
+      "label": 216
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-151-121x182.png",
+      "path": "public/sprites/waterfx/waterfx-151-121x182.png",
+      "bbox": [
+        2130,
+        1247,
+        2259,
+        1437
+      ],
+      "size": [
+        121,
+        182
+      ],
+      "area": 10041,
+      "label": 215
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-152-231x86.png",
+      "path": "public/sprites/waterfx/waterfx-152-231x86.png",
+      "bbox": [
+        36,
+        1259,
+        275,
+        1353
+      ],
+      "size": [
+        231,
+        86
+      ],
+      "area": 10995,
+      "label": 217
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-153-179x77.png",
+      "path": "public/sprites/waterfx/waterfx-153-179x77.png",
+      "bbox": [
+        365,
+        1262,
+        552,
+        1347
+      ],
+      "size": [
+        179,
+        77
+      ],
+      "area": 12932,
+      "label": 219
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-154-83x68.png",
+      "path": "public/sprites/waterfx/waterfx-154-83x68.png",
+      "bbox": [
+        2277,
+        1259,
+        2368,
+        1335
+      ],
+      "size": [
+        83,
+        68
+      ],
+      "area": 3930,
+      "label": 218
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-155-45x44.png",
+      "path": "public/sprites/waterfx/waterfx-155-45x44.png",
+      "bbox": [
+        2407,
+        1267,
+        2460,
+        1319
+      ],
+      "size": [
+        45,
+        44
+      ],
+      "area": 1632,
+      "label": 220
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-156-77x85.png",
+      "path": "public/sprites/waterfx/waterfx-156-77x85.png",
+      "bbox": [
+        2396,
+        1346,
+        2481,
+        1439
+      ],
+      "size": [
+        77,
+        85
+      ],
+      "area": 5701,
+      "label": 221
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-157-302x67.png",
+      "path": "public/sprites/waterfx/waterfx-157-302x67.png",
+      "bbox": [
+        36,
+        1368,
+        346,
+        1443
+      ],
+      "size": [
+        302,
+        67
+      ],
+      "area": 8316,
+      "label": 222
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-158-89x251.png",
+      "path": "public/sprites/waterfx/waterfx-158-89x251.png",
+      "bbox": [
+        1693,
+        1369,
+        1790,
+        1628
+      ],
+      "size": [
+        89,
+        251
+      ],
+      "area": 7299,
+      "label": 223
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-159-61x61.png",
+      "path": "public/sprites/waterfx/waterfx-159-61x61.png",
+      "bbox": [
+        2235,
+        1369,
+        2304,
+        1438
+      ],
+      "size": [
+        61,
+        61
+      ],
+      "area": 2967,
+      "label": 224
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-160-60x61.png",
+      "path": "public/sprites/waterfx/waterfx-160-60x61.png",
+      "bbox": [
+        2314,
+        1369,
+        2382,
+        1438
+      ],
+      "size": [
+        60,
+        61
+      ],
+      "area": 2950,
+      "label": 225
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-161-81x242.png",
+      "path": "public/sprites/waterfx/waterfx-161-81x242.png",
+      "bbox": [
+        361,
+        1379,
+        450,
+        1629
+      ],
+      "size": [
+        81,
+        242
+      ],
+      "area": 12411,
+      "label": 226
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-162-81x242.png",
+      "path": "public/sprites/waterfx/waterfx-162-81x242.png",
+      "bbox": [
+        466,
+        1379,
+        555,
+        1629
+      ],
+      "size": [
+        81,
+        242
+      ],
+      "area": 12272,
+      "label": 227
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-163-300x223.png",
+      "path": "public/sprites/waterfx/waterfx-163-300x223.png",
+      "bbox": [
+        1761,
+        1398,
+        2069,
+        1629
+      ],
+      "size": [
+        300,
+        223
+      ],
+      "area": 30624,
+      "label": 228
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-164-226x202.png",
+      "path": "public/sprites/waterfx/waterfx-164-226x202.png",
+      "bbox": [
+        633,
+        1419,
+        867,
+        1629
+      ],
+      "size": [
+        226,
+        202
+      ],
+      "area": 32985,
+      "label": 229
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-165-227x202.png",
+      "path": "public/sprites/waterfx/waterfx-165-227x202.png",
+      "bbox": [
+        879,
+        1419,
+        1114,
+        1629
+      ],
+      "size": [
+        227,
+        202
+      ],
+      "area": 32955,
+      "label": 230
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-166-302x70.png",
+      "path": "public/sprites/waterfx/waterfx-166-302x70.png",
+      "bbox": [
+        36,
+        1445,
+        346,
+        1523
+      ],
+      "size": [
+        302,
+        70
+      ],
+      "area": 7926,
+      "label": 234
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-167-192x194.png",
+      "path": "public/sprites/waterfx/waterfx-167-192x194.png",
+      "bbox": [
+        1201,
+        1437,
+        1401,
+        1639
+      ],
+      "size": [
+        192,
+        194
+      ],
+      "area": 16832,
+      "label": 231
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-168-192x194.png",
+      "path": "public/sprites/waterfx/waterfx-168-192x194.png",
+      "bbox": [
+        1419,
+        1437,
+        1619,
+        1639
+      ],
+      "size": [
+        192,
+        194
+      ],
+      "area": 16839,
+      "label": 232
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-169-61x61.png",
+      "path": "public/sprites/waterfx/waterfx-169-61x61.png",
+      "bbox": [
+        2235,
+        1450,
+        2304,
+        1519
+      ],
+      "size": [
+        61,
+        61
+      ],
+      "area": 2970,
+      "label": 236
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-170-61x61.png",
+      "path": "public/sprites/waterfx/waterfx-170-61x61.png",
+      "bbox": [
+        2313,
+        1450,
+        2382,
+        1519
+      ],
+      "size": [
+        61,
+        61
+      ],
+      "area": 2982,
+      "label": 237
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-171-23x73.png",
+      "path": "public/sprites/waterfx/waterfx-171-23x73.png",
+      "bbox": [
+        2396,
+        1446,
+        2427,
+        1527
+      ],
+      "size": [
+        23,
+        73
+      ],
+      "area": 1222,
+      "label": 235
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-172-34x78.png",
+      "path": "public/sprites/waterfx/waterfx-172-34x78.png",
+      "bbox": [
+        2441,
+        1441,
+        2483,
+        1527
+      ],
+      "size": [
+        34,
+        78
+      ],
+      "area": 2141,
+      "label": 233
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-173-92x128.png",
+      "path": "public/sprites/waterfx/waterfx-173-92x128.png",
+      "bbox": [
+        2126,
+        1493,
+        2226,
+        1629
+      ],
+      "size": [
+        92,
+        128
+      ],
+      "area": 10641,
+      "label": 238
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-174-302x72.png",
+      "path": "public/sprites/waterfx/waterfx-174-302x72.png",
+      "bbox": [
+        36,
+        1525,
+        346,
+        1605
+      ],
+      "size": [
+        302,
+        72
+      ],
+      "area": 8138,
+      "label": 239
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-175-48x70.png",
+      "path": "public/sprites/waterfx/waterfx-175-48x70.png",
+      "bbox": [
+        2219,
+        1543,
+        2275,
+        1621
+      ],
+      "size": [
+        48,
+        70
+      ],
+      "area": 3240,
+      "label": 240
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-176-56x75.png",
+      "path": "public/sprites/waterfx/waterfx-176-56x75.png",
+      "bbox": [
+        2283,
+        1546,
+        2347,
+        1629
+      ],
+      "size": [
+        56,
+        75
+      ],
+      "area": 2873,
+      "label": 241
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-177-57x75.png",
+      "path": "public/sprites/waterfx/waterfx-177-57x75.png",
+      "bbox": [
+        2355,
+        1546,
+        2420,
+        1629
+      ],
+      "size": [
+        57,
+        75
+      ],
+      "area": 2915,
+      "label": 242
+    },
+    {
+      "file": "/sprites/waterfx/waterfx-178-56x75.png",
+      "path": "public/sprites/waterfx/waterfx-178-56x75.png",
+      "bbox": [
+        2429,
+        1546,
+        2493,
+        1629
+      ],
+      "size": [
+        56,
+        75
+      ],
+      "area": 2898,
+      "label": 243
+    }
+  ],
+  "props": [
+    {
+      "file": "/sprites/props/props-000-29x28.png",
+      "path": "public/sprites/props/props-000-29x28.png",
+      "bbox": [
+        2353,
+        103,
+        2390,
+        139
+      ],
+      "size": [
+        29,
+        28
+      ],
+      "area": 655,
+      "label": 12
+    },
+    {
+      "file": "/sprites/props/props-001-361x70.png",
+      "path": "public/sprites/props/props-001-361x70.png",
+      "bbox": [
+        69,
+        129,
+        438,
+        207
+      ],
+      "size": [
+        361,
+        70
+      ],
+      "area": 13165,
+      "label": 15
+    },
+    {
+      "file": "/sprites/props/props-002-27x27.png",
+      "path": "public/sprites/props/props-002-27x27.png",
+      "bbox": [
+        2101,
+        126,
+        2136,
+        161
+      ],
+      "size": [
+        27,
+        27
+      ],
+      "area": 597,
+      "label": 14
+    },
+    {
+      "file": "/sprites/props/props-003-19x19.png",
+      "path": "public/sprites/props/props-003-19x19.png",
+      "bbox": [
+        2561,
+        130,
+        2588,
+        157
+      ],
+      "size": [
+        19,
+        19
+      ],
+      "area": 300,
+      "label": 18
+    },
+    {
+      "file": "/sprites/props/props-004-156x91.png",
+      "path": "public/sprites/props/props-004-156x91.png",
+      "bbox": [
+        1576,
+        139,
+        1740,
+        238
+      ],
+      "size": [
+        156,
+        91
+      ],
+      "area": 8449,
+      "label": 19
+    },
+    {
+      "file": "/sprites/props/props-005-122x71.png",
+      "path": "public/sprites/props/props-005-122x71.png",
+      "bbox": [
+        2072,
+        150,
+        2202,
+        229
+      ],
+      "size": [
+        122,
+        71
+      ],
+      "area": 3926,
+      "label": 22
+    },
+    {
+      "file": "/sprites/props/props-006-161x65.png",
+      "path": "public/sprites/props/props-006-161x65.png",
+      "bbox": [
+        2275,
+        151,
+        2444,
+        224
+      ],
+      "size": [
+        161,
+        65
+      ],
+      "area": 2285,
+      "label": 23
+    },
+    {
+      "file": "/sprites/props/props-007-39x16.png",
+      "path": "public/sprites/props/props-007-39x16.png",
+      "bbox": [
+        2522,
+        151,
+        2569,
+        175
+      ],
+      "size": [
+        39,
+        16
+      ],
+      "area": 338,
+      "label": 24
+    },
+    {
+      "file": "/sprites/props/props-008-70x28.png",
+      "path": "public/sprites/props/props-008-70x28.png",
+      "bbox": [
+        2581,
+        151,
+        2659,
+        187
+      ],
+      "size": [
+        70,
+        28
+      ],
+      "area": 732,
+      "label": 25
+    },
+    {
+      "file": "/sprites/props/props-009-52x49.png",
+      "path": "public/sprites/props/props-009-52x49.png",
+      "bbox": [
+        1079,
+        168,
+        1139,
+        225
+      ],
+      "size": [
+        52,
+        49
+      ],
+      "area": 1240,
+      "label": 39
+    },
+    {
+      "file": "/sprites/props/props-010-85x55.png",
+      "path": "public/sprites/props/props-010-85x55.png",
+      "bbox": [
+        1207,
+        166,
+        1300,
+        229
+      ],
+      "size": [
+        85,
+        55
+      ],
+      "area": 3325,
+      "label": 36
+    },
+    {
+      "file": "/sprites/props/props-011-103x68.png",
+      "path": "public/sprites/props/props-011-103x68.png",
+      "bbox": [
+        1387,
+        159,
+        1498,
+        235
+      ],
+      "size": [
+        103,
+        68
+      ],
+      "area": 4205,
+      "label": 29
+    },
+    {
+      "file": "/sprites/props/props-012-103x55.png",
+      "path": "public/sprites/props/props-012-103x55.png",
+      "bbox": [
+        1865,
+        164,
+        1976,
+        227
+      ],
+      "size": [
+        103,
+        55
+      ],
+      "area": 3299,
+      "label": 33
+    },
+    {
+      "file": "/sprites/props/props-013-52x56.png",
+      "path": "public/sprites/props/props-013-52x56.png",
+      "bbox": [
+        2041,
+        163,
+        2101,
+        227
+      ],
+      "size": [
+        52,
+        56
+      ],
+      "area": 797,
+      "label": 32
+    },
+    {
+      "file": "/sprites/props/props-014-50x59.png",
+      "path": "public/sprites/props/props-014-50x59.png",
+      "bbox": [
+        2176,
+        164,
+        2234,
+        231
+      ],
+      "size": [
+        50,
+        59
+      ],
+      "area": 853,
+      "label": 34
+    },
+    {
+      "file": "/sprites/props/props-015-116x62.png",
+      "path": "public/sprites/props/props-015-116x62.png",
+      "bbox": [
+        2302,
+        166,
+        2426,
+        236
+      ],
+      "size": [
+        116,
+        62
+      ],
+      "area": 3701,
+      "label": 37
+    },
+    {
+      "file": "/sprites/props/props-016-33x47.png",
+      "path": "public/sprites/props/props-016-33x47.png",
+      "bbox": [
+        2481,
+        166,
+        2522,
+        221
+      ],
+      "size": [
+        33,
+        47
+      ],
+      "area": 564,
+      "label": 38
+    },
+    {
+      "file": "/sprites/props/props-017-132x65.png",
+      "path": "public/sprites/props/props-017-132x65.png",
+      "bbox": [
+        2509,
+        165,
+        2649,
+        238
+      ],
+      "size": [
+        132,
+        65
+      ],
+      "area": 4647,
+      "label": 35
+    },
+    {
+      "file": "/sprites/props/props-018-39x43.png",
+      "path": "public/sprites/props/props-018-39x43.png",
+      "bbox": [
+        1840,
+        182,
+        1887,
+        233
+      ],
+      "size": [
+        39,
+        43
+      ],
+      "area": 581,
+      "label": 42
+    },
+    {
+      "file": "/sprites/props/props-019-17x33.png",
+      "path": "public/sprites/props/props-019-17x33.png",
+      "bbox": [
+        1979,
+        182,
+        2004,
+        223
+      ],
+      "size": [
+        17,
+        33
+      ],
+      "area": 364,
+      "label": 43
+    },
+    {
+      "file": "/sprites/props/props-020-145x48.png",
+      "path": "public/sprites/props/props-020-145x48.png",
+      "bbox": [
+        2298,
+        194,
+        2451,
+        250
+      ],
+      "size": [
+        145,
+        48
+      ],
+      "area": 1838,
+      "label": 45
+    },
+    {
+      "file": "/sprites/props/props-021-30x47.png",
+      "path": "public/sprites/props/props-021-30x47.png",
+      "bbox": [
+        2640,
+        182,
+        2678,
+        237
+      ],
+      "size": [
+        30,
+        47
+      ],
+      "area": 568,
+      "label": 44
+    },
+    {
+      "file": "/sprites/props/props-022-78x20.png",
+      "path": "public/sprites/props/props-022-78x20.png",
+      "bbox": [
+        1897,
+        212,
+        1983,
+        240
+      ],
+      "size": [
+        78,
+        20
+      ],
+      "area": 784,
+      "label": 46
+    },
+    {
+      "file": "/sprites/props/props-023-46x17.png",
+      "path": "public/sprites/props/props-023-46x17.png",
+      "bbox": [
+        2072,
+        220,
+        2126,
+        245
+      ],
+      "size": [
+        46,
+        17
+      ],
+      "area": 447,
+      "label": 48
+    },
+    {
+      "file": "/sprites/props/props-024-44x18.png",
+      "path": "public/sprites/props/props-024-44x18.png",
+      "bbox": [
+        2152,
+        219,
+        2204,
+        245
+      ],
+      "size": [
+        44,
+        18
+      ],
+      "area": 450,
+      "label": 47
+    },
+    {
+      "file": "/sprites/props/props-025-52x24.png",
+      "path": "public/sprites/props/props-025-52x24.png",
+      "bbox": [
+        2500,
+        220,
+        2560,
+        252
+      ],
+      "size": [
+        52,
+        24
+      ],
+      "area": 522,
+      "label": 49
+    },
+    {
+      "file": "/sprites/props/props-026-59x17.png",
+      "path": "public/sprites/props/props-026-59x17.png",
+      "bbox": [
+        2572,
+        228,
+        2639,
+        253
+      ],
+      "size": [
+        59,
+        17
+      ],
+      "area": 588,
+      "label": 50
+    },
+    {
+      "file": "/sprites/props/props-027-497x79.png",
+      "path": "public/sprites/props/props-027-497x79.png",
+      "bbox": [
+        66,
+        236,
+        571,
+        323
+      ],
+      "size": [
+        497,
+        79
+      ],
+      "area": 21622,
+      "label": 51
+    },
+    {
+      "file": "/sprites/props/props-028-135x134.png",
+      "path": "public/sprites/props/props-028-135x134.png",
+      "bbox": [
+        1368,
+        270,
+        1511,
+        412
+      ],
+      "size": [
+        135,
+        134
+      ],
+      "area": 9009,
+      "label": 53
+    },
+    {
+      "file": "/sprites/props/props-029-179x152.png",
+      "path": "public/sprites/props/props-029-179x152.png",
+      "bbox": [
+        1558,
+        258,
+        1745,
+        418
+      ],
+      "size": [
+        179,
+        152
+      ],
+      "area": 16486,
+      "label": 52
+    },
+    {
+      "file": "/sprites/props/props-030-115x117.png",
+      "path": "public/sprites/props/props-030-115x117.png",
+      "bbox": [
+        1199,
+        282,
+        1322,
+        407
+      ],
+      "size": [
+        115,
+        117
+      ],
+      "area": 5371,
+      "label": 57
+    },
+    {
+      "file": "/sprites/props/props-031-230x186.png",
+      "path": "public/sprites/props/props-031-230x186.png",
+      "bbox": [
+        1842,
+        306,
+        2080,
+        500
+      ],
+      "size": [
+        230,
+        186
+      ],
+      "area": 16585,
+      "label": 60
+    },
+    {
+      "file": "/sprites/props/props-032-173x190.png",
+      "path": "public/sprites/props/props-032-173x190.png",
+      "bbox": [
+        2219,
+        312,
+        2400,
+        510
+      ],
+      "size": [
+        173,
+        190
+      ],
+      "area": 10007,
+      "label": 64
+    },
+    {
+      "file": "/sprites/props/props-033-652x87.png",
+      "path": "public/sprites/props/props-033-652x87.png",
+      "bbox": [
+        63,
+        350,
+        723,
+        445
+      ],
+      "size": [
+        652,
+        87
+      ],
+      "area": 30800,
+      "label": 76
+    },
+    {
+      "file": "/sprites/props/props-034-59x48.png",
+      "path": "public/sprites/props/props-034-59x48.png",
+      "bbox": [
+        1073,
+        343,
+        1140,
+        399
+      ],
+      "size": [
+        59,
+        48
+      ],
+      "area": 1555,
+      "label": 73
+    },
+    {
+      "file": "/sprites/props/props-035-24x25.png",
+      "path": "public/sprites/props/props-035-24x25.png",
+      "bbox": [
+        2539,
+        340,
+        2571,
+        373
+      ],
+      "size": [
+        24,
+        25
+      ],
+      "area": 471,
+      "label": 69
+    },
+    {
+      "file": "/sprites/props/props-036-122x39.png",
+      "path": "public/sprites/props/props-036-122x39.png",
+      "bbox": [
+        2451,
+        373,
+        2581,
+        420
+      ],
+      "size": [
+        122,
+        39
+      ],
+      "area": 1801,
+      "label": 79
+    },
+    {
+      "file": "/sprites/props/props-037-146x115.png",
+      "path": "public/sprites/props/props-037-146x115.png",
+      "bbox": [
+        2139,
+        393,
+        2293,
+        516
+      ],
+      "size": [
+        146,
+        115
+      ],
+      "area": 5056,
+      "label": 84
+    },
+    {
+      "file": "/sprites/props/props-038-70x49.png",
+      "path": "public/sprites/props/props-038-70x49.png",
+      "bbox": [
+        2595,
+        385,
+        2673,
+        442
+      ],
+      "size": [
+        70,
+        49
+      ],
+      "area": 946,
+      "label": 82
+    },
+    {
+      "file": "/sprites/props/props-039-111x102.png",
+      "path": "public/sprites/props/props-039-111x102.png",
+      "bbox": [
+        1991,
+        404,
+        2110,
+        514
+      ],
+      "size": [
+        111,
+        102
+      ],
+      "area": 1928,
+      "label": 85
+    },
+    {
+      "file": "/sprites/props/props-040-43x14.png",
+      "path": "public/sprites/props/props-040-43x14.png",
+      "bbox": [
+        2527,
+        406,
+        2578,
+        428
+      ],
+      "size": [
+        43,
+        14
+      ],
+      "area": 427,
+      "label": 86
+    },
+    {
+      "file": "/sprites/props/props-041-38x50.png",
+      "path": "public/sprites/props/props-041-38x50.png",
+      "bbox": [
+        2579,
+        414,
+        2625,
+        472
+      ],
+      "size": [
+        38,
+        50
+      ],
+      "area": 958,
+      "label": 87
+    },
+    {
+      "file": "/sprites/props/props-042-54x40.png",
+      "path": "public/sprites/props/props-042-54x40.png",
+      "bbox": [
+        2263,
+        424,
+        2325,
+        472
+      ],
+      "size": [
+        54,
+        40
+      ],
+      "area": 743,
+      "label": 90
+    },
+    {
+      "file": "/sprites/props/props-043-18x36.png",
+      "path": "public/sprites/props/props-043-18x36.png",
+      "bbox": [
+        2429,
+        424,
+        2455,
+        468
+      ],
+      "size": [
+        18,
+        36
+      ],
+      "area": 381,
+      "label": 91
+    },
+    {
+      "file": "/sprites/props/props-044-76x51.png",
+      "path": "public/sprites/props/props-044-76x51.png",
+      "bbox": [
+        2485,
+        417,
+        2569,
+        476
+      ],
+      "size": [
+        76,
+        51
+      ],
+      "area": 1236,
+      "label": 88
+    },
+    {
+      "file": "/sprites/props/props-045-60x54.png",
+      "path": "public/sprites/props/props-045-60x54.png",
+      "bbox": [
+        1831,
+        441,
+        1899,
+        503
+      ],
+      "size": [
+        60,
+        54
+      ],
+      "area": 870,
+      "label": 93
+    },
+    {
+      "file": "/sprites/props/props-046-30x30.png",
+      "path": "public/sprites/props/props-046-30x30.png",
+      "bbox": [
+        2632,
+        450,
+        2670,
+        488
+      ],
+      "size": [
+        30,
+        30
+      ],
+      "area": 319,
+      "label": 94
+    },
+    {
+      "file": "/sprites/props/props-047-885x118.png",
+      "path": "public/sprites/props/props-047-885x118.png",
+      "bbox": [
+        71,
+        462,
+        964,
+        588
+      ],
+      "size": [
+        885,
+        118
+      ],
+      "area": 53110,
+      "label": 95
+    },
+    {
+      "file": "/sprites/props/props-048-175x36.png",
+      "path": "public/sprites/props/props-048-175x36.png",
+      "bbox": [
+        2453,
+        467,
+        2636,
+        511
+      ],
+      "size": [
+        175,
+        36
+      ],
+      "area": 2343,
+      "label": 97
+    },
+    {
+      "file": "/sprites/props/props-049-153x181.png",
+      "path": "public/sprites/props/props-049-153x181.png",
+      "bbox": [
+        1301,
+        513,
+        1462,
+        702
+      ],
+      "size": [
+        153,
+        181
+      ],
+      "area": 7262,
+      "label": 102
+    },
+    {
+      "file": "/sprites/props/props-050-181x190.png",
+      "path": "public/sprites/props/props-050-181x190.png",
+      "bbox": [
+        1478,
+        513,
+        1667,
+        711
+      ],
+      "size": [
+        181,
+        190
+      ],
+      "area": 13674,
+      "label": 103
+    },
+    {
+      "file": "/sprites/props/props-051-66x13.png",
+      "path": "public/sprites/props/props-051-66x13.png",
+      "bbox": [
+        1916,
+        496,
+        1990,
+        517
+      ],
+      "size": [
+        66,
+        13
+      ],
+      "area": 626,
+      "label": 101
+    },
+    {
+      "file": "/sprites/props/props-052-128x31.png",
+      "path": "public/sprites/props/props-052-128x31.png",
+      "bbox": [
+        2548,
+        576,
+        2684,
+        615
+      ],
+      "size": [
+        128,
+        31
+      ],
+      "area": 1640,
+      "label": 113
+    },
+    {
+      "file": "/sprites/props/props-053-962x120.png",
+      "path": "public/sprites/props/props-053-962x120.png",
+      "bbox": [
+        234,
+        608,
+        1204,
+        736
+      ],
+      "size": [
+        962,
+        120
+      ],
+      "area": 63537,
+      "label": 133
+    },
+    {
+      "file": "/sprites/props/props-054-194x110.png",
+      "path": "public/sprites/props/props-054-194x110.png",
+      "bbox": [
+        2408,
+        607,
+        2610,
+        725
+      ],
+      "size": [
+        194,
+        110
+      ],
+      "area": 7062,
+      "label": 132
+    },
+    {
+      "file": "/sprites/props/props-055-39x24.png",
+      "path": "public/sprites/props/props-055-39x24.png",
+      "bbox": [
+        2520,
+        597,
+        2567,
+        629
+      ],
+      "size": [
+        39,
+        24
+      ],
+      "area": 477,
+      "label": 122
+    },
+    {
+      "file": "/sprites/props/props-056-29x19.png",
+      "path": "public/sprites/props/props-056-29x19.png",
+      "bbox": [
+        2630,
+        612,
+        2667,
+        639
+      ],
+      "size": [
+        29,
+        19
+      ],
+      "area": 310,
+      "label": 139
+    },
+    {
+      "file": "/sprites/props/props-057-39x22.png",
+      "path": "public/sprites/props/props-057-39x22.png",
+      "bbox": [
+        2109,
+        630,
+        2156,
+        660
+      ],
+      "size": [
+        39,
+        22
+      ],
+      "area": 490,
+      "label": 153
+    },
+    {
+      "file": "/sprites/props/props-058-159x92.png",
+      "path": "public/sprites/props/props-058-159x92.png",
+      "bbox": [
+        2196,
+        625,
+        2363,
+        725
+      ],
+      "size": [
+        159,
+        92
+      ],
+      "area": 6908,
+      "label": 150
+    },
+    {
+      "file": "/sprites/props/props-059-169x37.png",
+      "path": "public/sprites/props/props-059-169x37.png",
+      "bbox": [
+        76,
+        650,
+        253,
+        695
+      ],
+      "size": [
+        169,
+        37
+      ],
+      "area": 2972,
+      "label": 167
+    },
+    {
+      "file": "/sprites/props/props-060-309x73.png",
+      "path": "public/sprites/props/props-060-309x73.png",
+      "bbox": [
+        1828,
+        644,
+        2145,
+        725
+      ],
+      "size": [
+        309,
+        73
+      ],
+      "area": 13288,
+      "label": 163
+    },
+    {
+      "file": "/sprites/props/props-061-42x20.png",
+      "path": "public/sprites/props/props-061-42x20.png",
+      "bbox": [
+        2045,
+        643,
+        2095,
+        671
+      ],
+      "size": [
+        42,
+        20
+      ],
+      "area": 420,
+      "label": 161
+    },
+    {
+      "file": "/sprites/props/props-062-42x15.png",
+      "path": "public/sprites/props/props-062-42x15.png",
+      "bbox": [
+        2075,
+        655,
+        2125,
+        678
+      ],
+      "size": [
+        42,
+        15
+      ],
+      "area": 400,
+      "label": 169
+    },
+    {
+      "file": "/sprites/props/props-063-35x13.png",
+      "path": "public/sprites/props/props-063-35x13.png",
+      "bbox": [
+        2558,
+        666,
+        2601,
+        687
+      ],
+      "size": [
+        35,
+        13
+      ],
+      "area": 330,
+      "label": 175
+    },
+    {
+      "file": "/sprites/props/props-064-32x13.png",
+      "path": "public/sprites/props/props-064-32x13.png",
+      "bbox": [
+        714,
+        705,
+        754,
+        726
+      ],
+      "size": [
+        32,
+        13
+      ],
+      "area": 336,
+      "label": 188
+    },
+    {
+      "file": "/sprites/props/props-065-64x62.png",
+      "path": "public/sprites/props/props-065-64x62.png",
+      "bbox": [
+        37,
+        772,
+        109,
+        842
+      ],
+      "size": [
+        64,
+        62
+      ],
+      "area": 2769,
+      "label": 192
+    },
+    {
+      "file": "/sprites/props/props-066-237x71.png",
+      "path": "public/sprites/props/props-066-237x71.png",
+      "bbox": [
+        110,
+        772,
+        355,
+        851
+      ],
+      "size": [
+        237,
+        71
+      ],
+      "area": 11438,
+      "label": 193
+    },
+    {
+      "file": "/sprites/props/props-067-208x75.png",
+      "path": "public/sprites/props/props-067-208x75.png",
+      "bbox": [
+        354,
+        772,
+        570,
+        855
+      ],
+      "size": [
+        208,
+        75
+      ],
+      "area": 10267,
+      "label": 194
+    },
+    {
+      "file": "/sprites/props/props-068-124x74.png",
+      "path": "public/sprites/props/props-068-124x74.png",
+      "bbox": [
+        569,
+        773,
+        701,
+        855
+      ],
+      "size": [
+        124,
+        74
+      ],
+      "area": 6367,
+      "label": 196
+    },
+    {
+      "file": "/sprites/props/props-069-184x75.png",
+      "path": "public/sprites/props/props-069-184x75.png",
+      "bbox": [
+        699,
+        772,
+        891,
+        855
+      ],
+      "size": [
+        184,
+        75
+      ],
+      "area": 8767,
+      "label": 195
+    },
+    {
+      "file": "/sprites/props/props-070-57x63.png",
+      "path": "public/sprites/props/props-070-57x63.png",
+      "bbox": [
+        889,
+        771,
+        954,
+        842
+      ],
+      "size": [
+        57,
+        63
+      ],
+      "area": 2708,
+      "label": 190
+    },
+    {
+      "file": "/sprites/props/props-071-181x61.png",
+      "path": "public/sprites/props/props-071-181x61.png",
+      "bbox": [
+        952,
+        773,
+        1141,
+        842
+      ],
+      "size": [
+        181,
+        61
+      ],
+      "area": 8970,
+      "label": 197
+    },
+    {
+      "file": "/sprites/props/props-072-252x76.png",
+      "path": "public/sprites/props/props-072-252x76.png",
+      "bbox": [
+        1136,
+        771,
+        1396,
+        855
+      ],
+      "size": [
+        252,
+        76
+      ],
+      "area": 13271,
+      "label": 191
+    },
+    {
+      "file": "/sprites/props/props-073-421x98.png",
+      "path": "public/sprites/props/props-073-421x98.png",
+      "bbox": [
+        43,
+        867,
+        472,
+        973
+      ],
+      "size": [
+        421,
+        98
+      ],
+      "area": 32329,
+      "label": 202
+    },
+    {
+      "file": "/sprites/props/props-074-97x209.png",
+      "path": "public/sprites/props/props-074-97x209.png",
+      "bbox": [
+        497,
+        866,
+        602,
+        1083
+      ],
+      "size": [
+        97,
+        209
+      ],
+      "area": 8349,
+      "label": 198
+    },
+    {
+      "file": "/sprites/props/props-075-96x209.png",
+      "path": "public/sprites/props/props-075-96x209.png",
+      "bbox": [
+        633,
+        866,
+        737,
+        1083
+      ],
+      "size": [
+        96,
+        209
+      ],
+      "area": 8270,
+      "label": 199
+    },
+    {
+      "file": "/sprites/props/props-076-86x210.png",
+      "path": "public/sprites/props/props-076-86x210.png",
+      "bbox": [
+        767,
+        866,
+        861,
+        1084
+      ],
+      "size": [
+        86,
+        210
+      ],
+      "area": 15403,
+      "label": 200
+    },
+    {
+      "file": "/sprites/props/props-077-86x210.png",
+      "path": "public/sprites/props/props-077-86x210.png",
+      "bbox": [
+        889,
+        866,
+        983,
+        1084
+      ],
+      "size": [
+        86,
+        210
+      ],
+      "area": 15550,
+      "label": 201
+    },
+    {
+      "file": "/sprites/props/props-078-403x263.png",
+      "path": "public/sprites/props/props-078-403x263.png",
+      "bbox": [
+        1034,
+        868,
+        1445,
+        1139
+      ],
+      "size": [
+        403,
+        263
+      ],
+      "area": 73980,
+      "label": 205
+    },
+    {
+      "file": "/sprites/props/props-079-404x263.png",
+      "path": "public/sprites/props/props-079-404x263.png",
+      "bbox": [
+        1465,
+        868,
+        1877,
+        1139
+      ],
+      "size": [
+        404,
+        263
+      ],
+      "area": 79362,
+      "label": 206
+    },
+    {
+      "file": "/sprites/props/props-080-376x263.png",
+      "path": "public/sprites/props/props-080-376x263.png",
+      "bbox": [
+        1915,
+        867,
+        2299,
+        1138
+      ],
+      "size": [
+        376,
+        263
+      ],
+      "area": 42847,
+      "label": 203
+    },
+    {
+      "file": "/sprites/props/props-081-374x263.png",
+      "path": "public/sprites/props/props-081-374x263.png",
+      "bbox": [
+        2313,
+        867,
+        2695,
+        1138
+      ],
+      "size": [
+        374,
+        263
+      ],
+      "area": 42864,
+      "label": 204
+    },
+    {
+      "file": "/sprites/props/props-082-421x98.png",
+      "path": "public/sprites/props/props-082-421x98.png",
+      "bbox": [
+        43,
+        975,
+        472,
+        1081
+      ],
+      "size": [
+        421,
+        98
+      ],
+      "area": 32460,
+      "label": 207
+    },
+    {
+      "file": "/sprites/props/props-083-123x139.png",
+      "path": "public/sprites/props/props-083-123x139.png",
+      "bbox": [
+        2052,
+        990,
+        2183,
+        1137
+      ],
+      "size": [
+        123,
+        139
+      ],
+      "area": 8252,
+      "label": 208
+    },
+    {
+      "file": "/sprites/props/props-084-414x65.png",
+      "path": "public/sprites/props/props-084-414x65.png",
+      "bbox": [
+        47,
+        1088,
+        469,
+        1161
+      ],
+      "size": [
+        414,
+        65
+      ],
+      "area": 12248,
+      "label": 209
+    },
+    {
+      "file": "/sprites/props/props-085-326x62.png",
+      "path": "public/sprites/props/props-085-326x62.png",
+      "bbox": [
+        625,
+        1089,
+        959,
+        1159
+      ],
+      "size": [
+        326,
+        62
+      ],
+      "area": 9133,
+      "label": 210
+    },
+    {
+      "file": "/sprites/props/props-086-98x122.png",
+      "path": "public/sprites/props/props-086-98x122.png",
+      "bbox": [
+        497,
+        1096,
+        603,
+        1226
+      ],
+      "size": [
+        98,
+        122
+      ],
+      "area": 4858,
+      "label": 211
+    },
+    {
+      "file": "/sprites/props/props-087-414x66.png",
+      "path": "public/sprites/props/props-087-414x66.png",
+      "bbox": [
+        47,
+        1151,
+        469,
+        1225
+      ],
+      "size": [
+        414,
+        66
+      ],
+      "area": 12224,
+      "label": 212
+    },
+    {
+      "file": "/sprites/props/props-088-326x63.png",
+      "path": "public/sprites/props/props-088-326x63.png",
+      "bbox": [
+        625,
+        1151,
+        959,
+        1222
+      ],
+      "size": [
+        326,
+        63
+      ],
+      "area": 9171,
+      "label": 213
+    },
+    {
+      "file": "/sprites/props/props-089-672x329.png",
+      "path": "public/sprites/props/props-089-672x329.png",
+      "bbox": [
+        1110,
+        1165,
+        1790,
+        1502
+      ],
+      "size": [
+        672,
+        329
+      ],
+      "area": 93187,
+      "label": 215
+    },
+    {
+      "file": "/sprites/props/props-090-234x98.png",
+      "path": "public/sprites/props/props-090-234x98.png",
+      "bbox": [
+        1977,
+        1157,
+        2219,
+        1263
+      ],
+      "size": [
+        234,
+        98
+      ],
+      "area": 18472,
+      "label": 214
+    },
+    {
+      "file": "/sprites/props/props-091-96x177.png",
+      "path": "public/sprites/props/props-091-96x177.png",
+      "bbox": [
+        1841,
+        1181,
+        1945,
+        1366
+      ],
+      "size": [
+        96,
+        177
+      ],
+      "area": 7782,
+      "label": 216
+    },
+    {
+      "file": "/sprites/props/props-092-185x283.png",
+      "path": "public/sprites/props/props-092-185x283.png",
+      "bbox": [
+        2312,
+        1190,
+        2505,
+        1481
+      ],
+      "size": [
+        185,
+        283
+      ],
+      "area": 18927,
+      "label": 217
+    },
+    {
+      "file": "/sprites/props/props-093-68x74.png",
+      "path": "public/sprites/props/props-093-68x74.png",
+      "bbox": [
+        2533,
+        1195,
+        2609,
+        1277
+      ],
+      "size": [
+        68,
+        74
+      ],
+      "area": 3152,
+      "label": 218
+    },
+    {
+      "file": "/sprites/props/props-094-226x264.png",
+      "path": "public/sprites/props/props-094-226x264.png",
+      "bbox": [
+        48,
+        1229,
+        282,
+        1501
+      ],
+      "size": [
+        226,
+        264
+      ],
+      "area": 28690,
+      "label": 220
+    },
+    {
+      "file": "/sprites/props/props-095-226x264.png",
+      "path": "public/sprites/props/props-095-226x264.png",
+      "bbox": [
+        308,
+        1229,
+        542,
+        1501
+      ],
+      "size": [
+        226,
+        264
+      ],
+      "area": 28634,
+      "label": 221
+    },
+    {
+      "file": "/sprites/props/props-096-226x264.png",
+      "path": "public/sprites/props/props-096-226x264.png",
+      "bbox": [
+        569,
+        1229,
+        803,
+        1501
+      ],
+      "size": [
+        226,
+        264
+      ],
+      "area": 28724,
+      "label": 222
+    },
+    {
+      "file": "/sprites/props/props-097-226x264.png",
+      "path": "public/sprites/props/props-097-226x264.png",
+      "bbox": [
+        845,
+        1229,
+        1079,
+        1501
+      ],
+      "size": [
+        226,
+        264
+      ],
+      "area": 44768,
+      "label": 223
+    },
+    {
+      "file": "/sprites/props/props-098-55x37.png",
+      "path": "public/sprites/props/props-098-55x37.png",
+      "bbox": [
+        2622,
+        1224,
+        2685,
+        1269
+      ],
+      "size": [
+        55,
+        37
+      ],
+      "area": 1474,
+      "label": 219
+    },
+    {
+      "file": "/sprites/props/props-099-157x106.png",
+      "path": "public/sprites/props/props-099-157x106.png",
+      "bbox": [
+        1924,
+        1273,
+        2089,
+        1387
+      ],
+      "size": [
+        157,
+        106
+      ],
+      "area": 11442,
+      "label": 225
+    },
+    {
+      "file": "/sprites/props/props-100-156x115.png",
+      "path": "public/sprites/props/props-100-156x115.png",
+      "bbox": [
+        2102,
+        1264,
+        2266,
+        1387
+      ],
+      "size": [
+        156,
+        115
+      ],
+      "area": 10469,
+      "label": 224
+    },
+    {
+      "file": "/sprites/props/props-101-60x59.png",
+      "path": "public/sprites/props/props-101-60x59.png",
+      "bbox": [
+        2537,
+        1281,
+        2605,
+        1348
+      ],
+      "size": [
+        60,
+        59
+      ],
+      "area": 2914,
+      "label": 226
+    },
+    {
+      "file": "/sprites/props/props-102-75x58.png",
+      "path": "public/sprites/props/props-102-75x58.png",
+      "bbox": [
+        2613,
+        1283,
+        2696,
+        1349
+      ],
+      "size": [
+        75,
+        58
+      ],
+      "area": 2907,
+      "label": 227
+    },
+    {
+      "file": "/sprites/props/props-103-189x140.png",
+      "path": "public/sprites/props/props-103-189x140.png",
+      "bbox": [
+        2510,
+        1353,
+        2707,
+        1501
+      ],
+      "size": [
+        189,
+        140
+      ],
+      "area": 19374,
+      "label": 228
+    },
+    {
+      "file": "/sprites/props/props-104-161x115.png",
+      "path": "public/sprites/props/props-104-161x115.png",
+      "bbox": [
+        80,
+        1376,
+        249,
+        1499
+      ],
+      "size": [
+        161,
+        115
+      ],
+      "area": 11449,
+      "label": 229
+    },
+    {
+      "file": "/sprites/props/props-105-161x115.png",
+      "path": "public/sprites/props/props-105-161x115.png",
+      "bbox": [
+        341,
+        1376,
+        510,
+        1499
+      ],
+      "size": [
+        161,
+        115
+      ],
+      "area": 11887,
+      "label": 230
+    },
+    {
+      "file": "/sprites/props/props-106-160x114.png",
+      "path": "public/sprites/props/props-106-160x114.png",
+      "bbox": [
+        602,
+        1377,
+        770,
+        1499
+      ],
+      "size": [
+        160,
+        114
+      ],
+      "area": 11906,
+      "label": 231
+    },
+    {
+      "file": "/sprites/props/props-107-43x114.png",
+      "path": "public/sprites/props/props-107-43x114.png",
+      "bbox": [
+        1828,
+        1379,
+        1879,
+        1501
+      ],
+      "size": [
+        43,
+        114
+      ],
+      "area": 2588,
+      "label": 232
+    },
+    {
+      "file": "/sprites/props/props-108-177x101.png",
+      "path": "public/sprites/props/props-108-177x101.png",
+      "bbox": [
+        1910,
+        1392,
+        2095,
+        1501
+      ],
+      "size": [
+        177,
+        101
+      ],
+      "area": 13154,
+      "label": 233
+    },
+    {
+      "file": "/sprites/props/props-109-176x101.png",
+      "path": "public/sprites/props/props-109-176x101.png",
+      "bbox": [
+        2103,
+        1392,
+        2287,
+        1501
+      ],
+      "size": [
+        176,
+        101
+      ],
+      "area": 11807,
+      "label": 234
+    },
+    {
+      "file": "/sprites/props/props-110-68x74.png",
+      "path": "public/sprites/props/props-110-68x74.png",
+      "bbox": [
+        2310,
+        1419,
+        2386,
+        1501
+      ],
+      "size": [
+        68,
+        74
+      ],
+      "area": 3137,
+      "label": 235
+    },
+    {
+      "file": "/sprites/props/props-111-69x74.png",
+      "path": "public/sprites/props/props-111-69x74.png",
+      "bbox": [
+        2435,
+        1419,
+        2512,
+        1501
+      ],
+      "size": [
+        69,
+        74
+      ],
+      "area": 3151,
+      "label": 236
+    }
+  ]
+}

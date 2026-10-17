@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pixel art crispness */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Water shimmer */
+@keyframes wave {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-20px); }
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+@keyframes oar-row {
+  0% { transform: rotate(-28deg); }
+  50% { transform: rotate(22deg); }
+  100% { transform: rotate(-28deg); }
+}
+@keyframes paddle-kayak {
+  0% { transform: rotate(-35deg); }
+  50% { transform: rotate(35deg); }
+  100% { transform: rotate(-35deg); }
+}
+@keyframes splash {
+  0% { opacity: 0; transform: scale(0.4); }
+  20% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.4); }
+}
+@keyframes drift {
+  from { transform: translateX(-200px); }
+  to { transform: translateX(calc(100vw + 200px)); }
+}
+@keyframes character-bob {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-1px); }
+}
