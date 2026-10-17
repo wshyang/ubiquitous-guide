@@ -69,3 +69,33 @@ describe("seededUnit", () => {
     }
   });
 });
+
+import { bounceHeight, pathSampleAt, pointAtDistance, polylineLength } from "./timing";
+
+describe("polyline paths", () => {
+  const path = [
+    { x: 0, y: 0 },
+    { x: 100, y: 0 },
+    { x: 100, y: 50 },
+  ];
+
+  it("measures total length and samples by arc length", () => {
+    expect(polylineLength(path)).toBe(150);
+    expect(pointAtDistance(path, 125)).toEqual({ x: 100, y: 25 });
+    expect(pointAtDistance(path, 999)).toEqual({ x: 100, y: 50 });
+  });
+
+  it("ping-pongs along the path and reports facing", () => {
+    const flat = [{ x: 0, y: 10 }, { x: 100, y: 10 }];
+    expect(pathSampleAt(flat, 0, 0.1, 0)).toEqual({ x: 0, y: 10, facing: 1 });
+    expect(pathSampleAt(flat, 1500, 0.1, 0)).toEqual({ x: 50, y: 10, facing: -1 });
+  });
+});
+
+describe("bounceHeight", () => {
+  it("touches the ground at the start of each period and peaks mid-period", () => {
+    expect(bounceHeight(0, 1000, 40)).toBeCloseTo(0);
+    expect(bounceHeight(500, 1000, 40)).toBeCloseTo(40);
+    expect(bounceHeight(1000, 1000, 40)).toBeCloseTo(0);
+  });
+});

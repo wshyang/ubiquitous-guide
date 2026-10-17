@@ -61,3 +61,53 @@ export function seededUnit(seed: number): number {
 function positiveModulo(value: number, modulus: number): number {
   return ((value % modulus) + modulus) % modulus;
 }
+
+export interface Point {
+  readonly x: number;
+  readonly y: number;
+}
+
+export interface PathSample extends Point {
+  readonly facing: 1 | -1;
+}
+
+/** Total length of a polyline in backdrop pixels. */
+export function polylineLength(points: readonly Point[]): number {
+  let total = 0;
+  for (let index = 1; index < points.length; index += 1) {
+    total += Math.hypot(points[index].x - points[index - 1].x, points[index].y - points[index - 1].y);
+  }
+  return total;
+}
+
+/** Walk a polyline by arc length; distances past the end clamp to the last point. */
+export function pointAtDistance(points: readonly Point[], distance: number): Point {
+  let remaining = Math.max(0, distance);
+  for (let index = 1; index < points.length; index += 1) {
+    const from = points[index - 1];
+    const to = points[index];
+    const length = Math.hypot(to.x - from.x, to.y - from.y);
+    if (remaining <= length && length > 0) {
+      const t = remaining / length;
+      return { x: from.x + (to.x - from.x) * t, y: from.y + (to.y - from.y) * t };
+    }
+    remaining -= length;
+  }
+  return points[points.length - 1];
+}
+
+/**
+ * A walker or rider moving back and forth along a polyline at a constant speed.
+ * `facing` is +1 when moving toward the last point along a left-to-right segment.
+ */
+export function pathSampleAt(points: readonly Point[], timeMs: number, speedPerMs: number, startDistance: number): PathSample {
+  const { x: distance, facing } = pingPongX(timeMs, startDistance, 0, polylineLength(points), speedPerMs);
+  const point = pointAtDistance(points, distance);
+  return { ...point, facing };
+}
+
+/** Height above the ground of a ball that bounces every period; always >= 0, peaks at `peak`. */
+export function bounceHeight(timeMs: number, periodMs: number, peak: number): number {
+  const within = positiveModulo(timeMs, periodMs);
+  return Math.abs(Math.sin((Math.PI * within) / periodMs)) * peak;
+}
