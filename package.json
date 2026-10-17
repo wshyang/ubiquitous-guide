@@ -15,7 +15,8 @@
     "qa:scene": "tsx qa/renderScene.ts",
     "assets:organise": "python3 tools/organise_sources.py",
     "assets:extract": "python3 tools/extract_sprites.py",
-    "assets:contact": "python3 tools/contact_sheet.py"
+    "assets:contact": "python3 tools/contact_sheet.py",
+    "qa:gait": "tsx qa/renderGait.ts"
   },
   "devDependencies": {
     "@napi-rs/canvas": "^0.1.65",

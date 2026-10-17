@@ -541,6 +541,10 @@ plus the contextualisation header.
   values, re-render. Record each tuning decision in an addendum (§1).
 - Coordinates in anchors are *fractions of the base sprite* (0–1), never pixels,
   so composites survive re-extraction and scene scaling.
+- Anchor *positions must be measured from the art* (grid overlays / pixel
+  detection of hands, seats, joints), never interpolated between guessed
+  endpoints — uniform-spacing guesses are what put a paddle on the dragon
+  boat's drum and left its last two rowers empty-handed (addendum 0007).
 
 ### 12.4 Deterministic animation
 - The scene clock is injectable and the RNG is seeded: a given `(seed, t)`
@@ -549,3 +553,7 @@ plus the contextualisation header.
   the scene context (Separate Query from Modifier, §7).
 - Animation loops are named, typed data (stroke cycles, walk cycles, cloud
   drift) in the object modules — not magic numbers inside render code.
+- Locomotion uses *every motion phase present in the sheet* as a proper
+  multi-frame cycle (contact/passing/contact/passing) with the vertical bob
+  phase-locked so feet plant at contact. Alternating a run pose with a
+  standing pose reads as a single sprite gliding (addendum 0007).

@@ -84,8 +84,8 @@ backdrop's 2752×1536 world, letterboxed to the viewport with
 Seeded RNG + injectable clock (`?seed=`, `?t=` for QA stills). Named loops:
 
 - `strokeCycle` (dragon boat, ~0.9–1.3 s varied per boat), `kayakStroke`
-  (~1.1 s, phase-offset per seat), `walkCycle` / `runCycle` (2-frame leg swap +
-  bob), `cheerCycle` (arms pose swap + hop), `cloudDrift` (constant velocity,
+  (~1.1 s, phase-offset per seat), `gaitCycle` (4-phase: contact/passing/contact/passing from every
+  motion pose in the sheet, phase-locked bob + lean; addendum 0007), `cheerCycle` (arms pose swap + hop), `cloudDrift` (constant velocity,
   wrap), `wakePulse`, `splashCycle`, `ripplePulse`, `flagSway`, `bob`
   (hull bob/roll synced to stroke).
 

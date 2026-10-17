@@ -1,6 +1,10 @@
 /** People: walkers/joggers, cheerers and idlers built from the pose sheet.
- *  Two-frame step illusion = run pose <> side pose (or the two run strides
- *  for orange/purple kits) plus a bob; see CLAUDE §12.4 named loops. */
+ *  Locomotion is a true 4-phase gait cycle (addendum 0007): contact A ->
+ *  passing -> contact B -> passing, using every motion phase the sheet
+ *  contains. For red/blue/green/yellow the two contacts are run-right and
+ *  run-left-mirrored (pixel-distinct strides); orange/purple additionally
+ *  have run-side phases as the passing poses. Bob is phase-locked so feet
+ *  plant at contact centres instead of hovering mid-stride. */
 import { cyclePhase, polylineYAt, wrap } from "../lib/anim";
 import { drawSprite, scaledSize } from "../lib/draw";
 import type { SpriteStore } from "../lib/sprites";
@@ -11,10 +15,52 @@ export const KITS: readonly Kit[] = ["red", "blue", "green", "yellow", "orange",
 
 const RICH_KITS: ReadonlySet<Kit> = new Set(["orange", "purple"]);
 
-function runFrames(kit: Kit): [string, string] {
+/** One gait frame. `mirror` marks art that natively faces LEFT; the frame
+ *  is flipped to face right logically, then flipped again for leftward
+ *  travel (flip = movingLeft XOR mirror). */
+export interface GaitFrame { poseId: string; mirror: boolean }
+
+export function gaitFrames(kit: Kit): readonly GaitFrame[] {
   return RICH_KITS.has(kit)
-    ? [`char-${kit}-run-right-a`, `char-${kit}-run-right-b`]
-    : [`char-${kit}-run-right`, `char-${kit}-side-right`];
+    ? [
+        { poseId: `char-${kit}-run-right-a`, mirror: false },
+        { poseId: `char-${kit}-run-side-right`, mirror: false },
+        { poseId: `char-${kit}-run-right-b`, mirror: false },
+        { poseId: `char-${kit}-run-side-left`, mirror: true },
+      ]
+    : [
+        { poseId: `char-${kit}-run-right`, mirror: false },
+        { poseId: `char-${kit}-side-right`, mirror: false },
+        { poseId: `char-${kit}-run-left`, mirror: true },
+        { poseId: `char-${kit}-side-right`, mirror: false },
+      ];
+}
+
+export interface GaitPose {
+  frameIndex: number;
+  /** Vertical offset in px (negative = up). 0 at contact-frame centres
+   *  (phases .125/.625), max lift at passing centres (.375/.875). */
+  bobPx: number;
+  /** Forward body-rock in degrees (positive = leaning into travel). */
+  leanDeg: number;
+}
+
+export function gaitAt(stepPhase: number, height: number, bobAmpFrac: number): GaitPose {
+  const frameIndex = Math.floor(stepPhase * 4) % 4;
+  const lift = 0.5 - 0.5 * Math.cos((stepPhase - 0.125) * Math.PI * 4);
+  return {
+    frameIndex,
+    bobPx: -lift * bobAmpFrac * height,
+    leanDeg: Math.sin(stepPhase * Math.PI * 4) * 2.1,
+  };
+}
+
+/** Bob amplitude grows with speed: strollers stay grounded, joggers bounce. */
+export function bobAmpForSpeed(speedPxPerSec: number): number {
+  const s = Math.abs(speedPxPerSec);
+  if (s >= 90) return 0.06;
+  if (s >= 55) return 0.045;
+  return 0.03;
 }
 
 function cheerFrames(kit: Kit): [string, string] {
@@ -24,11 +70,26 @@ function cheerFrames(kit: Kit): [string, string] {
 }
 
 function drawPose(ctx: Ctx, store: SpriteStore, poseId: string, x: number, feetY: number,
-                  height: number, flip: boolean): void {
+                  height: number, flip: boolean, rotationDeg = 0): void {
   const sprite = store.get(poseId);
   const size = scaledSize(sprite.entry.width, sprite.entry.height,
     (height * sprite.entry.width) / sprite.entry.height);
-  drawSprite(ctx, sprite.image, { x, y: feetY, w: size.w, h: height, pivotX: 0.5, pivotY: 1, flipX: flip });
+  drawSprite(ctx, sprite.image, {
+    x, y: feetY, w: size.w, h: height, pivotX: 0.5, pivotY: 1, flipX: flip, rotationDeg,
+  });
+}
+
+/** Draw the gait frame for this phase, facing travel direction. The lean
+ *  sign is resolved through the flip so it always rocks into travel. */
+function drawGait(ctx: Ctx, store: SpriteStore, frames: readonly GaitFrame[],
+                  pose: GaitPose, x: number, feetY: number, height: number,
+                  movingLeft: boolean): void {
+  const frame = frames[pose.frameIndex];
+  if (frame === undefined) throw new Error(`gait frame ${pose.frameIndex} out of range`);
+  const flip = movingLeft !== frame.mirror;
+  const worldLean = movingLeft ? -pose.leanDeg : pose.leanDeg;
+  drawPose(ctx, store, frame.poseId, x, feetY + pose.bobPx, height, flip,
+    flip ? -worldLean : worldLean);
 }
 
 export type PathPoint = readonly [x: number, feetY: number];
@@ -46,17 +107,16 @@ export function pathYAt(path: readonly PathPoint[], x: number): number {
 }
 
 export function createWalker(store: SpriteStore, cfg: WalkerConfig): Entity {
-  const [frameA, frameB] = runFrames(cfg.kit);
+  const frames = gaitFrames(cfg.kit);
   const movingLeft = cfg.speedPxPerSec < 0;
+  const bobAmp = bobAmpForSpeed(cfg.speedPxPerSec);
   return {
     layer: cfg.layer,
     draw(ctx, env) {
       const x = wrap(cfg.startX + cfg.speedPxPerSec * env.timeSec, -90, cfg.worldWidth + 90);
       const stepPhase = cyclePhase(env.timeSec, cfg.stridePeriodSec, cfg.phaseOffset);
-      const pose = stepPhase < 0.5 ? frameA : frameB;
-      const bob = -Math.abs(Math.sin(stepPhase * Math.PI)) * cfg.height * 0.045;
       const feetY = cfg.path ? pathYAt(cfg.path, x) : cfg.feetY;
-      drawPose(ctx, store, pose, x, feetY + bob, cfg.height, movingLeft);
+      drawGait(ctx, store, frames, gaitAt(stepPhase, cfg.height, bobAmp), x, feetY, cfg.height, movingLeft);
     },
   };
 }
@@ -114,16 +174,16 @@ export function patrolAt(cfg: Pick<PatrolConfig, "x1" | "x2" | "speedPxPerSec" |
 }
 
 export function createPatrol(store: SpriteStore, cfg: PatrolConfig): Entity {
-  const [frameA, frameB] = runFrames(cfg.kit);
+  const frames = gaitFrames(cfg.kit);
+  const bobAmp = bobAmpForSpeed(cfg.speedPxPerSec);
   return {
     layer: cfg.layer,
     draw(ctx, env) {
       const pose = patrolAt(cfg, env.timeSec);
       const stepPhase = cyclePhase(env.timeSec, cfg.stridePeriodSec, cfg.phaseOffset);
-      const bob = -Math.abs(Math.sin(stepPhase * Math.PI)) * cfg.height * 0.045;
       const facesRight = (cfg.x2 >= cfg.x1) === (pose.direction === 1);
-      drawPose(ctx, store, stepPhase < 0.5 ? frameA : frameB,
-        pose.x, cfg.feetY + bob, cfg.height, !facesRight);
+      drawGait(ctx, store, frames, gaitAt(stepPhase, cfg.height, bobAmp),
+        pose.x, cfg.feetY, cfg.height, !facesRight);
     },
   };
 }

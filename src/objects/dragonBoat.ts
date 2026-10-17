@@ -119,7 +119,7 @@ function drawSplashes(ctx: Ctx, store: SpriteStore, anchors: DragonBoatAnchors,
     const local = stationPhase(anchors, frame.phase, i);
     if (local > 0.14) return; // splash only as the blade bites (catch)
     const pose = strokePoseAt(anchors.stroke.keyframes, local);
-    const tip = bladeTip(pose.angleDeg, length);
+    const tip = bladeTip(pose.angleDeg, length * (1 - anchors.paddlePivot.y));
     const strength = 1 - local / 0.14;
     const w = size.h * 0.3 * (0.6 + 0.4 * strength);
     drawSprite(ctx, splash.image, {
