@@ -163,6 +163,19 @@ def extract_sheet(sheet: Sheet, entries: list[dict]) -> None:
         print(f"== {sheet.slug}/{region.name}: {len(ordered)} sprites")
 
 
+WEB_BACKDROPS = ("backdrops/kallang-day-clean.jpeg", "backdrops/kallang-sunset-front.jpeg",
+                 "backdrops/kallang-magenta-sky-front.jpeg", "backdrops/sky-gradient-blue.jpeg")
+
+
+def publish_backdrops() -> None:
+    for rel in WEB_BACKDROPS:
+        source = ROOT / "src" / "images" / rel
+        destination = ROOT / "public" / rel
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+    print(f"Published {len(WEB_BACKDROPS)} backdrops to public/backdrops/")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--debug", action="store_true")
@@ -184,6 +197,7 @@ def main() -> None:
         sys.exit(f"Duplicate sprite ids: {duplicates}")
     entries.sort(key=lambda e: (e["class"], e["id"]))
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+    publish_backdrops()
     MANIFEST.write_text(json.dumps({"sprites": entries}, indent=2) + "\n")
     print(f"Wrote {len(entries)} sprites; manifest -> {MANIFEST.relative_to(ROOT)}")
 

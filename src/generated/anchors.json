@@ -1,0 +1,163 @@
+{
+  "dragonBoat": {
+    "paddleSprite": "paddle-wood-07",
+    "paddlePivot": {
+      "x": 0.5,
+      "y": 0.03
+    },
+    "paddleLengthBoatHeights": 0.63,
+    "stations": [
+      {
+        "x": 0.233,
+        "y": 0.495
+      },
+      {
+        "x": 0.283,
+        "y": 0.495
+      },
+      {
+        "x": 0.333,
+        "y": 0.495
+      },
+      {
+        "x": 0.383,
+        "y": 0.495
+      },
+      {
+        "x": 0.433,
+        "y": 0.495
+      },
+      {
+        "x": 0.483,
+        "y": 0.495
+      },
+      {
+        "x": 0.533,
+        "y": 0.495
+      },
+      {
+        "x": 0.583,
+        "y": 0.495
+      },
+      {
+        "x": 0.633,
+        "y": 0.495
+      },
+      {
+        "x": 0.683,
+        "y": 0.495
+      }
+    ],
+    "stroke": {
+      "periodSec": 1.15,
+      "stationLagPhase": 0.004,
+      "keyframes": [
+        {
+          "phase": 0.0,
+          "angleDeg": 24,
+          "lift": 0.0
+        },
+        {
+          "phase": 0.38,
+          "angleDeg": -2,
+          "lift": 0.0
+        },
+        {
+          "phase": 0.52,
+          "angleDeg": -18,
+          "lift": 0.01
+        },
+        {
+          "phase": 0.72,
+          "angleDeg": -4,
+          "lift": 0.13
+        },
+        {
+          "phase": 0.88,
+          "angleDeg": 14,
+          "lift": 0.08
+        },
+        {
+          "phase": 1.0,
+          "angleDeg": 24,
+          "lift": 0.0
+        }
+      ]
+    },
+    "wakeSprite": "wake-v1-04",
+    "splashSprite": "splash-v1-02"
+  },
+  "kayak": {
+    "paddleSprite": "paddle-double-01",
+    "paddlePivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "paddleLengthBoatWidths": 0.36,
+    "seatsByKind": {
+      "k1": [
+        {
+          "x": 0.51,
+          "y": 0.52
+        }
+      ],
+      "k2": [
+        {
+          "x": 0.415,
+          "y": 0.47
+        },
+        {
+          "x": 0.64,
+          "y": 0.5
+        }
+      ],
+      "k3": [
+        {
+          "x": 0.35,
+          "y": 0.5
+        },
+        {
+          "x": 0.555,
+          "y": 0.5
+        },
+        {
+          "x": 0.755,
+          "y": 0.5
+        }
+      ]
+    },
+    "stroke": {
+      "periodSec": 1.05,
+      "seatLagPhase": 0.03,
+      "keyframes": [
+        {
+          "phase": 0.0,
+          "angleDeg": -34,
+          "lift": 0.0
+        },
+        {
+          "phase": 0.25,
+          "angleDeg": -7,
+          "lift": 0.03
+        },
+        {
+          "phase": 0.5,
+          "angleDeg": 34,
+          "lift": 0.0
+        },
+        {
+          "phase": 0.75,
+          "angleDeg": 7,
+          "lift": 0.03
+        },
+        {
+          "phase": 1.0,
+          "angleDeg": -34,
+          "lift": 0.0
+        }
+      ]
+    },
+    "wakeSprite": "wake-v1-01",
+    "splashSprite": "splash-02"
+  }
+}
