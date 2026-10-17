@@ -1,0 +1,437 @@
+{
+  "class": "dragon-boat",
+  "variants": {
+    "dragon-boat-red": {
+      "hull": "/sprites/dragon-boat/dragon-boat-00.png",
+      "hull_size": [
+        1148,
+        187
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-red.png",
+      "composite_size": [
+        1208,
+        251
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    },
+    "dragon-boat-blue": {
+      "hull": "/sprites/dragon-boat/dragon-boat-01.png",
+      "hull_size": [
+        1148,
+        187
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-blue.png",
+      "composite_size": [
+        1208,
+        251
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    },
+    "dragon-boat-green": {
+      "hull": "/sprites/dragon-boat/dragon-boat-02.png",
+      "hull_size": [
+        1147,
+        187
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-green.png",
+      "composite_size": [
+        1207,
+        251
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    },
+    "dragon-boat-yellow": {
+      "hull": "/sprites/dragon-boat/dragon-boat-03.png",
+      "hull_size": [
+        1149,
+        188
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-yellow.png",
+      "composite_size": [
+        1209,
+        252
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    },
+    "dragon-boat-orange": {
+      "hull": "/sprites/dragon-boat/dragon-boat-04.png",
+      "hull_size": [
+        1149,
+        189
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-orange.png",
+      "composite_size": [
+        1209,
+        253
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    },
+    "dragon-boat-purple": {
+      "hull": "/sprites/dragon-boat/dragon-boat-05.png",
+      "hull_size": [
+        1148,
+        188
+      ],
+      "composite": "/composites/dragon-boat/dragon-boat-purple.png",
+      "composite_size": [
+        1208,
+        252
+      ],
+      "hull_offset": [
+        30,
+        0
+      ],
+      "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+      "oar_size": [
+        35,
+        181
+      ],
+      "oar_pivot": [
+        16.5,
+        58.0
+      ],
+      "rest_angle_deg": -26.0,
+      "anchors": [
+        {
+          "x": 0.305,
+          "y": 0.62
+        },
+        {
+          "x": 0.365,
+          "y": 0.62
+        },
+        {
+          "x": 0.425,
+          "y": 0.62
+        },
+        {
+          "x": 0.485,
+          "y": 0.62
+        },
+        {
+          "x": 0.545,
+          "y": 0.62
+        },
+        {
+          "x": 0.605,
+          "y": 0.62
+        },
+        {
+          "x": 0.665,
+          "y": 0.62
+        },
+        {
+          "x": 0.725,
+          "y": 0.62
+        },
+        {
+          "x": 0.785,
+          "y": 0.62
+        },
+        {
+          "x": 0.845,
+          "y": 0.62
+        }
+      ],
+      "stroke": {
+        "swing_deg": 16.0,
+        "fps": 1.8
+      }
+    }
+  }
+}

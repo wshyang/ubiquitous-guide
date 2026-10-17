@@ -96,3 +96,22 @@ dressing the grounds).
 - **Impact:** global per-class numbering spans both water/props sheet
   variants (e.g. `tent-00..06` = variant A, `tent-07..16` = variant B);
   regeneration must stay byte-identical (pytest enforces this).
+
+### A4 — Composite stitching modules and anchor contract
+- **Decided:** per-class stitch modules under `scripts/composites/`
+  (`dragon_boat.py`, `kayak.py`, shared `geometry.py`, CLI `build_all.py`),
+  each owning a single `*Config` dataclass holding every magic number.
+  Dragon boats: 10 evenly-spaced gunwale anchors (rower_x0/x1, anchor_y),
+  one vertical oar per anchor, rest rake -26° CW (blade trails aft), pivot on
+  the shaft where the oarlock sits. Small boats: one horizontal double-paddle
+  per paddler (hand_x fractions per layout), forward blade dipped (-14° CW).
+  `anchors.json` per class: anchors normalised to hull size, pivots in sprite
+  pixels, composite/hull offsets, rest angle, and stroke hints
+  (swing_deg/fps) for the animation layer.
+- **Why:** the scene needs machine-readable stitch points to animate oars;
+  the composite PNG is the inspected artefact of the tuning loop
+  (render → view → adjust config → render).
+- **Spec §:** 4.
+- **Impact:** hull sprites stay oar-free under `/sprites/`; animated boats
+  stitch at runtime from anchors, while `/composites/<class>/<variant>.png`
+  is the pre-stitched reference (also usable as static art).

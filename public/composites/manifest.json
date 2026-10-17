@@ -1,0 +1,922 @@
+{
+  "generated_by": "scripts/composites/build_all.py",
+  "contract": "anchors are normalised to hull size; pivots in sprite pixels",
+  "classes": [
+    "dragon-boat",
+    "small-boat"
+  ],
+  "detail": {
+    "dragon-boat": {
+      "dragon-boat-red": {
+        "hull": "/sprites/dragon-boat/dragon-boat-00.png",
+        "hull_size": [
+          1148,
+          187
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-red.png",
+        "composite_size": [
+          1208,
+          251
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      },
+      "dragon-boat-blue": {
+        "hull": "/sprites/dragon-boat/dragon-boat-01.png",
+        "hull_size": [
+          1148,
+          187
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-blue.png",
+        "composite_size": [
+          1208,
+          251
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      },
+      "dragon-boat-green": {
+        "hull": "/sprites/dragon-boat/dragon-boat-02.png",
+        "hull_size": [
+          1147,
+          187
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-green.png",
+        "composite_size": [
+          1207,
+          251
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      },
+      "dragon-boat-yellow": {
+        "hull": "/sprites/dragon-boat/dragon-boat-03.png",
+        "hull_size": [
+          1149,
+          188
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-yellow.png",
+        "composite_size": [
+          1209,
+          252
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      },
+      "dragon-boat-orange": {
+        "hull": "/sprites/dragon-boat/dragon-boat-04.png",
+        "hull_size": [
+          1149,
+          189
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-orange.png",
+        "composite_size": [
+          1209,
+          253
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      },
+      "dragon-boat-purple": {
+        "hull": "/sprites/dragon-boat/dragon-boat-05.png",
+        "hull_size": [
+          1148,
+          188
+        ],
+        "composite": "/composites/dragon-boat/dragon-boat-purple.png",
+        "composite_size": [
+          1208,
+          252
+        ],
+        "hull_offset": [
+          30,
+          0
+        ],
+        "oar_sprite": "/sprites/oar-wood/oar-wood-06.png",
+        "oar_size": [
+          35,
+          181
+        ],
+        "oar_pivot": [
+          16.5,
+          58.0
+        ],
+        "rest_angle_deg": -26.0,
+        "anchors": [
+          {
+            "x": 0.305,
+            "y": 0.62
+          },
+          {
+            "x": 0.365,
+            "y": 0.62
+          },
+          {
+            "x": 0.425,
+            "y": 0.62
+          },
+          {
+            "x": 0.485,
+            "y": 0.62
+          },
+          {
+            "x": 0.545,
+            "y": 0.62
+          },
+          {
+            "x": 0.605,
+            "y": 0.62
+          },
+          {
+            "x": 0.665,
+            "y": 0.62
+          },
+          {
+            "x": 0.725,
+            "y": 0.62
+          },
+          {
+            "x": 0.785,
+            "y": 0.62
+          },
+          {
+            "x": 0.845,
+            "y": 0.62
+          }
+        ],
+        "stroke": {
+          "swing_deg": 16.0,
+          "fps": 1.8
+        }
+      }
+    },
+    "small-boat": {
+      "small-boat-red-solo": {
+        "hull": "/sprites/small-boat/small-boat-00.png",
+        "hull_size": [
+          525,
+          126
+        ],
+        "composite": "/composites/small-boat/small-boat-red-solo.png",
+        "composite_size": [
+          645,
+          172
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.45,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-red-solo-b": {
+        "hull": "/sprites/small-boat/small-boat-01.png",
+        "hull_size": [
+          527,
+          126
+        ],
+        "composite": "/composites/small-boat/small-boat-red-solo-b.png",
+        "composite_size": [
+          647,
+          172
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.45,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-yellow-solo": {
+        "hull": "/sprites/small-boat/small-boat-02.png",
+        "hull_size": [
+          536,
+          126
+        ],
+        "composite": "/composites/small-boat/small-boat-yellow-solo.png",
+        "composite_size": [
+          656,
+          172
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.45,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-yellow-solo-b": {
+        "hull": "/sprites/small-boat/small-boat-03.png",
+        "hull_size": [
+          549,
+          126
+        ],
+        "composite": "/composites/small-boat/small-boat-yellow-solo-b.png",
+        "composite_size": [
+          669,
+          172
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.45,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-green-double": {
+        "hull": "/sprites/small-boat/small-boat-04.png",
+        "hull_size": [
+          539,
+          131
+        ],
+        "composite": "/composites/small-boat/small-boat-green-double.png",
+        "composite_size": [
+          659,
+          177
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.33,
+            "y": 0.48
+          },
+          {
+            "x": 0.56,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-green-double-b": {
+        "hull": "/sprites/small-boat/small-boat-05.png",
+        "hull_size": [
+          556,
+          129
+        ],
+        "composite": "/composites/small-boat/small-boat-green-double-b.png",
+        "composite_size": [
+          676,
+          175
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.33,
+            "y": 0.48
+          },
+          {
+            "x": 0.56,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-blue-double": {
+        "hull": "/sprites/small-boat/small-boat-06.png",
+        "hull_size": [
+          538,
+          131
+        ],
+        "composite": "/composites/small-boat/small-boat-blue-double.png",
+        "composite_size": [
+          658,
+          177
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.33,
+            "y": 0.48
+          },
+          {
+            "x": 0.56,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-blue-double-b": {
+        "hull": "/sprites/small-boat/small-boat-07.png",
+        "hull_size": [
+          556,
+          128
+        ],
+        "composite": "/composites/small-boat/small-boat-blue-double-b.png",
+        "composite_size": [
+          676,
+          174
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.33,
+            "y": 0.48
+          },
+          {
+            "x": 0.56,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-purple-triple": {
+        "hull": "/sprites/small-boat/small-boat-08.png",
+        "hull_size": [
+          538,
+          128
+        ],
+        "composite": "/composites/small-boat/small-boat-purple-triple.png",
+        "composite_size": [
+          658,
+          174
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.27,
+            "y": 0.48
+          },
+          {
+            "x": 0.46,
+            "y": 0.48
+          },
+          {
+            "x": 0.65,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-purple-triple-b": {
+        "hull": "/sprites/small-boat/small-boat-09.png",
+        "hull_size": [
+          556,
+          128
+        ],
+        "composite": "/composites/small-boat/small-boat-purple-triple-b.png",
+        "composite_size": [
+          676,
+          174
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.27,
+            "y": 0.48
+          },
+          {
+            "x": 0.46,
+            "y": 0.48
+          },
+          {
+            "x": 0.65,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-orange-double": {
+        "hull": "/sprites/small-boat/small-boat-10.png",
+        "hull_size": [
+          537,
+          129
+        ],
+        "composite": "/composites/small-boat/small-boat-orange-double.png",
+        "composite_size": [
+          657,
+          175
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.33,
+            "y": 0.48
+          },
+          {
+            "x": 0.56,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      },
+      "small-boat-pink-triple": {
+        "hull": "/sprites/small-boat/small-boat-11.png",
+        "hull_size": [
+          557,
+          127
+        ],
+        "composite": "/composites/small-boat/small-boat-pink-triple.png",
+        "composite_size": [
+          677,
+          173
+        ],
+        "hull_offset": [
+          60,
+          0
+        ],
+        "paddle_sprite": "/sprites/paddle-double/paddle-double-01.png",
+        "paddle_size": [
+          180,
+          33
+        ],
+        "paddle_pivot": [
+          89.0,
+          15.5
+        ],
+        "rest_angle_deg": -14.0,
+        "anchors": [
+          {
+            "x": 0.27,
+            "y": 0.48
+          },
+          {
+            "x": 0.46,
+            "y": 0.48
+          },
+          {
+            "x": 0.65,
+            "y": 0.48
+          }
+        ],
+        "stroke": {
+          "swing_deg": 24.0,
+          "fps": 2.2
+        }
+      }
+    }
+  }
+}
