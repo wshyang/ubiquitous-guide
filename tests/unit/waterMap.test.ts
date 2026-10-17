@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { createRng } from "../../src/lib/rng";
 import { patrolAt } from "../../src/objects/character";
-import { boatRectsAt, trafficFadeAt, type BoatSpec } from "../../src/scene/traffic";
+import { boatRectsAt, type BoatSpec } from "../../src/scene/traffic";
+import { WATER_EFFECT_COUNT, layerForWaterEffect, waterEffectPlacements } from "../../src/scene/scene";
 import { isOpenWater, placeWaterEffects, shorelineYAt } from "../../src/scene/waterMap";
 import { SpriteStore } from "../../src/lib/sprites";
 import type { SpriteEntry } from "../../src/lib/types";
@@ -65,14 +66,27 @@ describe("patrolAt (court shuttles / boardwalk)", () => {
   });
 });
 
-describe("trafficFadeAt", () => {
-  const rect = { x1: 100, y1: 100, x2: 300, y2: 160 };
-  it("is 0 under a hull, 1 in clear water, partial in between", () => {
-    expect(trafficFadeAt(200, 130, [rect])).toBe(0);
-    expect(trafficFadeAt(200, 400, [rect])).toBe(1);
-    expect(trafficFadeAt(200, 184, [rect], 48)).toBeCloseTo(0.5);
-    expect(trafficFadeAt(0, 0, [])).toBe(1);
+describe("layerForWaterEffect (painter's-algorithm occlusion)", () => {
+  it("places each effect just behind the boat lane in front of it", () => {
+    expect(layerForWaterEffect(1250)).toBeLessThan(40); // behind far lane (layer 40)
+    expect(layerForWaterEffect(1410)).toBeGreaterThan(40);
+    expect(layerForWaterEffect(1410)).toBeLessThan(50); // behind mid lane (50)
+    expect(layerForWaterEffect(1480)).toBeGreaterThan(50);
+    expect(layerForWaterEffect(1480)).toBeLessThan(60); // behind near lane (60)
   });
+});
+
+describe("waterEffectPlacements (the actual scene layout)", () => {
+  it("sprinkles many effects, all in open water", () => {
+    const placements = waterEffectPlacements(20261017);
+    expect(placements).toHaveLength(WATER_EFFECT_COUNT);
+    expect(WATER_EFFECT_COUNT).toBeGreaterThanOrEqual(30);
+    for (const point of placements) expect(isOpenWater(point.x, point.y)).toBe(true);
+    expect(waterEffectPlacements(20261017)).toEqual(placements); // deterministic
+  });
+});
+
+describe("boat traffic occupancy (QA overlay geometry)", () => {
   it("boat rects follow the real boat configs", () => {
     const store = new SpriteStore();
     for (const entry of manifest.sprites as SpriteEntry[]) {

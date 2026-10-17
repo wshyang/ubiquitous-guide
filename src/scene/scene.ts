@@ -11,7 +11,7 @@ import { createDragonBoat } from "../objects/dragonBoat";
 import { createKayak } from "../objects/kayak";
 import { createHanging, createProp } from "../objects/prop";
 import { createRipple } from "../objects/waterFx";
-import { boatRectsAt, type BoatSpec } from "./traffic";
+import type { BoatSpec } from "./traffic";
 import { placeWaterEffects } from "./waterMap";
 
 export const WORLD_WIDTH = 2752;
@@ -48,7 +48,7 @@ export function buildScene(store: SpriteStore, anchors: Anchors, seed: number): 
     ...buildPeople(store, rng),
     ...buildCourtPlayers(store, rng),
     ...buildBoats(store, anchors, specs),
-    ...buildWaterEffects(store, seed, specs),
+    ...buildWaterEffects(store, seed),
   ];
   return entities.sort((a, b) => a.layer - b.layer);
 }
@@ -151,17 +151,24 @@ function buildPeople(store: SpriteStore, rng: ReturnType<typeof createRng>): Ent
 function buildCourtPlayers(store: SpriteStore, rng: ReturnType<typeof createRng>): Entity[] {
   const layer = L.peopleBack;
   const players: Entity[] = [
-    createPatrol(store, { kit: "red", x1: 1860, x2: 2140, feetY: 1076, height: 36, speedPxPerSec: 62, stridePeriodSec: 0.34, layer, phaseOffset: rng.next() }),
-    createPatrol(store, { kit: "blue", x1: 2140, x2: 1860, feetY: 1062, height: 33, speedPxPerSec: 58, stridePeriodSec: 0.36, layer, phaseOffset: rng.next() }),
-    createPatrol(store, { kit: "red", x1: 1920, x2: 2060, feetY: 1050, height: 30, speedPxPerSec: 48, stridePeriodSec: 0.38, layer, phaseOffset: rng.next() }),
-    createIdler(store, { kit: "blue", x: 1990, feetY: 1088, height: 34, layer, periodSec: rng.range(3.5, 5.5), phaseOffset: rng.next() }),
-    createIdler(store, { kit: "red", x: 2090, feetY: 1058, height: 32, layer, periodSec: rng.range(3.5, 5.5), phaseOffset: rng.next() }),
-    createBall(store, { spriteId: "equipment-v2-11", x1: 1880, x2: 2120, groundY: 1084, diameter: 12, speedPxPerSec: 52, bounceHeight: 7, bouncesPerSec: 1.6, layer, phaseOffset: rng.next() }),
-    createPatrol(store, { kit: "green", x1: 2280, x2: 2540, feetY: 1080, height: 35, speedPxPerSec: 66, stridePeriodSec: 0.34, layer, phaseOffset: rng.next() }),
-    createPatrol(store, { kit: "yellow", x1: 2540, x2: 2300, feetY: 1064, height: 32, speedPxPerSec: 56, stridePeriodSec: 0.36, layer, phaseOffset: rng.next() }),
-    createPatrol(store, { kit: "orange", x1: 2340, x2: 2470, feetY: 1052, height: 30, speedPxPerSec: 46, stridePeriodSec: 0.38, layer, phaseOffset: rng.next() }),
-    createIdler(store, { kit: "green", x: 2410, feetY: 1090, height: 34, layer, periodSec: rng.range(3.5, 5.5), phaseOffset: rng.next() }),
-    createBall(store, { spriteId: "equipment-v2-10", x1: 2300, x2: 2500, groundY: 1088, diameter: 12, speedPxPerSec: 60, bounceHeight: 13, bouncesPerSec: 2.2, layer, phaseOffset: rng.next() }),
+    // Futsal court (red vs blue): 5 shuttles across three depth lanes + 2 callers
+    createPatrol(store, { kit: "red", x1: 1845, x2: 2155, feetY: 1086, height: 44, speedPxPerSec: 70, stridePeriodSec: 0.33, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "blue", x1: 2155, x2: 1845, feetY: 1072, height: 40, speedPxPerSec: 64, stridePeriodSec: 0.35, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "red", x1: 1890, x2: 2100, feetY: 1056, height: 36, speedPxPerSec: 54, stridePeriodSec: 0.37, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "blue", x1: 2100, x2: 1900, feetY: 1044, height: 33, speedPxPerSec: 50, stridePeriodSec: 0.38, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "blue", x1: 1945, x2: 2055, feetY: 1092, height: 44, speedPxPerSec: 44, stridePeriodSec: 0.36, layer, phaseOffset: rng.next() }),
+    createIdler(store, { kit: "red", x: 2085, feetY: 1064, height: 38, layer, periodSec: rng.range(3.2, 5), phaseOffset: rng.next() }),
+    createIdler(store, { kit: "blue", x: 1975, feetY: 1040, height: 33, layer, periodSec: rng.range(3.2, 5), phaseOffset: rng.next() }),
+    createBall(store, { spriteId: "equipment-v2-11", x1: 1860, x2: 2140, groundY: 1090, diameter: 15, speedPxPerSec: 58, bounceHeight: 8, bouncesPerSec: 1.7, layer, phaseOffset: rng.next() }),
+    // Basketball court (green vs yellow, one orange): same structure
+    createPatrol(store, { kit: "green", x1: 2265, x2: 2560, feetY: 1088, height: 43, speedPxPerSec: 72, stridePeriodSec: 0.33, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "yellow", x1: 2560, x2: 2280, feetY: 1074, height: 39, speedPxPerSec: 62, stridePeriodSec: 0.35, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "green", x1: 2320, x2: 2490, feetY: 1058, height: 35, speedPxPerSec: 52, stridePeriodSec: 0.37, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "yellow", x1: 2480, x2: 2340, feetY: 1046, height: 33, speedPxPerSec: 48, stridePeriodSec: 0.38, layer, phaseOffset: rng.next() }),
+    createPatrol(store, { kit: "orange", x1: 2375, x2: 2465, feetY: 1094, height: 43, speedPxPerSec: 42, stridePeriodSec: 0.36, layer, phaseOffset: rng.next() }),
+    createIdler(store, { kit: "green", x: 2420, feetY: 1066, height: 37, layer, periodSec: rng.range(3.2, 5), phaseOffset: rng.next() }),
+    createIdler(store, { kit: "yellow", x: 2328, feetY: 1084, height: 40, layer, periodSec: rng.range(3.2, 5), phaseOffset: rng.next() }),
+    createBall(store, { spriteId: "equipment-v2-10", x1: 2290, x2: 2510, groundY: 1092, diameter: 15, speedPxPerSec: 66, bounceHeight: 16, bouncesPerSec: 2.3, layer, phaseOffset: rng.next() }),
   ];
   void COURTS; // bounds above are kept inside these measured rectangles
   return players;
@@ -200,28 +207,34 @@ const RIPPLE_SPRITES = ["ripple-v1-01", "ripple-v1-02", "ripple-v1-03", "ripple-
   "ripple-v1-07", "ripple-v2-01", "ripple-v2-03", "ripple-v2-04"] as const;
 const SPLASH_SPRITES = ["splash-01", "splash-02", "splash-03", "splash-v1-01", "splash-v1-02"] as const;
 
+export const WATER_EFFECT_COUNT = 34;
+
 /** Deterministic sprinkling layout: seeded-random points inside the mapped
  *  open water (scene/waterMap.ts), own RNG stream so QA can reproduce it. */
 export function waterEffectPlacements(seed: number): WaterEffectPlacement[] {
   const rng = createRng((seed ^ 0x9e3779b9) >>> 0);
-  return placeWaterEffects(rng, 22).map((point) => {
-    const isSplash = rng.next() < 0.3;
+  return placeWaterEffects(rng, WATER_EFFECT_COUNT, 108).map((point) => {
+    const isSplash = rng.next() < 0.4;
     return {
       x: point.x, y: point.y,
       spriteId: isSplash ? rng.pick(SPLASH_SPRITES) : rng.pick(RIPPLE_SPRITES),
-      width: isSplash ? rng.range(42, 72) : rng.range(78, 148),
-      periodSec: rng.range(2.4, 4.4),
+      width: isSplash ? rng.range(55, 92) : rng.range(95, 175),
+      periodSec: rng.range(2.2, 4.2),
       phaseOffset: rng.next(),
     };
   });
 }
 
-function buildWaterEffects(store: SpriteStore, seed: number, specs: readonly BoatSpec[]): Entity[] {
-  let cached = { t: Number.NaN, rects: [] as ReturnType<typeof boatRectsAt> };
-  const trafficAt = (timeSec: number) => {
-    if (cached.t !== timeSec) cached = { t: timeSec, rects: boatRectsAt(store, specs, timeSec) };
-    return cached.rects;
-  };
+/** Painter's-algorithm layer for a flat water effect: just behind the boat
+ *  lane in front of it (lane waterlines: far ~1388-1402, mid ~1430-1444,
+ *  near ~1470+), so hulls occlude effects behind them naturally. */
+export function layerForWaterEffect(y: number): number {
+  if (y < 1395) return L.boatFar - 1;
+  if (y < 1440) return L.boatMid - 1;
+  return L.boatNear - 1;
+}
+
+function buildWaterEffects(store: SpriteStore, seed: number): Entity[] {
   return waterEffectPlacements(seed).map((placement) =>
-    createRipple(store, { ...placement, layer: L.ripple, trafficAt }));
+    createRipple(store, { ...placement, layer: layerForWaterEffect(placement.y) }));
 }

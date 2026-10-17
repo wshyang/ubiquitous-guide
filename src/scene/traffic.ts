@@ -1,7 +1,7 @@
 /** Boat traffic occupancy at time t, derived from the same pure centre-x
- *  helpers the boat modules draw with — ambient water effects use it to
- *  fade out before a hull (or its wake) reaches them, so effects never
- *  visually clash with passing boats. */
+ *  helpers the boat modules draw with. Used by the QA watermap overlay to
+ *  show where hulls/wakes are; run-time occlusion of ambient water effects
+ *  is handled by y-layering in scene.ts (addendum 0006). */
 import { scaledSize } from "../lib/draw";
 import type { SpriteStore } from "../lib/sprites";
 import { dragonCentreXAt, type DragonBoatConfig } from "../objects/dragonBoat";
@@ -31,17 +31,4 @@ export function boatRectAt(store: SpriteStore, spec: BoatSpec, timeSec: number):
 
 export function boatRectsAt(store: SpriteStore, specs: readonly BoatSpec[], timeSec: number): Rect[] {
   return specs.map((spec) => boatRectAt(store, spec, timeSec));
-}
-
-function clearanceTo(x: number, y: number, rect: Rect): number {
-  const dx = Math.max(rect.x1 - x, 0, x - rect.x2);
-  const dy = Math.max(rect.y1 - y, 0, y - rect.y2);
-  return Math.hypot(dx, dy);
-}
-
-/** 0 when a boat is on top of (x, y), 1 once it is `fadeDistance` clear. */
-export function trafficFadeAt(x: number, y: number, rects: readonly Rect[], fadeDistance = 48): number {
-  if (rects.length === 0) return 1;
-  const nearest = Math.min(...rects.map((rect) => clearanceTo(x, y, rect)));
-  return Math.min(1, nearest / fadeDistance);
 }
