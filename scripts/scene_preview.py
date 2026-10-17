@@ -17,7 +17,7 @@ from PIL import Image
 REPO = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO / "work" / "debug" / "scene"
 PREVIEW_T = 9.551  # chosen so several blades sit on a strong deep beat (splash check)
-VIEW = 0.5
+VIEW = 1.0  # native 2752x1536 — previews are inspection artefacts, no downscale
 PAD_X, PAD_Y = 1100, 300
 
 
