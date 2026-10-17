@@ -1,7 +1,7 @@
 /** People: walkers/joggers, cheerers and idlers built from the pose sheet.
  *  Two-frame step illusion = run pose <> side pose (or the two run strides
  *  for orange/purple kits) plus a bob; see CLAUDE §12.4 named loops. */
-import { cyclePhase, wrap } from "../lib/anim";
+import { cyclePhase, polylineYAt, wrap } from "../lib/anim";
 import { drawSprite, scaledSize } from "../lib/draw";
 import type { SpriteStore } from "../lib/sprites";
 import type { Ctx, Entity } from "../lib/types";
@@ -42,20 +42,7 @@ export interface WalkerConfig {
 }
 
 export function pathYAt(path: readonly PathPoint[], x: number): number {
-  const first = path[0];
-  const last = path[path.length - 1];
-  if (first === undefined || last === undefined) throw new Error("path needs points");
-  if (x <= first[0]) return first[1];
-  if (x >= last[0]) return last[1];
-  for (let i = 0; i < path.length - 1; i += 1) {
-    const from = path[i];
-    const to = path[i + 1];
-    if (from === undefined || to === undefined) continue;
-    if (x >= from[0] && x <= to[0]) {
-      return from[1] + ((to[1] - from[1]) * (x - from[0])) / (to[0] - from[0]);
-    }
-  }
-  return last[1];
+  return polylineYAt(path, x);
 }
 
 export function createWalker(store: SpriteStore, cfg: WalkerConfig): Entity {
@@ -104,6 +91,39 @@ export function createIdler(store: SpriteStore, cfg: IdlerConfig): Entity {
       const pose = phase < 0.16 ? gesture : idle;
       const sway = Math.sin(env.timeSec * 1.7 + cfg.phaseOffset * 9) * 1.1;
       drawPose(ctx, store, pose, cfg.x + sway, cfg.feetY, cfg.height, false);
+    },
+  };
+}
+
+export interface PatrolConfig {
+  kit: Kit; x1: number; x2: number; feetY: number; height: number;
+  speedPxPerSec: number; stridePeriodSec: number; layer: number; phaseOffset: number;
+}
+
+export interface PatrolPose { x: number; direction: 1 | -1 }
+
+/** Ping-pong between x1 and x2 at constant speed (court shuttles). Pure. */
+export function patrolAt(cfg: Pick<PatrolConfig, "x1" | "x2" | "speedPxPerSec" | "phaseOffset">,
+                         timeSec: number): PatrolPose {
+  const span = Math.abs(cfg.x2 - cfg.x1);
+  if (span === 0 || cfg.speedPxPerSec === 0) return { x: cfg.x1, direction: 1 };
+  const period = (2 * span) / Math.abs(cfg.speedPxPerSec);
+  const phase = cyclePhase(timeSec, period, cfg.phaseOffset);
+  const tri = phase < 0.5 ? phase * 2 : 2 - phase * 2;
+  return { x: cfg.x1 + tri * (cfg.x2 - cfg.x1), direction: phase < 0.5 ? 1 : -1 };
+}
+
+export function createPatrol(store: SpriteStore, cfg: PatrolConfig): Entity {
+  const [frameA, frameB] = runFrames(cfg.kit);
+  return {
+    layer: cfg.layer,
+    draw(ctx, env) {
+      const pose = patrolAt(cfg, env.timeSec);
+      const stepPhase = cyclePhase(env.timeSec, cfg.stridePeriodSec, cfg.phaseOffset);
+      const bob = -Math.abs(Math.sin(stepPhase * Math.PI)) * cfg.height * 0.045;
+      const facesRight = (cfg.x2 >= cfg.x1) === (pose.direction === 1);
+      drawPose(ctx, store, stepPhase < 0.5 ? frameA : frameB,
+        pose.x, cfg.feetY + bob, cfg.height, !facesRight);
     },
   };
 }

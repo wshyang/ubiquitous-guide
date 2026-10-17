@@ -55,3 +55,21 @@ export function bladeTip(angleDeg: number, length: number): { x: number; y: numb
 export function bobAt(timeSec: number, periodSec: number, amplitude: number): number {
   return Math.sin(cyclePhase(timeSec, periodSec) * TAU) * amplitude;
 }
+
+/** Y at x along a polyline of [x, y] points (clamped at both ends). */
+export function polylineYAt(points: ReadonlyArray<readonly [number, number]>, x: number): number {
+  const first = points[0];
+  const last = points[points.length - 1];
+  if (first === undefined || last === undefined) throw new Error("polyline needs points");
+  if (x <= first[0]) return first[1];
+  if (x >= last[0]) return last[1];
+  for (let i = 0; i < points.length - 1; i += 1) {
+    const from = points[i];
+    const to = points[i + 1];
+    if (from === undefined || to === undefined) continue;
+    if (x >= from[0] && x <= to[0]) {
+      return from[1] + ((to[1] - from[1]) * (x - from[0])) / (to[0] - from[0]);
+    }
+  }
+  return last[1];
+}

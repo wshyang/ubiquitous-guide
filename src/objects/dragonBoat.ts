@@ -41,11 +41,16 @@ export function createDragonBoat(store: SpriteStore, anchors: DragonBoatAnchors,
   };
 }
 
-export function frameAt(anchors: DragonBoatAnchors, cfg: DragonBoatConfig, size: Size, timeSec: number): Frame {
+/** World-x of the boat centre at time t (also used by traffic/water FX). */
+export function dragonCentreXAt(cfg: DragonBoatConfig, timeSec: number): number {
   const margin = cfg.width * 1.15;
+  return wrap(cfg.startX + cfg.speedPxPerSec * timeSec, -margin, cfg.worldWidth + margin);
+}
+
+export function frameAt(anchors: DragonBoatAnchors, cfg: DragonBoatConfig, size: Size, timeSec: number): Frame {
   const phase = cyclePhase(timeSec, anchors.stroke.periodSec * cfg.periodScale, cfg.phaseOffset);
   return {
-    centreX: wrap(cfg.startX + cfg.speedPxPerSec * timeSec, -margin, cfg.worldWidth + margin),
+    centreX: dragonCentreXAt(cfg, timeSec),
     flip: cfg.speedPxPerSec > 0,
     phase,
     bobY: Math.sin((phase + 0.12) * Math.PI * 2) * size.h * 0.016,

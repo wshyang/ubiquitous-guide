@@ -42,10 +42,15 @@ export function createKayak(store: SpriteStore, anchors: KayakAnchors, cfg: Kaya
   };
 }
 
-function motionAt(anchors: KayakAnchors, cfg: KayakConfig, timeSec: number) {
+/** World-x of the kayak centre at time t (also used by traffic/water FX). */
+export function kayakCentreXAt(cfg: KayakConfig, timeSec: number): number {
   const margin = cfg.width * 1.2;
+  return wrap(cfg.startX + cfg.speedPxPerSec * timeSec, -margin, cfg.worldWidth + margin);
+}
+
+function motionAt(anchors: KayakAnchors, cfg: KayakConfig, timeSec: number) {
   return {
-    centreX: wrap(cfg.startX + cfg.speedPxPerSec * timeSec, -margin, cfg.worldWidth + margin),
+    centreX: kayakCentreXAt(cfg, timeSec),
     flip: cfg.speedPxPerSec > 0,
     phase: cyclePhase(timeSec, anchors.stroke.periodSec * cfg.periodScale, cfg.phaseOffset),
   };
