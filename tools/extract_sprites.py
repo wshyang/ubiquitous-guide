@@ -19,6 +19,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sheet_config import SHEETS, Region, Sheet  # noqa: E402
 from sprite_pipeline import Component, find_labelled, key_magenta, sort_reading_order  # noqa: E402
+from repair_dragon_rower_arm import repair_paths  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_SPRITES = ROOT / "public" / "sprites"
@@ -195,6 +196,11 @@ def main() -> None:
     if len(ids) != len(set(ids)):
         duplicates = sorted({i for i in ids if ids.count(i) > 1})
         sys.exit(f"Duplicate sprite ids: {duplicates}")
+    # Repair rower 1's missing raised arm in the source art (addendum 0008).
+    dragon_paths = sorted((PUBLIC_SPRITES / "dragon-boats").glob("dragon-boat-*.png"))
+    if dragon_paths:
+        for report in repair_paths(dragon_paths):
+            print(f"  arm repair: {Path(report['path']).name} -> {report['status']}")
     entries.sort(key=lambda e: (e["class"], e["id"]))
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
     publish_backdrops()

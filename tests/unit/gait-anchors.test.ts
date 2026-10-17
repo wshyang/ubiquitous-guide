@@ -50,7 +50,7 @@ describe("dragon boat anchors (measured crew of 9, addendum 0007)", () => {
       // station 0 is rower 1's hands-midpoint, just behind the drum
       if (onDrum) expect(s.x).toBeGreaterThan(0.235);
     }
-    expect(stations[0]?.x).toBeCloseTo(0.238, 2);
+    expect(stations[0]?.x).toBeCloseTo(0.241, 2); // midpoint of repaired fists (addendum 0008)
   });
 
   it("paddle rotates between the hands (pivot inside the shaft, stroke sweeps through hands-aligned -28deg)", () => {
