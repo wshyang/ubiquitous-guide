@@ -48,3 +48,15 @@ test("backdrop theme switcher swaps the layered backdrop", async ({ page }) => {
   const duskFrame = await canvas.evaluate((c: HTMLCanvasElement) => c.toDataURL());
   expect(duskFrame).not.toBe(dayFrame);
 });
+
+test("portrait phone crops to the stadium opening", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?seed=20261017");
+  await expect(page.getByTestId("app__loading")).toBeHidden();
+  const size = await page.getByTestId("app__canvas").evaluate(
+    (c: HTMLCanvasElement) => ({ w: c.width, h: c.height }));
+  expect(size.h).toBe(1536);
+  expect(size.w).toBeLessThan(2752); // cropped window, not the full world
+  expect(size.w).toBeGreaterThan(800);
+  await page.screenshot({ path: "test-results/portrait-stadium-opening.png" });
+});

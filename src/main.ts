@@ -7,8 +7,9 @@ import { buildStore } from "./lib/sprites";
 import type { SpriteEntry, SpriteImage, SpriteManifest } from "./lib/types";
 import { buildLab, LAB_HEIGHT, LAB_WIDTH, renderLab } from "./scene/lab";
 import {
-  backdropTheme, buildScene, renderScene, WORLD_HEIGHT, WORLD_WIDTH,
-  type BackdropLayers, type BackdropTheme, type SpriteVariant,
+  backdropTheme, buildScene, computeSceneView, FULL_VIEW, renderScene,
+  WORLD_HEIGHT, WORLD_WIDTH,
+  type BackdropLayers, type BackdropTheme, type SceneView, type SpriteVariant,
 } from "./scene/scene";
 
 function manifestForVariant(variant: SpriteVariant): SpriteManifest {
@@ -77,10 +78,12 @@ async function boot(): Promise<void> {
 
   const state: MutableState = {
     paused: false, speedIndex: 1, view: params.view, showAnchors: false, time: params.startAt,
+    sceneView: FULL_VIEW,
   };
   controls.theme.value = params.theme.id;
-  wireControls(controls, state, () => applyView(canvas, controls, state.view));
-  applyView(canvas, controls, state.view);
+  wireControls(controls, state, () => applyView(canvas, controls, state));
+  applyView(canvas, controls, state);
+  window.addEventListener("resize", () => applyView(canvas, controls, state));
   const clockArgs: ClockArgs = { backdrop, scene, lab, state, spriteVariant: params.theme.spriteVariant };
   wireThemeSelect(controls.theme, clockArgs, params.seed, anchors);
   startClock(ctx, clockArgs);
@@ -108,12 +111,32 @@ function wireControls(controls: Controls, state: MutableState, onViewChange: () 
 
 interface MutableState {
   paused: boolean; speedIndex: number; view: "scene" | "lab"; showAnchors: boolean; time: number;
+  sceneView: SceneView;
 }
 
-function applyView(canvas: HTMLCanvasElement, controls: Controls, view: "scene" | "lab"): void {
-  const isLab = view === "lab";
-  canvas.width = isLab ? LAB_WIDTH : WORLD_WIDTH;
-  canvas.height = isLab ? LAB_HEIGHT : WORLD_HEIGHT;
+/** Portrait/narrow stages crop around the stadium opening (addendum 0011):
+ *  full world on landscape, otherwise fill ~82% of viewport height. */
+const MIN_STAGE_ASPECT = 0.6;
+
+function stageAspectForViewport(): number {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const worldAspect = WORLD_WIDTH / WORLD_HEIGHT;
+  const narrow = vw < vh || vw <= 760;
+  if (!narrow) return worldAspect;
+  return Math.min(worldAspect, Math.max(MIN_STAGE_ASPECT, vw / (vh * 0.82)));
+}
+
+function applyView(canvas: HTMLCanvasElement, controls: Controls, state: MutableState): void {
+  const isLab = state.view === "lab";
+  if (isLab) {
+    canvas.width = LAB_WIDTH;
+    canvas.height = LAB_HEIGHT;
+  } else {
+    state.sceneView = computeSceneView(stageAspectForViewport());
+    canvas.width = state.sceneView.width;
+    canvas.height = WORLD_HEIGHT;
+  }
   canvas.parentElement?.style.setProperty("aspect-ratio", `${canvas.width} / ${canvas.height}`);
   controls.view.textContent = isLab ? "View: Composite lab" : "View: Scene";
 }
@@ -158,7 +181,7 @@ function startClock(ctx: CanvasRenderingContext2D, args: ClockArgs): void {
     last = now;
     if (!args.state.paused) args.state.time += deltaSec * (SPEEDS[args.state.speedIndex] ?? 1);
     const env = { timeSec: args.state.time, showAnchors: args.state.showAnchors };
-    if (args.state.view === "scene") renderScene(ctx, args.backdrop, args.scene, env);
+    if (args.state.view === "scene") renderScene(ctx, args.backdrop, args.scene, env, args.state.sceneView);
     else renderLab(ctx, args.lab, env);
     requestAnimationFrame(tick);
   };

@@ -17,6 +17,25 @@ import { placeWaterEffects } from "./waterMap";
 
 export const WORLD_WIDTH = 2752;
 export const WORLD_HEIGHT = 1536;
+
+/** Centre of the National Stadium's opening (the dark interior mouth,
+ *  measured on the scene plates: x 566-933). Portrait/narrow viewports
+ *  crop horizontally around this focus (addendum 0011). */
+export const STADIUM_OPENING_X = 750;
+
+/** Horizontal window into the world actually shown (full height always). */
+export interface SceneView { x: number; width: number }
+export const FULL_VIEW: SceneView = { x: 0, width: WORLD_WIDTH };
+
+/** For a stage aspect (w/h) narrower than the world, show a
+ *  focus-centred crop; wider stages see the whole world. */
+export function computeSceneView(displayAspect: number): SceneView {
+  const worldAspect = WORLD_WIDTH / WORLD_HEIGHT;
+  if (!Number.isFinite(displayAspect) || displayAspect >= worldAspect) return FULL_VIEW;
+  const width = Math.min(WORLD_WIDTH, Math.max(320, Math.round(WORLD_HEIGHT * displayAspect)));
+  const x = Math.min(WORLD_WIDTH - width, Math.max(0, Math.round(STADIUM_OPENING_X - width / 2)));
+  return { x, width };
+}
 /** Lighting themes for the layered backdrop: three scene plates
  *  (dawn/day/dusk, published as transparent PNGs by
  *  tools/prepare_backdrops.py) composited over five sky gradients. */
@@ -83,11 +102,15 @@ export function buildScene(store: SpriteStore, anchors: Anchors, seed: number): 
   return entities.sort((a, b) => a.layer - b.layer);
 }
 
-export function renderScene(ctx: Ctx, backdrop: BackdropLayers, entities: readonly Entity[], env: RenderEnv): void {
+export function renderScene(ctx: Ctx, backdrop: BackdropLayers, entities: readonly Entity[],
+                            env: RenderEnv, view: SceneView = FULL_VIEW): void {
   ctx.imageSmoothingEnabled = false;
+  ctx.save();
+  ctx.translate(-view.x, 0); // camera window (portrait crop); canvas is view.width x WORLD_HEIGHT
   ctx.drawImage(backdrop.sky as CanvasImageSource, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
   ctx.drawImage(backdrop.scene as CanvasImageSource, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
   for (const entity of entities) entity.draw(ctx, env);
+  ctx.restore();
 }
 
 function buildClouds(store: SpriteStore, rng: ReturnType<typeof createRng>): Entity[] {

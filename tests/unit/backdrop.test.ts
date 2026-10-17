@@ -63,3 +63,33 @@ describe("themed sprite variants (addendum 0010)", () => {
     }
   });
 });
+
+import { FULL_VIEW, STADIUM_OPENING_X, WORLD_WIDTH, computeSceneView } from "../../src/scene/scene";
+
+describe("portrait camera crop (addendum 0011)", () => {
+  it("wide stages see the full world", () => {
+    expect(computeSceneView(2)).toEqual(FULL_VIEW);
+    expect(computeSceneView(2752 / 1536)).toEqual(FULL_VIEW);
+    expect(computeSceneView(16 / 9).width).toBeGreaterThan(2700); // 16:9 is a hair narrower than the world
+    expect(computeSceneView(Number.NaN)).toEqual(FULL_VIEW);
+  });
+
+  it("narrow stages crop centred on the stadium opening", () => {
+    const phone = computeSceneView(0.6);
+    expect(phone.width).toBe(922);
+    expect(phone.x + phone.width / 2).toBeCloseTo(STADIUM_OPENING_X, 0);
+    const tablet = computeSceneView(0.92);
+    expect(tablet.x).toBeGreaterThanOrEqual(0);
+    expect(tablet.x + tablet.width).toBeLessThanOrEqual(WORLD_WIDTH);
+    // opening stays inside the frame at every aspect
+    for (const aspect of [0.5, 0.6, 0.75, 1, 1.33, 1.6]) {
+      const view = computeSceneView(aspect);
+      expect(view.x, `aspect ${aspect}`).toBeLessThanOrEqual(STADIUM_OPENING_X);
+      expect(view.x + view.width, `aspect ${aspect}`).toBeGreaterThanOrEqual(STADIUM_OPENING_X);
+    }
+  });
+
+  it("opening focus is the measured mouth centre", () => {
+    expect(STADIUM_OPENING_X).toBe(750); // dark interior spans x 566-933 on the plates
+  });
+});

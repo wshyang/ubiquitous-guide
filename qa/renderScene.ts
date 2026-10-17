@@ -5,7 +5,7 @@
 import { loadAnchors } from "../src/lib/anchors";
 import type { Ctx } from "../src/lib/types";
 import {
-  BOARDWALK, COURTS, PROMENADE_BACK, PROMENADE_FRONT, backdropTheme,
+  BOARDWALK, computeSceneView, COURTS, PROMENADE_BACK, PROMENADE_FRONT, backdropTheme,
   boatSpecs, buildScene, renderScene, waterEffectPlacements, WORLD_HEIGHT, WORLD_WIDTH,
 } from "../src/scene/scene";
 import { boatRectsAt } from "../src/scene/traffic";
@@ -20,15 +20,17 @@ const backdrop = await loadBackdrop(themeArg);
 const entities = buildScene(store, anchors, SEED);
 const withGrid = process.argv.includes("--grid");
 const withWatermap = process.argv.includes("--watermap");
+const aspectArg = process.argv.find((a) => a.startsWith("--aspect="))?.split("=")[1];
+const view = aspectArg ? computeSceneView(Number(aspectArg)) : undefined;
 const times = [2, 6.5];
 
 for (const t of times) {
-  const canvas = createCanvas(WORLD_WIDTH, WORLD_HEIGHT);
+  const canvas = createCanvas(view?.width ?? WORLD_WIDTH, WORLD_HEIGHT);
   const ctx = canvas.getContext("2d");
-  renderScene(ctx as never, backdrop, entities, { timeSec: t, showAnchors: false });
+  renderScene(ctx as never, backdrop, entities, { timeSec: t, showAnchors: false }, view);
   if (withGrid) drawGrid(ctx as never);
   if (withWatermap) drawWatermap(ctx as never, t);
-  const suffix = `${themeArg !== "day" ? `-${themeArg}` : ""}${withWatermap ? "-watermap" : withGrid ? "-grid" : ""}`;
+  const suffix = `${themeArg !== "day" ? `-${themeArg}` : ""}${aspectArg ? `-a${aspectArg.replace(".", "_")}` : ""}${withWatermap ? "-watermap" : withGrid ? "-grid" : ""}`;
   await saveCanvas(canvas, `qa/scene-t${String(t).replace(".", "_")}${suffix}.png`);
 }
 

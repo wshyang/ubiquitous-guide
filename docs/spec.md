@@ -81,7 +81,9 @@ Layer order (back→front): backdrop sky → backdrop scene plate → drifting c
 Placements follow the populated-reference backdrop (people concentrated on
 the plaza/steps/promenade; boats in the lower water band). The stage is the
 backdrop's 2752×1536 world, letterboxed to the viewport with
-`imageSmoothingEnabled = false`.
+`imageSmoothingEnabled = false`. Portrait/narrow viewports instead crop
+horizontally around the stadium opening (x=750) at 1:1 scale
+(addendum 0011).
 
 ## 6. Animation & determinism
 
