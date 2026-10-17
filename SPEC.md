@@ -80,3 +80,19 @@ dressing the grounds).
 - **Spec §:** 2.
 - **Impact:** sheet-to-pipeline paths are stable; the gate must pass in CI
   before any pipeline change merges.
+
+### A3 — Sprite extraction contract
+- **Decided:** `scripts/extract_sprites.py` cuts all five sheets into
+  `public/sprites/<class>/` (401 pieces, 33 classes) with a deterministic
+  manifest. Magenta matting uses distance-to-border-median colour with a
+  [65,120] alpha feather; pieces are bbox crops (a crop may *enclose* a
+  smaller component — e.g. the table under a tent, the flag inside a balloon
+  arch — which makes each piece a self-contained dressing variant; this is
+  intended). Class bands are centre-based, first-match-wins, tuned via
+  `--report` + debug overlays; sheet titles/labels are excluded boxes.
+- **Why:** pieces feed the animation layer; the manifest is the public
+  contract (`/sprites/…` URL per piece).
+- **Spec §:** 3.
+- **Impact:** global per-class numbering spans both water/props sheet
+  variants (e.g. `tent-00..06` = variant A, `tent-07..16` = variant B);
+  regeneration must stay byte-identical (pytest enforces this).
