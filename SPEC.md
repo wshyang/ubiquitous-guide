@@ -115,3 +115,31 @@ dressing the grounds).
 - **Impact:** hull sprites stay oar-free under `/sprites/`; animated boats
   stitch at runtime from anchors, while `/composites/<class>/<variant>.png`
   is the pre-stitched reference (also usable as static art).
+
+### A5 — Scene app build, placement tuning, and verification scope
+- **Decided:** `public/app/scene-config.json` is the single source of truth
+  (world 2752×1536, seed, backdrops, lanes, boats, walkers, cheerers,
+  ripples, pose tables, 29 prop placements, animation params); modules split
+  as `rng / animation / scene / render / assets / main` (pure builders vs.
+  DOM), no bundler. `scripts/scene_preview.py` mirrors the JS builders
+  bit-for-bit (mulberry32 verified identical against node) to render
+  placement previews under `work/debug/scene/`. Placement rules derived from
+  measured backdrop pixels: all boat lanes sit at y ≥ 1355 because the quay
+  face runs down to y≈1352 for x 1900–2700; lanes use equal per-lane speeds
+  (55/45 px/s) so boats never pass through each other; lane direction comes
+  from the lane; ripple slots use an x-grid with y constrained beside the
+  quay (y ≥ 1445 for x > 1780, else the open strip 1160–1330). Cloud bands
+  are restricted to the sky above the stadium. `scripts/serve.py` confines
+  each route to its own root (`/`, `/app`, `/sprites`, `/composites`,
+  `/images → src/images`) — a repo-root check proved insufficient when
+  `/sprites/../../.git/config` escaped; `tests/test_serve.py` pins this.
+- **Why:** the final artefact must be the whole animated scene; eyeballed
+  coordinates were wrong before (A3 lesson), so placement is measured and
+  preview-inspected (render → view → adjust) with the same config the app
+  loads.
+- **Spec §:** 5, 6.
+- **Impact:** `dev.sh` runs both gates then serves 0.0.0.0:3000; verification
+  is honestly scoped — no browser exists in this environment, so correctness
+  claims rest on 434/434 served URLs, node module import + buildScene
+  determinism, 28 node tests, 28 pytest tests, and PIL previews of the same
+  seeded state; in-browser animation itself is not screenshot-verified here.

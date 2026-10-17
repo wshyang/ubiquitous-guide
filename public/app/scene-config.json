@@ -1,0 +1,105 @@
+{
+  "world": { "width": 2752, "height": 1536 },
+  "seed": 42,
+  "backdrops": [
+    { "id": "daylight", "label": "Daylight", "url": "/images/backdrops/kallang-daylight.jpeg" },
+    { "id": "sunset", "label": "Sunset", "url": "/images/backdrops/kallang-sunset.jpeg" },
+    { "id": "sunset-magenta", "label": "Magenta sunset", "url": "/images/backdrops/kallang-sunset-magenta-sky.jpeg" }
+  ],
+  "clouds": {
+    "count": 9,
+    "classes": ["cloud-small", "cloud-medium", "cloud-large", "cloud-wisp"],
+    "yBands": [[30, 170], [50, 210], [80, 250], [110, 300]],
+    "classScale": [[0.25, 0.45], [0.3, 0.55], [0.4, 0.6], [0.35, 0.7]],
+    "speed": [4, 13],
+    "alpha": [0.75, 1.0]
+  },
+  "lanes": [
+    { "y": 1358, "traffic": "dragon", "scale": 0.5, "dir": -1 },
+    { "y": 1470, "traffic": "small", "scale": 0.44, "dir": 1 }
+  ],
+  "boats": {
+    "dragonCount": 3,
+    "smallCount": 4,
+    "margin": 780,
+    "speed": { "dragon": [55, 55], "small": [45, 45] }
+  },
+  "walkers": {
+    "count": 9,
+    "scale": 0.3,
+    "paths": [
+      { "y": 1136, "x0": 30, "x1": 2720 },
+      { "y": 1166, "x0": 50, "x1": 2700 }
+    ],
+    "speed": [15, 26],
+    "fps": [6, 8]
+  },
+  "cheerers": {
+    "count": 5,
+    "scale": 0.3,
+    "spots": [[1560, 1178], [1770, 1178], [1010, 1116], [2040, 1174], [880, 1160]]
+  },
+  "ripples": {
+    "slots": 5,
+    "band": { "x0": 140, "x1": 2610, "y0": 1160, "y1": 1500 },
+    "holdSec": [1.6, 3.4],
+    "frames": [4, 6, 9, 12],
+    "scale": [0.6, 1.1]
+  },
+  "wakeSprites": [4, 5, 6, 8, 12],
+  "splashSprites": [0, 2, 3, 4],
+  "splashClass": "water-fx",
+  "poses": {
+    "12": { "idle": [0, 1], "walk": [4, 5], "cheer": [6, 7], "cheer2": [10, 11] },
+    "13": { "idle": [3, 0], "walk": [4, 5, 6], "cheer": [11, 12], "cheer2": [1, 2] }
+  },
+  "colors": [
+    "character-red", "character-blue", "character-green",
+    "character-yellow", "character-orange", "character-purple"
+  ],
+  "colorPoseKey": {
+    "character-red": "12", "character-blue": "12", "character-green": "12",
+    "character-yellow": "12", "character-orange": "13", "character-purple": "13"
+  },
+  "props": [
+    { "class": "tent", "index": 7, "x": 170, "y": 1108, "scale": 0.42 },
+    { "class": "tent", "index": 9, "x": 385, "y": 1108, "scale": 0.42 },
+    { "class": "tent", "index": 8, "x": 565, "y": 1112, "scale": 0.42 },
+    { "class": "tent", "index": 13, "x": 2240, "y": 1120, "scale": 0.4 },
+    { "class": "tent", "index": 10, "x": 2430, "y": 1124, "scale": 0.4 },
+    { "class": "arch-start-finish", "index": 0, "x": 1660, "y": 1180, "scale": 0.55 },
+    { "class": "balloon-arch", "index": 1, "x": 1345, "y": 1112, "scale": 0.55 },
+    { "class": "balloon-arch", "index": 0, "x": 830, "y": 1116, "scale": 0.45 },
+    { "class": "podium", "index": 1, "x": 1060, "y": 1092, "scale": 0.5 },
+    { "class": "trophy", "index": 0, "x": 935, "y": 1092, "scale": 0.45 },
+    { "class": "trophy", "index": 2, "x": 1185, "y": 1094, "scale": 0.45 },
+    { "class": "banner", "index": 0, "x": 690, "y": 1104, "scale": 0.5 },
+    { "class": "banner", "index": 2, "x": 2060, "y": 1104, "scale": 0.5 },
+    { "class": "bunting", "index": 0, "x": 330, "y": 1100, "scale": 0.55 },
+    { "class": "bunting", "index": 3, "x": 1930, "y": 1100, "scale": 0.55 },
+    { "class": "flag", "index": 0, "x": 480, "y": 1176, "scale": 0.42 },
+    { "class": "flag", "index": 5, "x": 1215, "y": 1178, "scale": 0.42 },
+    { "class": "flag", "index": 6, "x": 2330, "y": 1178, "scale": 0.42 },
+    { "class": "flag-pole", "index": 0, "x": 1495, "y": 1178, "scale": 0.5 },
+    { "class": "flag-pole", "index": 4, "x": 760, "y": 1176, "scale": 0.4 },
+    { "class": "barrier", "index": 0, "x": 1875, "y": 1180, "scale": 0.55 },
+    { "class": "barrier", "index": 1, "x": 2150, "y": 1180, "scale": 0.55 },
+    { "class": "event-flag", "index": 0, "x": 1290, "y": 1112, "scale": 0.5 },
+    { "class": "event-gear", "index": 13, "x": 630, "y": 1130, "scale": 0.5 },
+    { "class": "event-gear", "index": 5, "x": 2540, "y": 1148, "scale": 0.45 },
+    { "class": "event-gear", "index": 16, "x": 800, "y": 1122, "scale": 0.5 },
+    { "class": "event-gear", "index": 11, "x": 1395, "y": 1176, "scale": 0.35 },
+    { "class": "event-gear", "index": 12, "x": 1445, "y": 1176, "scale": 0.35 },
+    { "class": "event-gear", "index": 24, "x": 1345, "y": 1176, "scale": 0.35 }
+  ],
+  "animation": {
+    "dragonOar": { "swingDeg": 16, "fps": 1.8, "phaseStep": 0.35 },
+    "kayakPaddle": { "swingDeg": 24, "fps": 2.2, "phaseStep": 1.1 },
+    "splashThreshold": -0.55,
+    "cheerFps": [2.8, 3.8],
+    "bob": { "amp": 2.6, "freq": 0.7 },
+    "rippleAlpha": [0.5, 0.85],
+    "splashAlpha": 0.9,
+    "wakeAlpha": 0.7
+  }
+}

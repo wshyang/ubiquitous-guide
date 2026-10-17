@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Kallang Scene</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: #0b1d2a;
+      font-family: ui-sans-serif, system-ui, sans-serif; color: #e8f1f5; }
+    main { display: flex; flex-direction: column; height: 100%; }
+    .bar { display: flex; gap: 16px; align-items: baseline; padding: 10px 16px;
+      background: #102636; border-bottom: 1px solid #1e3a4d; flex-wrap: wrap; }
+    .bar h1 { font-size: 15px; margin: 0; font-weight: 650; letter-spacing: .02em; }
+    .bar label { font-size: 13px; opacity: .85; }
+    select, button { font: inherit; font-size: 13px; background: #17334a; color: inherit;
+      border: 1px solid #2b5674; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+    button:hover, select:hover { background: #1d4260; }
+    #scene-stats__actors, #scene-stats__loading { font-size: 12px; opacity: .7; margin: 0; }
+    #scene-canvas { flex: 1; width: 100%; height: 100%; display: block; min-height: 0; }
+    #scene-error { position: fixed; left: 12px; bottom: 12px; background: #5b1f1f;
+      color: #ffd7d7; padding: 8px 12px; border-radius: 6px; font-size: 13px; max-width: 70vw; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="bar">
+      <h1>The Kallang Scene</h1>
+      <label>Backdrop
+        <select data-testid="scene-controls__backdrop-select" aria-label="Backdrop"></select>
+      </label>
+      <button data-testid="scene-controls__pause-button" aria-pressed="false">Pause</button>
+      <p data-testid="scene-stats__actors"></p>
+      <p data-testid="scene-stats__loading"></p>
+    </div>
+    <canvas data-testid="scene-canvas" aria-label="Animated regatta scene"></canvas>
+  </main>
+  <div id="scene-error" data-testid="scene-error" hidden></div>
+  <script type="module" src="/app/main.js"></script>
+</body>
+</html>

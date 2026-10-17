@@ -1,0 +1,10 @@
+{
+  "name": "ubiquitous-guide-scene",
+  "private": true,
+  "type": "module",
+  "description": "Kallang regatta scene app — static ES modules, no bundler (see CLAUDE.md).",
+  "scripts": {
+    "test": "node --test tests/js/*.test.mjs",
+    "serve": "python3 scripts/serve.py"
+  }
+}
