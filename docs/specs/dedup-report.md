@@ -43,3 +43,14 @@ All original Gemini_* files remain git-tracked at root for provenance but canoni
 - SHA256 dedup guarantees byte-level uniqueness.
 - Perceptual dedup: visual inspection confirms no perceptual duplicates beyond byte-identical pairs. The 3 Kallang backdrops are intentionally variant (different time-of-day, crowd density, camera angle) and retained.
 - Public URL manifest: each src/images file served at /images/<filename> via Vite public copy.
+
+## Update 2026-10-17 — Merged origin/main 357c3fb (8 new sky/backdrop variants)
+New files: `backdrop dawn (sky corruption).jpeg`, `backdrop day.jpeg`, `backdrop dusk.jpeg`, `sky afternoon/dusk/early morning/late afternoon/late morning.jpeg`, plus duplicate `Gemini_dsa34fdsa34fdsa3 (1).jpeg` (hash identical to `backdrop day.jpeg` → deduped).
+
+Filed:
+- `backdrop-kallang-dawn-corrupted.jpg` (sky corruption artefact, retained for reference)
+- `backdrop-kallang-day-02.jpg` (day variant, deduped from duplicate)
+- `backdrop-kallang-dusk-02.jpg`
+- `sky-afternoon.jpg`, `sky-dusk.jpg`, `sky-early-morning.jpg`, `sky-late-afternoon.jpg`, `sky-late-morning.jpg`
+
+Total uniques now 19 (11 + 8 new) in `src/images/`, all publicly at `/images/*`.
