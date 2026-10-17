@@ -20,4 +20,4 @@ EXPOSE 3000
 USER 1001
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
   CMD wget -q -O /dev/null http://127.0.0.1:3000/ || exit 1
-CMD ["serve", "dist", "-s", "-l", "3000"]
+CMD ["serve", "dist", "-l", "3000"]
