@@ -1,0 +1,949 @@
+{
+  "class": "kayak",
+  "composites": [
+    {
+      "name": "kayak_red_1seat_catch",
+      "file": "kayak_red_1seat_catch.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "catch",
+      "base": "kayak_red_1seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          543,
+          163
+        ],
+        "waterline_bow": [
+          527,
+          146
+        ],
+        "waterline_stern": [
+          36,
+          146
+        ],
+        "hand_seat_1": [
+          271,
+          114
+        ],
+        "blade_tip_seat_1": [
+          329,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_red_1seat_pull",
+      "file": "kayak_red_1seat_pull.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "pull",
+      "base": "kayak_red_1seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          544,
+          163
+        ],
+        "waterline_bow": [
+          528,
+          146
+        ],
+        "waterline_stern": [
+          36,
+          146
+        ],
+        "hand_seat_1": [
+          272,
+          114
+        ],
+        "blade_tip_seat_1": [
+          213,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_red_1seat_catch",
+      "file": "kayak_red_1seat_catch.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "catch",
+      "base": "kayak_red_1seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          543,
+          163
+        ],
+        "waterline_bow": [
+          527,
+          146
+        ],
+        "waterline_stern": [
+          36,
+          146
+        ],
+        "hand_seat_1": [
+          271,
+          114
+        ],
+        "blade_tip_seat_1": [
+          329,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_red_1seat_pull",
+      "file": "kayak_red_1seat_pull.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "pull",
+      "base": "kayak_red_1seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          544,
+          163
+        ],
+        "waterline_bow": [
+          528,
+          146
+        ],
+        "waterline_stern": [
+          36,
+          146
+        ],
+        "hand_seat_1": [
+          272,
+          114
+        ],
+        "blade_tip_seat_1": [
+          213,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_yellow_1seat_catch",
+      "file": "kayak_yellow_1seat_catch.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "catch",
+      "base": "kayak_yellow_1seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          554,
+          164
+        ],
+        "waterline_bow": [
+          538,
+          147
+        ],
+        "waterline_stern": [
+          36,
+          147
+        ],
+        "hand_seat_1": [
+          276,
+          114
+        ],
+        "blade_tip_seat_1": [
+          335,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_yellow_1seat_pull",
+      "file": "kayak_yellow_1seat_pull.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "pull",
+      "base": "kayak_yellow_1seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          567,
+          164
+        ],
+        "waterline_bow": [
+          551,
+          147
+        ],
+        "waterline_stern": [
+          36,
+          147
+        ],
+        "hand_seat_1": [
+          283,
+          114
+        ],
+        "blade_tip_seat_1": [
+          224,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_yellow_1seat_catch",
+      "file": "kayak_yellow_1seat_catch.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "catch",
+      "base": "kayak_yellow_1seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          554,
+          164
+        ],
+        "waterline_bow": [
+          538,
+          147
+        ],
+        "waterline_stern": [
+          36,
+          147
+        ],
+        "hand_seat_1": [
+          276,
+          114
+        ],
+        "blade_tip_seat_1": [
+          335,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_yellow_1seat_pull",
+      "file": "kayak_yellow_1seat_pull.png",
+      "class": "kayak",
+      "seats": 1,
+      "phase": "pull",
+      "base": "kayak_yellow_1seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          567,
+          164
+        ],
+        "waterline_bow": [
+          551,
+          147
+        ],
+        "waterline_stern": [
+          36,
+          147
+        ],
+        "hand_seat_1": [
+          283,
+          114
+        ],
+        "blade_tip_seat_1": [
+          224,
+          231
+        ]
+      }
+    },
+    {
+      "name": "kayak_green_2seat_catch",
+      "file": "kayak_green_2seat_catch.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "catch",
+      "base": "kayak_green_2seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          168
+        ],
+        "waterline_bow": [
+          540,
+          150
+        ],
+        "waterline_stern": [
+          36,
+          150
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          293,
+          209
+        ],
+        "hand_seat_2": [
+          331,
+          92
+        ],
+        "blade_tip_seat_2": [
+          389,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_green_2seat_pull",
+      "file": "kayak_green_2seat_pull.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "pull",
+      "base": "kayak_green_2seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          166
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          242,
+          92
+        ],
+        "blade_tip_seat_1": [
+          183,
+          209
+        ],
+        "hand_seat_2": [
+          341,
+          92
+        ],
+        "blade_tip_seat_2": [
+          283,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_green_2seat_catch",
+      "file": "kayak_green_2seat_catch.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "catch",
+      "base": "kayak_green_2seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          168
+        ],
+        "waterline_bow": [
+          540,
+          150
+        ],
+        "waterline_stern": [
+          36,
+          150
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          293,
+          209
+        ],
+        "hand_seat_2": [
+          331,
+          92
+        ],
+        "blade_tip_seat_2": [
+          389,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_green_2seat_pull",
+      "file": "kayak_green_2seat_pull.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "pull",
+      "base": "kayak_green_2seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          166
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          242,
+          92
+        ],
+        "blade_tip_seat_1": [
+          183,
+          209
+        ],
+        "hand_seat_2": [
+          341,
+          92
+        ],
+        "blade_tip_seat_2": [
+          283,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_blue_2seat_catch",
+      "file": "kayak_blue_2seat_catch.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "catch",
+      "base": "kayak_blue_2seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          167
+        ],
+        "waterline_bow": [
+          540,
+          149
+        ],
+        "waterline_stern": [
+          36,
+          149
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          293,
+          209
+        ],
+        "hand_seat_2": [
+          331,
+          92
+        ],
+        "blade_tip_seat_2": [
+          389,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_blue_2seat_pull",
+      "file": "kayak_blue_2seat_pull.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "pull",
+      "base": "kayak_blue_2seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          165
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          242,
+          91
+        ],
+        "blade_tip_seat_1": [
+          183,
+          208
+        ],
+        "hand_seat_2": [
+          341,
+          91
+        ],
+        "blade_tip_seat_2": [
+          283,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_blue_2seat_catch",
+      "file": "kayak_blue_2seat_catch.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "catch",
+      "base": "kayak_blue_2seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          167
+        ],
+        "waterline_bow": [
+          540,
+          149
+        ],
+        "waterline_stern": [
+          36,
+          149
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          293,
+          209
+        ],
+        "hand_seat_2": [
+          331,
+          92
+        ],
+        "blade_tip_seat_2": [
+          389,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_blue_2seat_pull",
+      "file": "kayak_blue_2seat_pull.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "pull",
+      "base": "kayak_blue_2seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          165
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          242,
+          91
+        ],
+        "blade_tip_seat_1": [
+          183,
+          208
+        ],
+        "hand_seat_2": [
+          341,
+          91
+        ],
+        "blade_tip_seat_2": [
+          283,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_purple_3seat_catch",
+      "file": "kayak_purple_3seat_catch.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "catch",
+      "base": "kayak_purple_3seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          165
+        ],
+        "waterline_bow": [
+          540,
+          148
+        ],
+        "waterline_stern": [
+          36,
+          148
+        ],
+        "hand_seat_1": [
+          202,
+          91
+        ],
+        "blade_tip_seat_1": [
+          261,
+          208
+        ],
+        "hand_seat_2": [
+          304,
+          91
+        ],
+        "blade_tip_seat_2": [
+          363,
+          208
+        ],
+        "hand_seat_3": [
+          401,
+          91
+        ],
+        "blade_tip_seat_3": [
+          459,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_purple_3seat_pull",
+      "file": "kayak_purple_3seat_pull.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "pull",
+      "base": "kayak_purple_3seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          165
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          208,
+          91
+        ],
+        "blade_tip_seat_1": [
+          150,
+          208
+        ],
+        "hand_seat_2": [
+          314,
+          91
+        ],
+        "blade_tip_seat_2": [
+          255,
+          208
+        ],
+        "hand_seat_3": [
+          413,
+          91
+        ],
+        "blade_tip_seat_3": [
+          355,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_purple_3seat_catch",
+      "file": "kayak_purple_3seat_catch.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "catch",
+      "base": "kayak_purple_3seat_f0",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          556,
+          165
+        ],
+        "waterline_bow": [
+          540,
+          148
+        ],
+        "waterline_stern": [
+          36,
+          148
+        ],
+        "hand_seat_1": [
+          202,
+          91
+        ],
+        "blade_tip_seat_1": [
+          261,
+          208
+        ],
+        "hand_seat_2": [
+          304,
+          91
+        ],
+        "blade_tip_seat_2": [
+          363,
+          208
+        ],
+        "hand_seat_3": [
+          401,
+          91
+        ],
+        "blade_tip_seat_3": [
+          459,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_purple_3seat_pull",
+      "file": "kayak_purple_3seat_pull.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "pull",
+      "base": "kayak_purple_3seat_f1",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          165
+        ],
+        "waterline_bow": [
+          557,
+          148
+        ],
+        "waterline_stern": [
+          37,
+          148
+        ],
+        "hand_seat_1": [
+          208,
+          91
+        ],
+        "blade_tip_seat_1": [
+          150,
+          208
+        ],
+        "hand_seat_2": [
+          314,
+          91
+        ],
+        "blade_tip_seat_2": [
+          255,
+          208
+        ],
+        "hand_seat_3": [
+          413,
+          91
+        ],
+        "blade_tip_seat_3": [
+          355,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_orange_2seat_catch",
+      "file": "kayak_orange_2seat_catch.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "catch",
+      "base": "kayak_orange_2seat",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          555,
+          166
+        ],
+        "waterline_bow": [
+          539,
+          148
+        ],
+        "waterline_stern": [
+          36,
+          148
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          292,
+          209
+        ],
+        "hand_seat_2": [
+          330,
+          92
+        ],
+        "blade_tip_seat_2": [
+          389,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_orange_2seat_pull",
+      "file": "kayak_orange_2seat_pull.png",
+      "class": "kayak",
+      "seats": 2,
+      "phase": "pull",
+      "base": "kayak_orange_2seat",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          555,
+          166
+        ],
+        "waterline_bow": [
+          539,
+          148
+        ],
+        "waterline_stern": [
+          36,
+          148
+        ],
+        "hand_seat_1": [
+          234,
+          92
+        ],
+        "blade_tip_seat_1": [
+          176,
+          209
+        ],
+        "hand_seat_2": [
+          330,
+          92
+        ],
+        "blade_tip_seat_2": [
+          272,
+          209
+        ]
+      }
+    },
+    {
+      "name": "kayak_pink_3seat_catch",
+      "file": "kayak_pink_3seat_catch.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "catch",
+      "base": "kayak_pink_3seat",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          164
+        ],
+        "waterline_bow": [
+          557,
+          147
+        ],
+        "waterline_stern": [
+          37,
+          147
+        ],
+        "hand_seat_1": [
+          208,
+          91
+        ],
+        "blade_tip_seat_1": [
+          267,
+          208
+        ],
+        "hand_seat_2": [
+          314,
+          91
+        ],
+        "blade_tip_seat_2": [
+          372,
+          208
+        ],
+        "hand_seat_3": [
+          413,
+          91
+        ],
+        "blade_tip_seat_3": [
+          472,
+          208
+        ]
+      }
+    },
+    {
+      "name": "kayak_pink_3seat_pull",
+      "file": "kayak_pink_3seat_pull.png",
+      "class": "kayak",
+      "seats": 3,
+      "phase": "pull",
+      "base": "kayak_pink_3seat",
+      "anchors": {
+        "hull_box": [
+          20,
+          40,
+          574,
+          164
+        ],
+        "waterline_bow": [
+          557,
+          147
+        ],
+        "waterline_stern": [
+          37,
+          147
+        ],
+        "hand_seat_1": [
+          208,
+          91
+        ],
+        "blade_tip_seat_1": [
+          150,
+          208
+        ],
+        "hand_seat_2": [
+          314,
+          91
+        ],
+        "blade_tip_seat_2": [
+          255,
+          208
+        ],
+        "hand_seat_3": [
+          413,
+          91
+        ],
+        "blade_tip_seat_3": [
+          355,
+          208
+        ]
+      }
+    }
+  ]
+}

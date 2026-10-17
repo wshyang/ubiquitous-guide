@@ -1,0 +1,155 @@
+{
+  "class": "dragon_boat",
+  "composites": [
+    {
+      "name": "dragon_boat_red",
+      "file": "dragon_boat_red.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1156,
+          195
+        ],
+        "waterline_bow": [
+          33,
+          165
+        ],
+        "waterline_stern": [
+          1133,
+          165
+        ],
+        "wake_origin": [
+          1133,
+          165
+        ]
+      }
+    },
+    {
+      "name": "dragon_boat_blue",
+      "file": "dragon_boat_blue.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1155,
+          194
+        ],
+        "waterline_bow": [
+          33,
+          165
+        ],
+        "waterline_stern": [
+          1132,
+          165
+        ],
+        "wake_origin": [
+          1132,
+          165
+        ]
+      }
+    },
+    {
+      "name": "dragon_boat_green",
+      "file": "dragon_boat_green.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1154,
+          195
+        ],
+        "waterline_bow": [
+          33,
+          165
+        ],
+        "waterline_stern": [
+          1131,
+          165
+        ],
+        "wake_origin": [
+          1131,
+          165
+        ]
+      }
+    },
+    {
+      "name": "dragon_boat_yellow",
+      "file": "dragon_boat_yellow.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1155,
+          196
+        ],
+        "waterline_bow": [
+          33,
+          166
+        ],
+        "waterline_stern": [
+          1132,
+          166
+        ],
+        "wake_origin": [
+          1132,
+          166
+        ]
+      }
+    },
+    {
+      "name": "dragon_boat_orange",
+      "file": "dragon_boat_orange.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1155,
+          196
+        ],
+        "waterline_bow": [
+          33,
+          166
+        ],
+        "waterline_stern": [
+          1132,
+          166
+        ],
+        "wake_origin": [
+          1132,
+          166
+        ]
+      }
+    },
+    {
+      "name": "dragon_boat_lilac",
+      "file": "dragon_boat_lilac.png",
+      "class": "dragon_boat",
+      "anchors": {
+        "hull_box": [
+          10,
+          10,
+          1155,
+          196
+        ],
+        "waterline_bow": [
+          33,
+          166
+        ],
+        "waterline_stern": [
+          1132,
+          166
+        ],
+        "wake_origin": [
+          1132,
+          166
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "kallang-sports-day-scene",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "art:dedup": "python3 -m scripts.dedup_images src/images",
+    "art:extract": "python3 -m scripts.sprites.extract",
+    "art:composites": "python3 -m scripts.composites.build",
+    "art:test": "python3 -m pytest -q"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}

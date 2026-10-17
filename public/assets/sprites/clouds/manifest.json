@@ -1,0 +1,390 @@
+{
+  "sheet": "clouds",
+  "source": "src/images/sprite-sheets/clouds_sheet.jpeg",
+  "pieces": [
+    {
+      "name": "cloud_puff_xs_00",
+      "file": "cloud_puff_xs_00.png",
+      "source_box": [
+        103,
+        74,
+        275,
+        172
+      ],
+      "width": 172,
+      "height": 98
+    },
+    {
+      "name": "cloud_puff_xs_01",
+      "file": "cloud_puff_xs_01.png",
+      "source_box": [
+        402,
+        57,
+        636,
+        189
+      ],
+      "width": 234,
+      "height": 132
+    },
+    {
+      "name": "cloud_puff_xs_02",
+      "file": "cloud_puff_xs_02.png",
+      "source_box": [
+        740,
+        46,
+        974,
+        201
+      ],
+      "width": 234,
+      "height": 155
+    },
+    {
+      "name": "cloud_puff_xs_03",
+      "file": "cloud_puff_xs_03.png",
+      "source_box": [
+        1073,
+        52,
+        1336,
+        195
+      ],
+      "width": 263,
+      "height": 143
+    },
+    {
+      "name": "cloud_puff_xs_04",
+      "file": "cloud_puff_xs_04.png",
+      "source_box": [
+        1416,
+        52,
+        1680,
+        195
+      ],
+      "width": 264,
+      "height": 143
+    },
+    {
+      "name": "cloud_puff_xs_05",
+      "file": "cloud_puff_xs_05.png",
+      "source_box": [
+        1760,
+        28,
+        2156,
+        218
+      ],
+      "width": 396,
+      "height": 190
+    },
+    {
+      "name": "cloud_puff_xs_06",
+      "file": "cloud_puff_xs_06.png",
+      "source_box": [
+        2248,
+        57,
+        2552,
+        189
+      ],
+      "width": 304,
+      "height": 132
+    },
+    {
+      "name": "cloud_puff_s_00",
+      "file": "cloud_puff_s_00.png",
+      "source_box": [
+        104,
+        310,
+        275,
+        407
+      ],
+      "width": 171,
+      "height": 97
+    },
+    {
+      "name": "cloud_puff_s_01",
+      "file": "cloud_puff_s_01.png",
+      "source_box": [
+        390,
+        264,
+        648,
+        442
+      ],
+      "width": 258,
+      "height": 178
+    },
+    {
+      "name": "cloud_puff_s_02",
+      "file": "cloud_puff_s_02.png",
+      "source_box": [
+        734,
+        269,
+        986,
+        436
+      ],
+      "width": 252,
+      "height": 167
+    },
+    {
+      "name": "cloud_puff_s_03",
+      "file": "cloud_puff_s_03.png",
+      "source_box": [
+        1084,
+        292,
+        1326,
+        413
+      ],
+      "width": 242,
+      "height": 121
+    },
+    {
+      "name": "cloud_puff_s_04",
+      "file": "cloud_puff_s_04.png",
+      "source_box": [
+        1416,
+        280,
+        1686,
+        436
+      ],
+      "width": 270,
+      "height": 156
+    },
+    {
+      "name": "cloud_puff_s_05",
+      "file": "cloud_puff_s_05.png",
+      "source_box": [
+        1754,
+        292,
+        2156,
+        442
+      ],
+      "width": 402,
+      "height": 150
+    },
+    {
+      "name": "cloud_puff_s_06",
+      "file": "cloud_puff_s_06.png",
+      "source_box": [
+        2225,
+        270,
+        2574,
+        436
+      ],
+      "width": 349,
+      "height": 166
+    },
+    {
+      "name": "cloud_billow_00",
+      "file": "cloud_billow_00.png",
+      "source_box": [
+        92,
+        562,
+        338,
+        716
+      ],
+      "width": 246,
+      "height": 154
+    },
+    {
+      "name": "cloud_billow_01",
+      "file": "cloud_billow_01.png",
+      "source_box": [
+        408,
+        481,
+        940,
+        762
+      ],
+      "width": 532,
+      "height": 281
+    },
+    {
+      "name": "cloud_billow_02",
+      "file": "cloud_billow_02.png",
+      "source_box": [
+        1044,
+        493,
+        1850,
+        763
+      ],
+      "width": 806,
+      "height": 270
+    },
+    {
+      "name": "cloud_billow_03",
+      "file": "cloud_billow_03.png",
+      "source_box": [
+        1921,
+        522,
+        2672,
+        746
+      ],
+      "width": 751,
+      "height": 224
+    },
+    {
+      "name": "cloud_billow_long_00",
+      "file": "cloud_billow_long_00.png",
+      "source_box": [
+        80,
+        785,
+        986,
+        1084
+      ],
+      "width": 906,
+      "height": 299
+    },
+    {
+      "name": "cloud_billow_long_01",
+      "file": "cloud_billow_long_01.png",
+      "source_box": [
+        1072,
+        808,
+        1961,
+        1090
+      ],
+      "width": 889,
+      "height": 282
+    },
+    {
+      "name": "cloud_wisp_00",
+      "file": "cloud_wisp_00.png",
+      "source_box": [
+        98,
+        1169,
+        877,
+        1296
+      ],
+      "width": 779,
+      "height": 127
+    },
+    {
+      "name": "cloud_wisp_01",
+      "file": "cloud_wisp_01.png",
+      "source_box": [
+        958,
+        1170,
+        1709,
+        1296
+      ],
+      "width": 751,
+      "height": 126
+    },
+    {
+      "name": "cloud_wisp_02",
+      "file": "cloud_wisp_02.png",
+      "source_box": [
+        1784,
+        1169,
+        2351,
+        1278
+      ],
+      "width": 567,
+      "height": 109
+    },
+    {
+      "name": "cloud_wisp_03",
+      "file": "cloud_wisp_03.png",
+      "source_box": [
+        2017,
+        1255,
+        2190,
+        1291
+      ],
+      "width": 173,
+      "height": 36
+    },
+    {
+      "name": "cloud_wisp_04",
+      "file": "cloud_wisp_04.png",
+      "source_box": [
+        687,
+        1358,
+        826,
+        1399
+      ],
+      "width": 139,
+      "height": 41
+    },
+    {
+      "name": "cloud_wisp_05",
+      "file": "cloud_wisp_05.png",
+      "source_box": [
+        1985,
+        1387,
+        2046,
+        1411
+      ],
+      "width": 61,
+      "height": 24
+    },
+    {
+      "name": "cloud_wisp_06",
+      "file": "cloud_wisp_06.png",
+      "source_box": [
+        2318,
+        1381,
+        2363,
+        1404
+      ],
+      "width": 45,
+      "height": 23
+    },
+    {
+      "name": "cloud_wisp_07",
+      "file": "cloud_wisp_07.png",
+      "source_box": [
+        92,
+        1355,
+        698,
+        1479
+      ],
+      "width": 606,
+      "height": 124
+    },
+    {
+      "name": "cloud_wisp_08",
+      "file": "cloud_wisp_08.png",
+      "source_box": [
+        922,
+        1376,
+        1489,
+        1474
+      ],
+      "width": 567,
+      "height": 98
+    },
+    {
+      "name": "cloud_wisp_09",
+      "file": "cloud_wisp_09.png",
+      "source_box": [
+        1537,
+        1432,
+        1600,
+        1451
+      ],
+      "width": 63,
+      "height": 19
+    },
+    {
+      "name": "cloud_wisp_10",
+      "file": "cloud_wisp_10.png",
+      "source_box": [
+        1738,
+        1387,
+        1977,
+        1456
+      ],
+      "width": 239,
+      "height": 69
+    },
+    {
+      "name": "cloud_wisp_11",
+      "file": "cloud_wisp_11.png",
+      "source_box": [
+        2192,
+        1393,
+        2385,
+        1456
+      ],
+      "width": 193,
+      "height": 63
+    }
+  ]
+}

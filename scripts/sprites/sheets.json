@@ -1,0 +1,479 @@
+{
+  "_comment": "Sprite-sheet extraction plan. Boxes are [x0, y0, x1, y1] in source-image pixels. Labels, when given, are assigned in reading order and must match the piece count; otherwise pieces are named <prefix>_NN. See docs/DECISIONS.md (ADR-004).",
+  "sheets": [
+    {
+      "id": "kids",
+      "source": "src/images/sprite-sheets/kids_walk_and_cheer_sheet.jpeg",
+      "output_dir": "public/assets/sprites/kids",
+      "merge_radius": 3,
+      "min_area": 150,
+      "regions": [
+        {
+          "prefix": "kid_red",
+          "box": [
+            0,
+            0,
+            2400,
+            357
+          ],
+          "labels": [
+            "kid_red_stand_front",
+            "kid_red_stand_back",
+            "kid_red_stand_side_left",
+            "kid_red_stand_side_right",
+            "kid_red_run_front_a",
+            "kid_red_run_side_b",
+            "kid_red_cheer_front_a",
+            "kid_red_cheer_back_a",
+            "kid_red_wave_right",
+            "kid_red_reach_left",
+            "kid_red_cheer_front_b",
+            "kid_red_cheer_back_b"
+          ]
+        },
+        {
+          "prefix": "kid_blue",
+          "box": [
+            0,
+            357,
+            2400,
+            710
+          ],
+          "labels": [
+            "kid_blue_stand_front",
+            "kid_blue_stand_back",
+            "kid_blue_stand_side_left",
+            "kid_blue_stand_side_right",
+            "kid_blue_run_front_a",
+            "kid_blue_run_side_b",
+            "kid_blue_cheer_front_a",
+            "kid_blue_cheer_back_a",
+            "kid_blue_wave_right",
+            "kid_blue_reach_left",
+            "kid_blue_cheer_front_b",
+            "kid_blue_cheer_back_b"
+          ]
+        },
+        {
+          "prefix": "kid_green",
+          "box": [
+            0,
+            710,
+            2400,
+            1032
+          ],
+          "labels": [
+            "kid_green_stand_front",
+            "kid_green_stand_back",
+            "kid_green_stand_side_left",
+            "kid_green_stand_side_right",
+            "kid_green_run_front_a",
+            "kid_green_run_side_b",
+            "kid_green_cheer_front_a",
+            "kid_green_cheer_back_a",
+            "kid_green_wave_right",
+            "kid_green_reach_left",
+            "kid_green_cheer_front_b",
+            "kid_green_cheer_back_b"
+          ]
+        },
+        {
+          "prefix": "kid_yellow",
+          "box": [
+            0,
+            1032,
+            2400,
+            1318
+          ],
+          "labels": [
+            "kid_yellow_stand_front",
+            "kid_yellow_stand_back",
+            "kid_yellow_stand_side_left",
+            "kid_yellow_stand_side_right",
+            "kid_yellow_run_front_a",
+            "kid_yellow_run_side_b",
+            "kid_yellow_cheer_front_a",
+            "kid_yellow_cheer_back_a",
+            "kid_yellow_wave_right",
+            "kid_yellow_reach_left",
+            "kid_yellow_cheer_front_b",
+            "kid_yellow_cheer_back_b"
+          ]
+        },
+        {
+          "prefix": "kid_orange",
+          "box": [
+            0,
+            1318,
+            2400,
+            1559
+          ]
+        },
+        {
+          "prefix": "kid_purple",
+          "box": [
+            0,
+            1559,
+            2400,
+            1792
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boats",
+      "source": "src/images/sprite-sheets/dragon_boats_kayaks_paddles_sheet.jpeg",
+      "output_dir": "public/assets/sprites/boats",
+      "merge_radius": 3,
+      "min_area": 150,
+      "regions": [
+        {
+          "prefix": "dragon_boat",
+          "box": [
+            0,
+            0,
+            1200,
+            1200
+          ],
+          "labels": [
+            "dragon_boat_red",
+            "dragon_boat_blue",
+            "dragon_boat_green",
+            "dragon_boat_yellow",
+            "dragon_boat_orange",
+            "dragon_boat_lilac"
+          ]
+        },
+        {
+          "prefix": "kayak",
+          "box": [
+            1200,
+            0,
+            2400,
+            1200
+          ],
+          "labels": [
+            "kayak_red_1seat_f0",
+            "kayak_red_1seat_f1",
+            "kayak_yellow_1seat_f0",
+            "kayak_yellow_1seat_f1",
+            "kayak_green_2seat_f0",
+            "kayak_green_2seat_f1",
+            "kayak_blue_2seat_f0",
+            "kayak_blue_2seat_f1",
+            "kayak_purple_3seat_f0",
+            "kayak_purple_3seat_f1",
+            "kayak_orange_2seat",
+            "kayak_pink_3seat"
+          ]
+        },
+        {
+          "prefix": "paddle_wood",
+          "box": [
+            0,
+            1220,
+            1200,
+            1792
+          ]
+        },
+        {
+          "prefix": "paddle_coloured",
+          "box": [
+            1200,
+            1220,
+            1800,
+            1650
+          ]
+        },
+        {
+          "prefix": "oar_coloured",
+          "box": [
+            1800,
+            1220,
+            2400,
+            1650
+          ]
+        },
+        {
+          "prefix": "splash_ripple",
+          "box": [
+            1200,
+            1650,
+            2400,
+            1792
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clouds",
+      "source": "src/images/sprite-sheets/clouds_sheet.jpeg",
+      "output_dir": "public/assets/sprites/clouds",
+      "merge_radius": 4,
+      "min_area": 400,
+      "regions": [
+        {
+          "prefix": "cloud_puff_xs",
+          "box": [
+            0,
+            0,
+            2752,
+            220
+          ]
+        },
+        {
+          "prefix": "cloud_puff_s",
+          "box": [
+            0,
+            230,
+            2752,
+            460
+          ]
+        },
+        {
+          "prefix": "cloud_billow",
+          "box": [
+            0,
+            470,
+            2752,
+            770
+          ]
+        },
+        {
+          "prefix": "cloud_billow_long",
+          "box": [
+            0,
+            770,
+            2752,
+            1100
+          ]
+        },
+        {
+          "prefix": "cloud_wisp",
+          "box": [
+            0,
+            1100,
+            2752,
+            1536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effects_props_v1",
+      "source": "src/images/sprite-sheets/water_fx_and_sports_day_props_sheet_v1.jpeg",
+      "output_dir": "public/assets/sprites/effects-props-v1",
+      "merge_radius": 3,
+      "min_area": 150,
+      "regions": [
+        {
+          "prefix": "water_wake",
+          "box": [
+            35,
+            123,
+            1229,
+            737
+          ]
+        },
+        {
+          "prefix": "splash",
+          "box": [
+            1053,
+            140,
+            1755,
+            240
+          ]
+        },
+        {
+          "prefix": "oar_splash",
+          "box": [
+            1053,
+            265,
+            1755,
+            421
+          ]
+        },
+        {
+          "prefix": "oar_splash_water",
+          "box": [
+            1298,
+            518,
+            1667,
+            702
+          ]
+        },
+        {
+          "prefix": "ripple",
+          "box": [
+            1825,
+            88,
+            2685,
+            246
+          ]
+        },
+        {
+          "prefix": "oar_ripple",
+          "box": [
+            1825,
+            298,
+            2685,
+            527
+          ]
+        },
+        {
+          "prefix": "wave_spray",
+          "box": [
+            1825,
+            562,
+            2703,
+            728
+          ]
+        },
+        {
+          "prefix": "banner",
+          "box": [
+            44,
+            868,
+            474,
+            1225
+          ]
+        },
+        {
+          "prefix": "outpost_tent",
+          "box": [
+            1035,
+            868,
+            1878,
+            1141
+          ]
+        },
+        {
+          "prefix": "balloon_arch",
+          "box": [
+            1913,
+            868,
+            2703,
+            1141
+          ]
+        },
+        {
+          "prefix": "tent_base",
+          "box": [
+            44,
+            1229,
+            1079,
+            1509
+          ]
+        },
+        {
+          "prefix": "start_finish_arch",
+          "box": [
+            1106,
+            1158,
+            1790,
+            1509
+          ]
+        },
+        {
+          "prefix": "event_prop",
+          "box": [
+            1843,
+            1158,
+            2703,
+            1509
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effects_props_v2",
+      "source": "src/images/sprite-sheets/water_fx_and_sports_day_props_sheet_v2.jpeg",
+      "output_dir": "public/assets/sprites/effects-props-v2",
+      "merge_radius": 3,
+      "min_area": 150,
+      "regions": [
+        {
+          "prefix": "water_wake",
+          "box": [
+            49,
+            173,
+            877,
+            765
+          ]
+        },
+        {
+          "prefix": "splash",
+          "box": [
+            926,
+            160,
+            1531,
+            494
+          ]
+        },
+        {
+          "prefix": "oar_splash",
+          "box": [
+            889,
+            494,
+            1950,
+            790
+          ]
+        },
+        {
+          "prefix": "ripple",
+          "box": [
+            2000,
+            185,
+            2494,
+            765
+          ]
+        },
+        {
+          "prefix": "banner",
+          "box": [
+            25,
+            988,
+            494,
+            1704
+          ]
+        },
+        {
+          "prefix": "outpost_tent",
+          "box": [
+            630,
+            988,
+            1124,
+            1630
+          ]
+        },
+        {
+          "prefix": "event_infra",
+          "box": [
+            1136,
+            988,
+            1630,
+            1630
+          ]
+        },
+        {
+          "prefix": "award",
+          "box": [
+            1679,
+            1012,
+            1975,
+            1284
+          ]
+        },
+        {
+          "prefix": "equipment",
+          "box": [
+            2099,
+            988,
+            2494,
+            1630
+          ]
+        }
+      ]
+    }
+  ]
+}

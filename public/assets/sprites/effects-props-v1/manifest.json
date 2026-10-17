@@ -1,0 +1,1494 @@
+{
+  "sheet": "effects_props_v1",
+  "source": "src/images/sprite-sheets/water_fx_and_sports_day_props_sheet_v1.jpeg",
+  "pieces": [
+    {
+      "name": "water_wake_00",
+      "file": "water_wake_00.png",
+      "source_box": [
+        45,
+        163,
+        65,
+        172
+      ],
+      "width": 20,
+      "height": 9
+    },
+    {
+      "name": "water_wake_01",
+      "file": "water_wake_01.png",
+      "source_box": [
+        74,
+        134,
+        434,
+        202
+      ],
+      "width": 360,
+      "height": 68
+    },
+    {
+      "name": "water_wake_02",
+      "file": "water_wake_02.png",
+      "source_box": [
+        1084,
+        173,
+        1135,
+        220
+      ],
+      "width": 51,
+      "height": 47
+    },
+    {
+      "name": "water_wake_03",
+      "file": "water_wake_03.png",
+      "source_box": [
+        1206,
+        164,
+        1229,
+        221
+      ],
+      "width": 23,
+      "height": 57
+    },
+    {
+      "name": "water_wake_04",
+      "file": "water_wake_04.png",
+      "source_box": [
+        71,
+        241,
+        566,
+        318
+      ],
+      "width": 495,
+      "height": 77
+    },
+    {
+      "name": "water_wake_05",
+      "file": "water_wake_05.png",
+      "source_box": [
+        1198,
+        348,
+        1214,
+        359
+      ],
+      "width": 16,
+      "height": 11
+    },
+    {
+      "name": "water_wake_06",
+      "file": "water_wake_06.png",
+      "source_box": [
+        1203,
+        326,
+        1220,
+        338
+      ],
+      "width": 17,
+      "height": 12
+    },
+    {
+      "name": "water_wake_07",
+      "file": "water_wake_07.png",
+      "source_box": [
+        1077,
+        346,
+        1136,
+        394
+      ],
+      "width": 59,
+      "height": 48
+    },
+    {
+      "name": "water_wake_08",
+      "file": "water_wake_08.png",
+      "source_box": [
+        1204,
+        359,
+        1229,
+        398
+      ],
+      "width": 25,
+      "height": 39
+    },
+    {
+      "name": "water_wake_09",
+      "file": "water_wake_09.png",
+      "source_box": [
+        47,
+        354,
+        719,
+        441
+      ],
+      "width": 672,
+      "height": 87
+    },
+    {
+      "name": "water_wake_10",
+      "file": "water_wake_10.png",
+      "source_box": [
+        76,
+        467,
+        959,
+        583
+      ],
+      "width": 883,
+      "height": 116
+    },
+    {
+      "name": "water_wake_11",
+      "file": "water_wake_11.png",
+      "source_box": [
+        46,
+        666,
+        61,
+        676
+      ],
+      "width": 15,
+      "height": 10
+    },
+    {
+      "name": "water_wake_12",
+      "file": "water_wake_12.png",
+      "source_box": [
+        80,
+        612,
+        1200,
+        732
+      ],
+      "width": 1120,
+      "height": 120
+    },
+    {
+      "name": "splash_00",
+      "file": "splash_00.png",
+      "source_box": [
+        1417,
+        150,
+        1430,
+        165
+      ],
+      "width": 13,
+      "height": 15
+    },
+    {
+      "name": "splash_01",
+      "file": "splash_01.png",
+      "source_box": [
+        1460,
+        145,
+        1480,
+        164
+      ],
+      "width": 20,
+      "height": 19
+    },
+    {
+      "name": "splash_02",
+      "file": "splash_02.png",
+      "source_box": [
+        1575,
+        164,
+        1590,
+        174
+      ],
+      "width": 15,
+      "height": 10
+    },
+    {
+      "name": "splash_03",
+      "file": "splash_03.png",
+      "source_box": [
+        1084,
+        173,
+        1135,
+        220
+      ],
+      "width": 51,
+      "height": 47
+    },
+    {
+      "name": "splash_04",
+      "file": "splash_04.png",
+      "source_box": [
+        1206,
+        158,
+        1304,
+        224
+      ],
+      "width": 98,
+      "height": 66
+    },
+    {
+      "name": "splash_05",
+      "file": "splash_05.png",
+      "source_box": [
+        1392,
+        164,
+        1494,
+        230
+      ],
+      "width": 102,
+      "height": 66
+    },
+    {
+      "name": "splash_06",
+      "file": "splash_06.png",
+      "source_box": [
+        1580,
+        140,
+        1736,
+        234
+      ],
+      "width": 156,
+      "height": 94
+    },
+    {
+      "name": "oar_splash_00",
+      "file": "oar_splash_00.png",
+      "source_box": [
+        1622,
+        276,
+        1637,
+        292
+      ],
+      "width": 15,
+      "height": 16
+    },
+    {
+      "name": "oar_splash_01",
+      "file": "oar_splash_01.png",
+      "source_box": [
+        1717,
+        282,
+        1732,
+        297
+      ],
+      "width": 15,
+      "height": 15
+    },
+    {
+      "name": "oar_splash_02",
+      "file": "oar_splash_02.png",
+      "source_box": [
+        1733,
+        296,
+        1749,
+        306
+      ],
+      "width": 16,
+      "height": 10
+    },
+    {
+      "name": "oar_splash_03",
+      "file": "oar_splash_03.png",
+      "source_box": [
+        1388,
+        318,
+        1399,
+        332
+      ],
+      "width": 11,
+      "height": 14
+    },
+    {
+      "name": "oar_splash_04",
+      "file": "oar_splash_04.png",
+      "source_box": [
+        1501,
+        316,
+        1517,
+        330
+      ],
+      "width": 16,
+      "height": 14
+    },
+    {
+      "name": "oar_splash_05",
+      "file": "oar_splash_05.png",
+      "source_box": [
+        1203,
+        326,
+        1220,
+        338
+      ],
+      "width": 17,
+      "height": 12
+    },
+    {
+      "name": "oar_splash_06",
+      "file": "oar_splash_06.png",
+      "source_box": [
+        1558,
+        265,
+        1746,
+        413
+      ],
+      "width": 188,
+      "height": 148
+    },
+    {
+      "name": "oar_splash_07",
+      "file": "oar_splash_07.png",
+      "source_box": [
+        1204,
+        287,
+        1317,
+        402
+      ],
+      "width": 113,
+      "height": 115
+    },
+    {
+      "name": "oar_splash_08",
+      "file": "oar_splash_08.png",
+      "source_box": [
+        1358,
+        275,
+        1521,
+        407
+      ],
+      "width": 163,
+      "height": 132
+    },
+    {
+      "name": "oar_splash_09",
+      "file": "oar_splash_09.png",
+      "source_box": [
+        1198,
+        348,
+        1214,
+        359
+      ],
+      "width": 16,
+      "height": 11
+    },
+    {
+      "name": "oar_splash_10",
+      "file": "oar_splash_10.png",
+      "source_box": [
+        1301,
+        346,
+        1316,
+        358
+      ],
+      "width": 15,
+      "height": 12
+    },
+    {
+      "name": "oar_splash_11",
+      "file": "oar_splash_11.png",
+      "source_box": [
+        1077,
+        346,
+        1136,
+        394
+      ],
+      "width": 59,
+      "height": 48
+    },
+    {
+      "name": "oar_splash_water_00",
+      "file": "oar_splash_water_00.png",
+      "source_box": [
+        1515,
+        574,
+        1528,
+        590
+      ],
+      "width": 13,
+      "height": 16
+    },
+    {
+      "name": "oar_splash_water_01",
+      "file": "oar_splash_water_01.png",
+      "source_box": [
+        1302,
+        518,
+        1457,
+        698
+      ],
+      "width": 155,
+      "height": 180
+    },
+    {
+      "name": "oar_splash_water_02",
+      "file": "oar_splash_water_02.png",
+      "source_box": [
+        1482,
+        518,
+        1662,
+        702
+      ],
+      "width": 180,
+      "height": 184
+    },
+    {
+      "name": "oar_splash_water_03",
+      "file": "oar_splash_water_03.png",
+      "source_box": [
+        1642,
+        605,
+        1657,
+        620
+      ],
+      "width": 15,
+      "height": 15
+    },
+    {
+      "name": "oar_splash_water_04",
+      "file": "oar_splash_water_04.png",
+      "source_box": [
+        1402,
+        626,
+        1414,
+        640
+      ],
+      "width": 12,
+      "height": 14
+    },
+    {
+      "name": "oar_splash_water_05",
+      "file": "oar_splash_water_05.png",
+      "source_box": [
+        1407,
+        644,
+        1424,
+        656
+      ],
+      "width": 17,
+      "height": 12
+    },
+    {
+      "name": "ripple_00",
+      "file": "ripple_00.png",
+      "source_box": [
+        2358,
+        107,
+        2385,
+        134
+      ],
+      "width": 27,
+      "height": 27
+    },
+    {
+      "name": "ripple_01",
+      "file": "ripple_01.png",
+      "source_box": [
+        2569,
+        94,
+        2587,
+        112
+      ],
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "ripple_02",
+      "file": "ripple_02.png",
+      "source_box": [
+        2105,
+        131,
+        2131,
+        156
+      ],
+      "width": 26,
+      "height": 25
+    },
+    {
+      "name": "ripple_03",
+      "file": "ripple_03.png",
+      "source_box": [
+        2565,
+        134,
+        2583,
+        153
+      ],
+      "width": 18,
+      "height": 19
+    },
+    {
+      "name": "ripple_04",
+      "file": "ripple_04.png",
+      "source_box": [
+        2586,
+        115,
+        2605,
+        133
+      ],
+      "width": 19,
+      "height": 18
+    },
+    {
+      "name": "ripple_05",
+      "file": "ripple_05.png",
+      "source_box": [
+        1844,
+        186,
+        1883,
+        229
+      ],
+      "width": 39,
+      "height": 43
+    },
+    {
+      "name": "ripple_06",
+      "file": "ripple_06.png",
+      "source_box": [
+        1870,
+        168,
+        1978,
+        236
+      ],
+      "width": 108,
+      "height": 68
+    },
+    {
+      "name": "ripple_07",
+      "file": "ripple_07.png",
+      "source_box": [
+        1972,
+        182,
+        2000,
+        218
+      ],
+      "width": 28,
+      "height": 36
+    },
+    {
+      "name": "ripple_08",
+      "file": "ripple_08.png",
+      "source_box": [
+        2046,
+        168,
+        2096,
+        222
+      ],
+      "width": 50,
+      "height": 54
+    },
+    {
+      "name": "ripple_09",
+      "file": "ripple_09.png",
+      "source_box": [
+        2076,
+        155,
+        2197,
+        240
+      ],
+      "width": 121,
+      "height": 85
+    },
+    {
+      "name": "ripple_10",
+      "file": "ripple_10.png",
+      "source_box": [
+        2180,
+        168,
+        2230,
+        226
+      ],
+      "width": 50,
+      "height": 58
+    },
+    {
+      "name": "ripple_11",
+      "file": "ripple_11.png",
+      "source_box": [
+        2280,
+        134,
+        2446,
+        246
+      ],
+      "width": 166,
+      "height": 112
+    },
+    {
+      "name": "ripple_12",
+      "file": "ripple_12.png",
+      "source_box": [
+        2485,
+        171,
+        2517,
+        216
+      ],
+      "width": 32,
+      "height": 45
+    },
+    {
+      "name": "ripple_13",
+      "file": "ripple_13.png",
+      "source_box": [
+        2514,
+        156,
+        2654,
+        233
+      ],
+      "width": 140,
+      "height": 77
+    },
+    {
+      "name": "ripple_14",
+      "file": "ripple_14.png",
+      "source_box": [
+        2645,
+        187,
+        2674,
+        232
+      ],
+      "width": 29,
+      "height": 45
+    },
+    {
+      "name": "ripple_15",
+      "file": "ripple_15.png",
+      "source_box": [
+        2156,
+        224,
+        2200,
+        240
+      ],
+      "width": 44,
+      "height": 16
+    },
+    {
+      "name": "ripple_16",
+      "file": "ripple_16.png",
+      "source_box": [
+        2504,
+        224,
+        2555,
+        246
+      ],
+      "width": 51,
+      "height": 22
+    },
+    {
+      "name": "ripple_17",
+      "file": "ripple_17.png",
+      "source_box": [
+        2576,
+        232,
+        2635,
+        246
+      ],
+      "width": 59,
+      "height": 14
+    },
+    {
+      "name": "oar_ripple_00",
+      "file": "oar_ripple_00.png",
+      "source_box": [
+        2544,
+        345,
+        2566,
+        368
+      ],
+      "width": 22,
+      "height": 23
+    },
+    {
+      "name": "oar_ripple_01",
+      "file": "oar_ripple_01.png",
+      "source_box": [
+        1847,
+        311,
+        2075,
+        495
+      ],
+      "width": 228,
+      "height": 184
+    },
+    {
+      "name": "oar_ripple_02",
+      "file": "oar_ripple_02.png",
+      "source_box": [
+        2224,
+        316,
+        2395,
+        505
+      ],
+      "width": 171,
+      "height": 189
+    },
+    {
+      "name": "oar_ripple_03",
+      "file": "oar_ripple_03.png",
+      "source_box": [
+        2455,
+        378,
+        2590,
+        424
+      ],
+      "width": 135,
+      "height": 46
+    },
+    {
+      "name": "oar_ripple_04",
+      "file": "oar_ripple_04.png",
+      "source_box": [
+        2600,
+        390,
+        2668,
+        437
+      ],
+      "width": 68,
+      "height": 47
+    },
+    {
+      "name": "oar_ripple_05",
+      "file": "oar_ripple_05.png",
+      "source_box": [
+        1996,
+        409,
+        2106,
+        510
+      ],
+      "width": 110,
+      "height": 101
+    },
+    {
+      "name": "oar_ripple_06",
+      "file": "oar_ripple_06.png",
+      "source_box": [
+        2144,
+        389,
+        2288,
+        511
+      ],
+      "width": 144,
+      "height": 122
+    },
+    {
+      "name": "oar_ripple_07",
+      "file": "oar_ripple_07.png",
+      "source_box": [
+        2434,
+        429,
+        2450,
+        464
+      ],
+      "width": 16,
+      "height": 35
+    },
+    {
+      "name": "oar_ripple_08",
+      "file": "oar_ripple_08.png",
+      "source_box": [
+        2489,
+        422,
+        2564,
+        472
+      ],
+      "width": 75,
+      "height": 50
+    },
+    {
+      "name": "oar_ripple_09",
+      "file": "oar_ripple_09.png",
+      "source_box": [
+        2584,
+        418,
+        2620,
+        467
+      ],
+      "width": 36,
+      "height": 49
+    },
+    {
+      "name": "oar_ripple_10",
+      "file": "oar_ripple_10.png",
+      "source_box": [
+        1836,
+        445,
+        1895,
+        498
+      ],
+      "width": 59,
+      "height": 53
+    },
+    {
+      "name": "oar_ripple_11",
+      "file": "oar_ripple_11.png",
+      "source_box": [
+        2458,
+        471,
+        2631,
+        506
+      ],
+      "width": 173,
+      "height": 35
+    },
+    {
+      "name": "oar_ripple_12",
+      "file": "oar_ripple_12.png",
+      "source_box": [
+        2637,
+        455,
+        2665,
+        483
+      ],
+      "width": 28,
+      "height": 28
+    },
+    {
+      "name": "oar_ripple_13",
+      "file": "oar_ripple_13.png",
+      "source_box": [
+        1921,
+        501,
+        1985,
+        512
+      ],
+      "width": 64,
+      "height": 11
+    },
+    {
+      "name": "wave_spray_00",
+      "file": "wave_spray_00.png",
+      "source_box": [
+        2373,
+        570,
+        2392,
+        585
+      ],
+      "width": 19,
+      "height": 15
+    },
+    {
+      "name": "wave_spray_01",
+      "file": "wave_spray_01.png",
+      "source_box": [
+        2636,
+        566,
+        2659,
+        578
+      ],
+      "width": 23,
+      "height": 12
+    },
+    {
+      "name": "wave_spray_02",
+      "file": "wave_spray_02.png",
+      "source_box": [
+        2328,
+        588,
+        2344,
+        603
+      ],
+      "width": 16,
+      "height": 15
+    },
+    {
+      "name": "wave_spray_03",
+      "file": "wave_spray_03.png",
+      "source_box": [
+        2046,
+        610,
+        2064,
+        622
+      ],
+      "width": 18,
+      "height": 12
+    },
+    {
+      "name": "wave_spray_04",
+      "file": "wave_spray_04.png",
+      "source_box": [
+        2148,
+        608,
+        2166,
+        618
+      ],
+      "width": 18,
+      "height": 10
+    },
+    {
+      "name": "wave_spray_05",
+      "file": "wave_spray_05.png",
+      "source_box": [
+        2368,
+        605,
+        2388,
+        620
+      ],
+      "width": 20,
+      "height": 15
+    },
+    {
+      "name": "wave_spray_06",
+      "file": "wave_spray_06.png",
+      "source_box": [
+        2091,
+        617,
+        2108,
+        629
+      ],
+      "width": 17,
+      "height": 12
+    },
+    {
+      "name": "wave_spray_07",
+      "file": "wave_spray_07.png",
+      "source_box": [
+        2332,
+        623,
+        2347,
+        637
+      ],
+      "width": 15,
+      "height": 14
+    },
+    {
+      "name": "wave_spray_08",
+      "file": "wave_spray_08.png",
+      "source_box": [
+        2484,
+        616,
+        2500,
+        634
+      ],
+      "width": 16,
+      "height": 18
+    },
+    {
+      "name": "wave_spray_09",
+      "file": "wave_spray_09.png",
+      "source_box": [
+        2634,
+        616,
+        2676,
+        634
+      ],
+      "width": 42,
+      "height": 18
+    },
+    {
+      "name": "wave_spray_10",
+      "file": "wave_spray_10.png",
+      "source_box": [
+        1986,
+        626,
+        2003,
+        642
+      ],
+      "width": 17,
+      "height": 16
+    },
+    {
+      "name": "wave_spray_11",
+      "file": "wave_spray_11.png",
+      "source_box": [
+        2246,
+        638,
+        2262,
+        656
+      ],
+      "width": 16,
+      "height": 18
+    },
+    {
+      "name": "wave_spray_12",
+      "file": "wave_spray_12.png",
+      "source_box": [
+        2676,
+        636,
+        2698,
+        648
+      ],
+      "width": 22,
+      "height": 12
+    },
+    {
+      "name": "wave_spray_13",
+      "file": "wave_spray_13.png",
+      "source_box": [
+        2050,
+        647,
+        2090,
+        666
+      ],
+      "width": 40,
+      "height": 19
+    },
+    {
+      "name": "wave_spray_14",
+      "file": "wave_spray_14.png",
+      "source_box": [
+        2079,
+        634,
+        2152,
+        673
+      ],
+      "width": 73,
+      "height": 39
+    },
+    {
+      "name": "wave_spray_15",
+      "file": "wave_spray_15.png",
+      "source_box": [
+        2413,
+        580,
+        2679,
+        721
+      ],
+      "width": 266,
+      "height": 141
+    },
+    {
+      "name": "wave_spray_16",
+      "file": "wave_spray_16.png",
+      "source_box": [
+        2604,
+        650,
+        2636,
+        662
+      ],
+      "width": 32,
+      "height": 12
+    },
+    {
+      "name": "wave_spray_17",
+      "file": "wave_spray_17.png",
+      "source_box": [
+        2651,
+        652,
+        2666,
+        663
+      ],
+      "width": 15,
+      "height": 11
+    },
+    {
+      "name": "wave_spray_18",
+      "file": "wave_spray_18.png",
+      "source_box": [
+        2155,
+        664,
+        2172,
+        675
+      ],
+      "width": 17,
+      "height": 11
+    },
+    {
+      "name": "wave_spray_19",
+      "file": "wave_spray_19.png",
+      "source_box": [
+        2201,
+        613,
+        2371,
+        721
+      ],
+      "width": 170,
+      "height": 108
+    },
+    {
+      "name": "wave_spray_20",
+      "file": "wave_spray_20.png",
+      "source_box": [
+        1832,
+        643,
+        2140,
+        721
+      ],
+      "width": 308,
+      "height": 78
+    },
+    {
+      "name": "wave_spray_21",
+      "file": "wave_spray_21.png",
+      "source_box": [
+        2342,
+        675,
+        2363,
+        688
+      ],
+      "width": 21,
+      "height": 13
+    },
+    {
+      "name": "wave_spray_22",
+      "file": "wave_spray_22.png",
+      "source_box": [
+        2562,
+        671,
+        2596,
+        682
+      ],
+      "width": 34,
+      "height": 11
+    },
+    {
+      "name": "wave_spray_23",
+      "file": "wave_spray_23.png",
+      "source_box": [
+        2614,
+        675,
+        2633,
+        688
+      ],
+      "width": 19,
+      "height": 13
+    },
+    {
+      "name": "wave_spray_24",
+      "file": "wave_spray_24.png",
+      "source_box": [
+        2666,
+        686,
+        2683,
+        697
+      ],
+      "width": 17,
+      "height": 11
+    },
+    {
+      "name": "banner_00",
+      "file": "banner_00.png",
+      "source_box": [
+        48,
+        872,
+        467,
+        968
+      ],
+      "width": 419,
+      "height": 96
+    },
+    {
+      "name": "banner_01",
+      "file": "banner_01.png",
+      "source_box": [
+        48,
+        980,
+        468,
+        1076
+      ],
+      "width": 420,
+      "height": 96
+    },
+    {
+      "name": "banner_02",
+      "file": "banner_02.png",
+      "source_box": [
+        52,
+        1093,
+        464,
+        1156
+      ],
+      "width": 412,
+      "height": 63
+    },
+    {
+      "name": "banner_03",
+      "file": "banner_03.png",
+      "source_box": [
+        52,
+        1156,
+        464,
+        1220
+      ],
+      "width": 412,
+      "height": 64
+    },
+    {
+      "name": "outpost_tent_00",
+      "file": "outpost_tent_00.png",
+      "source_box": [
+        1039,
+        873,
+        1440,
+        1134
+      ],
+      "width": 401,
+      "height": 261
+    },
+    {
+      "name": "outpost_tent_01",
+      "file": "outpost_tent_01.png",
+      "source_box": [
+        1470,
+        873,
+        1872,
+        1134
+      ],
+      "width": 402,
+      "height": 261
+    },
+    {
+      "name": "balloon_arch_00",
+      "file": "balloon_arch_00.png",
+      "source_box": [
+        1920,
+        872,
+        2294,
+        1133
+      ],
+      "width": 374,
+      "height": 261
+    },
+    {
+      "name": "balloon_arch_01",
+      "file": "balloon_arch_01.png",
+      "source_box": [
+        2057,
+        995,
+        2178,
+        1132
+      ],
+      "width": 121,
+      "height": 137
+    },
+    {
+      "name": "balloon_arch_02",
+      "file": "balloon_arch_02.png",
+      "source_box": [
+        2318,
+        872,
+        2690,
+        1133
+      ],
+      "width": 372,
+      "height": 261
+    },
+    {
+      "name": "tent_base_00",
+      "file": "tent_base_00.png",
+      "source_box": [
+        52,
+        1234,
+        277,
+        1496
+      ],
+      "width": 225,
+      "height": 262
+    },
+    {
+      "name": "tent_base_01",
+      "file": "tent_base_01.png",
+      "source_box": [
+        313,
+        1234,
+        537,
+        1496
+      ],
+      "width": 224,
+      "height": 262
+    },
+    {
+      "name": "tent_base_02",
+      "file": "tent_base_02.png",
+      "source_box": [
+        574,
+        1234,
+        798,
+        1496
+      ],
+      "width": 224,
+      "height": 262
+    },
+    {
+      "name": "tent_base_03",
+      "file": "tent_base_03.png",
+      "source_box": [
+        850,
+        1234,
+        1074,
+        1496
+      ],
+      "width": 224,
+      "height": 262
+    },
+    {
+      "name": "start_finish_arch_00",
+      "file": "start_finish_arch_00.png",
+      "source_box": [
+        1115,
+        1170,
+        1785,
+        1497
+      ],
+      "width": 670,
+      "height": 327
+    },
+    {
+      "name": "event_prop_00",
+      "file": "event_prop_00.png",
+      "source_box": [
+        1982,
+        1162,
+        2214,
+        1258
+      ],
+      "width": 232,
+      "height": 96
+    },
+    {
+      "name": "event_prop_01",
+      "file": "event_prop_01.png",
+      "source_box": [
+        2538,
+        1200,
+        2604,
+        1272
+      ],
+      "width": 66,
+      "height": 72
+    },
+    {
+      "name": "event_prop_02",
+      "file": "event_prop_02.png",
+      "source_box": [
+        2626,
+        1228,
+        2680,
+        1264
+      ],
+      "width": 54,
+      "height": 36
+    },
+    {
+      "name": "event_prop_03",
+      "file": "event_prop_03.png",
+      "source_box": [
+        1846,
+        1186,
+        1940,
+        1361
+      ],
+      "width": 94,
+      "height": 175
+    },
+    {
+      "name": "event_prop_04",
+      "file": "event_prop_04.png",
+      "source_box": [
+        2542,
+        1286,
+        2600,
+        1344
+      ],
+      "width": 58,
+      "height": 58
+    },
+    {
+      "name": "event_prop_05",
+      "file": "event_prop_05.png",
+      "source_box": [
+        2618,
+        1288,
+        2692,
+        1344
+      ],
+      "width": 74,
+      "height": 56
+    },
+    {
+      "name": "event_prop_06",
+      "file": "event_prop_06.png",
+      "source_box": [
+        1930,
+        1278,
+        2084,
+        1382
+      ],
+      "width": 154,
+      "height": 104
+    },
+    {
+      "name": "event_prop_07",
+      "file": "event_prop_07.png",
+      "source_box": [
+        2107,
+        1269,
+        2261,
+        1382
+      ],
+      "width": 154,
+      "height": 113
+    },
+    {
+      "name": "event_prop_08",
+      "file": "event_prop_08.png",
+      "source_box": [
+        2317,
+        1195,
+        2500,
+        1476
+      ],
+      "width": 183,
+      "height": 281
+    },
+    {
+      "name": "event_prop_09",
+      "file": "event_prop_09.png",
+      "source_box": [
+        1843,
+        1384,
+        1874,
+        1496
+      ],
+      "width": 31,
+      "height": 112
+    },
+    {
+      "name": "event_prop_10",
+      "file": "event_prop_10.png",
+      "source_box": [
+        1915,
+        1397,
+        2090,
+        1496
+      ],
+      "width": 175,
+      "height": 99
+    },
+    {
+      "name": "event_prop_11",
+      "file": "event_prop_11.png",
+      "source_box": [
+        2108,
+        1397,
+        2282,
+        1496
+      ],
+      "width": 174,
+      "height": 99
+    },
+    {
+      "name": "event_prop_12",
+      "file": "event_prop_12.png",
+      "source_box": [
+        2315,
+        1424,
+        2381,
+        1496
+      ],
+      "width": 66,
+      "height": 72
+    },
+    {
+      "name": "event_prop_13",
+      "file": "event_prop_13.png",
+      "source_box": [
+        2440,
+        1424,
+        2507,
+        1496
+      ],
+      "width": 67,
+      "height": 72
+    },
+    {
+      "name": "event_prop_14",
+      "file": "event_prop_14.png",
+      "source_box": [
+        2515,
+        1358,
+        2702,
+        1496
+      ],
+      "width": 187,
+      "height": 138
+    }
+  ]
+}

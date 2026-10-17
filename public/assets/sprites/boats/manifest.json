@@ -1,0 +1,1074 @@
+{
+  "sheet": "boats",
+  "source": "src/images/sprite-sheets/dragon_boats_kayaks_paddles_sheet.jpeg",
+  "pieces": [
+    {
+      "name": "dragon_boat_red",
+      "file": "dragon_boat_red.png",
+      "source_box": [
+        30,
+        19,
+        1176,
+        204
+      ],
+      "width": 1146,
+      "height": 185
+    },
+    {
+      "name": "dragon_boat_blue",
+      "file": "dragon_boat_blue.png",
+      "source_box": [
+        30,
+        216,
+        1175,
+        400
+      ],
+      "width": 1145,
+      "height": 184
+    },
+    {
+      "name": "dragon_boat_green",
+      "file": "dragon_boat_green.png",
+      "source_box": [
+        30,
+        410,
+        1174,
+        595
+      ],
+      "width": 1144,
+      "height": 185
+    },
+    {
+      "name": "dragon_boat_yellow",
+      "file": "dragon_boat_yellow.png",
+      "source_box": [
+        30,
+        605,
+        1175,
+        791
+      ],
+      "width": 1145,
+      "height": 186
+    },
+    {
+      "name": "dragon_boat_orange",
+      "file": "dragon_boat_orange.png",
+      "source_box": [
+        30,
+        799,
+        1175,
+        985
+      ],
+      "width": 1145,
+      "height": 186
+    },
+    {
+      "name": "dragon_boat_lilac",
+      "file": "dragon_boat_lilac.png",
+      "source_box": [
+        30,
+        994,
+        1175,
+        1180
+      ],
+      "width": 1145,
+      "height": 186
+    },
+    {
+      "name": "kayak_red_1seat_f0",
+      "file": "kayak_red_1seat_f0.png",
+      "source_box": [
+        1242,
+        49,
+        1765,
+        172
+      ],
+      "width": 523,
+      "height": 123
+    },
+    {
+      "name": "kayak_red_1seat_f1",
+      "file": "kayak_red_1seat_f1.png",
+      "source_box": [
+        1818,
+        49,
+        2342,
+        172
+      ],
+      "width": 524,
+      "height": 123
+    },
+    {
+      "name": "kayak_yellow_1seat_f0",
+      "file": "kayak_yellow_1seat_f0.png",
+      "source_box": [
+        1238,
+        236,
+        1772,
+        360
+      ],
+      "width": 534,
+      "height": 124
+    },
+    {
+      "name": "kayak_yellow_1seat_f1",
+      "file": "kayak_yellow_1seat_f1.png",
+      "source_box": [
+        1807,
+        236,
+        2354,
+        360
+      ],
+      "width": 547,
+      "height": 124
+    },
+    {
+      "name": "kayak_green_2seat_f0",
+      "file": "kayak_green_2seat_f0.png",
+      "source_box": [
+        1237,
+        426,
+        1773,
+        554
+      ],
+      "width": 536,
+      "height": 128
+    },
+    {
+      "name": "kayak_green_2seat_f1",
+      "file": "kayak_green_2seat_f1.png",
+      "source_box": [
+        1804,
+        428,
+        2358,
+        554
+      ],
+      "width": 554,
+      "height": 126
+    },
+    {
+      "name": "kayak_blue_2seat_f0",
+      "file": "kayak_blue_2seat_f0.png",
+      "source_box": [
+        1238,
+        621,
+        1774,
+        748
+      ],
+      "width": 536,
+      "height": 127
+    },
+    {
+      "name": "kayak_blue_2seat_f1",
+      "file": "kayak_blue_2seat_f1.png",
+      "source_box": [
+        1804,
+        623,
+        2358,
+        748
+      ],
+      "width": 554,
+      "height": 125
+    },
+    {
+      "name": "kayak_purple_3seat_f0",
+      "file": "kayak_purple_3seat_f0.png",
+      "source_box": [
+        1238,
+        818,
+        1774,
+        943
+      ],
+      "width": 536,
+      "height": 125
+    },
+    {
+      "name": "kayak_purple_3seat_f1",
+      "file": "kayak_purple_3seat_f1.png",
+      "source_box": [
+        1804,
+        818,
+        2358,
+        943
+      ],
+      "width": 554,
+      "height": 125
+    },
+    {
+      "name": "kayak_orange_2seat",
+      "file": "kayak_orange_2seat.png",
+      "source_box": [
+        1238,
+        1012,
+        1773,
+        1138
+      ],
+      "width": 535,
+      "height": 126
+    },
+    {
+      "name": "kayak_pink_3seat",
+      "file": "kayak_pink_3seat.png",
+      "source_box": [
+        1804,
+        1014,
+        2358,
+        1138
+      ],
+      "width": 554,
+      "height": 124
+    },
+    {
+      "name": "paddle_wood_00",
+      "file": "paddle_wood_00.png",
+      "source_box": [
+        12,
+        1244,
+        106,
+        1405
+      ],
+      "width": 94,
+      "height": 161
+    },
+    {
+      "name": "paddle_wood_01",
+      "file": "paddle_wood_01.png",
+      "source_box": [
+        117,
+        1240,
+        198,
+        1409
+      ],
+      "width": 81,
+      "height": 169
+    },
+    {
+      "name": "paddle_wood_02",
+      "file": "paddle_wood_02.png",
+      "source_box": [
+        221,
+        1239,
+        290,
+        1412
+      ],
+      "width": 69,
+      "height": 173
+    },
+    {
+      "name": "paddle_wood_03",
+      "file": "paddle_wood_03.png",
+      "source_box": [
+        325,
+        1239,
+        378,
+        1416
+      ],
+      "width": 53,
+      "height": 177
+    },
+    {
+      "name": "paddle_wood_04",
+      "file": "paddle_wood_04.png",
+      "source_box": [
+        429,
+        1239,
+        469,
+        1417
+      ],
+      "width": 40,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_05",
+      "file": "paddle_wood_05.png",
+      "source_box": [
+        534,
+        1239,
+        566,
+        1417
+      ],
+      "width": 32,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_06",
+      "file": "paddle_wood_06.png",
+      "source_box": [
+        634,
+        1239,
+        666,
+        1417
+      ],
+      "width": 32,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_07",
+      "file": "paddle_wood_07.png",
+      "source_box": [
+        731,
+        1239,
+        764,
+        1418
+      ],
+      "width": 33,
+      "height": 179
+    },
+    {
+      "name": "paddle_wood_08",
+      "file": "paddle_wood_08.png",
+      "source_box": [
+        830,
+        1239,
+        862,
+        1417
+      ],
+      "width": 32,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_09",
+      "file": "paddle_wood_09.png",
+      "source_box": [
+        927,
+        1239,
+        966,
+        1417
+      ],
+      "width": 39,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_10",
+      "file": "paddle_wood_10.png",
+      "source_box": [
+        1026,
+        1240,
+        1064,
+        1417
+      ],
+      "width": 38,
+      "height": 177
+    },
+    {
+      "name": "paddle_wood_11",
+      "file": "paddle_wood_11.png",
+      "source_box": [
+        1127,
+        1239,
+        1160,
+        1417
+      ],
+      "width": 33,
+      "height": 178
+    },
+    {
+      "name": "paddle_wood_12",
+      "file": "paddle_wood_12.png",
+      "source_box": [
+        26,
+        1442,
+        106,
+        1598
+      ],
+      "width": 80,
+      "height": 156
+    },
+    {
+      "name": "paddle_wood_13",
+      "file": "paddle_wood_13.png",
+      "source_box": [
+        134,
+        1437,
+        193,
+        1596
+      ],
+      "width": 59,
+      "height": 159
+    },
+    {
+      "name": "paddle_wood_14",
+      "file": "paddle_wood_14.png",
+      "source_box": [
+        234,
+        1436,
+        278,
+        1594
+      ],
+      "width": 44,
+      "height": 158
+    },
+    {
+      "name": "paddle_wood_15",
+      "file": "paddle_wood_15.png",
+      "source_box": [
+        334,
+        1435,
+        369,
+        1593
+      ],
+      "width": 35,
+      "height": 158
+    },
+    {
+      "name": "paddle_wood_16",
+      "file": "paddle_wood_16.png",
+      "source_box": [
+        436,
+        1436,
+        464,
+        1593
+      ],
+      "width": 28,
+      "height": 157
+    },
+    {
+      "name": "paddle_wood_17",
+      "file": "paddle_wood_17.png",
+      "source_box": [
+        538,
+        1438,
+        557,
+        1596
+      ],
+      "width": 19,
+      "height": 158
+    },
+    {
+      "name": "paddle_wood_18",
+      "file": "paddle_wood_18.png",
+      "source_box": [
+        632,
+        1438,
+        660,
+        1596
+      ],
+      "width": 28,
+      "height": 158
+    },
+    {
+      "name": "paddle_wood_19",
+      "file": "paddle_wood_19.png",
+      "source_box": [
+        726,
+        1437,
+        766,
+        1597
+      ],
+      "width": 40,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_20",
+      "file": "paddle_wood_20.png",
+      "source_box": [
+        817,
+        1437,
+        869,
+        1597
+      ],
+      "width": 52,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_21",
+      "file": "paddle_wood_21.png",
+      "source_box": [
+        906,
+        1437,
+        970,
+        1596
+      ],
+      "width": 64,
+      "height": 159
+    },
+    {
+      "name": "paddle_wood_22",
+      "file": "paddle_wood_22.png",
+      "source_box": [
+        994,
+        1444,
+        1074,
+        1602
+      ],
+      "width": 80,
+      "height": 158
+    },
+    {
+      "name": "paddle_wood_23",
+      "file": "paddle_wood_23.png",
+      "source_box": [
+        1086,
+        1448,
+        1173,
+        1602
+      ],
+      "width": 87,
+      "height": 154
+    },
+    {
+      "name": "paddle_wood_24",
+      "file": "paddle_wood_24.png",
+      "source_box": [
+        25,
+        1620,
+        105,
+        1777
+      ],
+      "width": 80,
+      "height": 157
+    },
+    {
+      "name": "paddle_wood_25",
+      "file": "paddle_wood_25.png",
+      "source_box": [
+        136,
+        1615,
+        182,
+        1776
+      ],
+      "width": 46,
+      "height": 161
+    },
+    {
+      "name": "paddle_wood_26",
+      "file": "paddle_wood_26.png",
+      "source_box": [
+        240,
+        1615,
+        270,
+        1775
+      ],
+      "width": 30,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_27",
+      "file": "paddle_wood_27.png",
+      "source_box": [
+        337,
+        1615,
+        370,
+        1775
+      ],
+      "width": 33,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_28",
+      "file": "paddle_wood_28.png",
+      "source_box": [
+        437,
+        1615,
+        469,
+        1775
+      ],
+      "width": 32,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_29",
+      "file": "paddle_wood_29.png",
+      "source_box": [
+        535,
+        1615,
+        567,
+        1775
+      ],
+      "width": 32,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_30",
+      "file": "paddle_wood_30.png",
+      "source_box": [
+        634,
+        1615,
+        666,
+        1775
+      ],
+      "width": 32,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_31",
+      "file": "paddle_wood_31.png",
+      "source_box": [
+        733,
+        1615,
+        764,
+        1775
+      ],
+      "width": 31,
+      "height": 160
+    },
+    {
+      "name": "paddle_wood_32",
+      "file": "paddle_wood_32.png",
+      "source_box": [
+        824,
+        1614,
+        868,
+        1778
+      ],
+      "width": 44,
+      "height": 164
+    },
+    {
+      "name": "paddle_wood_33",
+      "file": "paddle_wood_33.png",
+      "source_box": [
+        909,
+        1614,
+        972,
+        1777
+      ],
+      "width": 63,
+      "height": 163
+    },
+    {
+      "name": "paddle_wood_34",
+      "file": "paddle_wood_34.png",
+      "source_box": [
+        991,
+        1623,
+        1076,
+        1781
+      ],
+      "width": 85,
+      "height": 158
+    },
+    {
+      "name": "paddle_coloured_00",
+      "file": "paddle_coloured_00.png",
+      "source_box": [
+        1219,
+        1254,
+        1397,
+        1284
+      ],
+      "width": 178,
+      "height": 30
+    },
+    {
+      "name": "paddle_coloured_01",
+      "file": "paddle_coloured_01.png",
+      "source_box": [
+        1418,
+        1254,
+        1594,
+        1284
+      ],
+      "width": 176,
+      "height": 30
+    },
+    {
+      "name": "paddle_coloured_02",
+      "file": "paddle_coloured_02.png",
+      "source_box": [
+        1621,
+        1231,
+        1797,
+        1304
+      ],
+      "width": 176,
+      "height": 73
+    },
+    {
+      "name": "paddle_coloured_03",
+      "file": "paddle_coloured_03.png",
+      "source_box": [
+        1220,
+        1362,
+        1396,
+        1391
+      ],
+      "width": 176,
+      "height": 29
+    },
+    {
+      "name": "paddle_coloured_04",
+      "file": "paddle_coloured_04.png",
+      "source_box": [
+        1418,
+        1330,
+        1590,
+        1414
+      ],
+      "width": 172,
+      "height": 84
+    },
+    {
+      "name": "paddle_coloured_05",
+      "file": "paddle_coloured_05.png",
+      "source_box": [
+        1623,
+        1328,
+        1794,
+        1417
+      ],
+      "width": 171,
+      "height": 89
+    },
+    {
+      "name": "paddle_coloured_06",
+      "file": "paddle_coloured_06.png",
+      "source_box": [
+        1220,
+        1483,
+        1396,
+        1513
+      ],
+      "width": 176,
+      "height": 30
+    },
+    {
+      "name": "paddle_coloured_07",
+      "file": "paddle_coloured_07.png",
+      "source_box": [
+        1418,
+        1449,
+        1592,
+        1537
+      ],
+      "width": 174,
+      "height": 88
+    },
+    {
+      "name": "paddle_coloured_08",
+      "file": "paddle_coloured_08.png",
+      "source_box": [
+        1624,
+        1445,
+        1794,
+        1542
+      ],
+      "width": 170,
+      "height": 97
+    },
+    {
+      "name": "paddle_coloured_09",
+      "file": "paddle_coloured_09.png",
+      "source_box": [
+        1219,
+        1586,
+        1396,
+        1617
+      ],
+      "width": 177,
+      "height": 31
+    },
+    {
+      "name": "paddle_coloured_10",
+      "file": "paddle_coloured_10.png",
+      "source_box": [
+        1420,
+        1558,
+        1590,
+        1644
+      ],
+      "width": 170,
+      "height": 86
+    },
+    {
+      "name": "paddle_coloured_11",
+      "file": "paddle_coloured_11.png",
+      "source_box": [
+        1624,
+        1555,
+        1794,
+        1650
+      ],
+      "width": 170,
+      "height": 95
+    },
+    {
+      "name": "oar_coloured_00",
+      "file": "oar_coloured_00.png",
+      "source_box": [
+        1848,
+        1231,
+        1880,
+        1418
+      ],
+      "width": 32,
+      "height": 187
+    },
+    {
+      "name": "oar_coloured_01",
+      "file": "oar_coloured_01.png",
+      "source_box": [
+        1962,
+        1231,
+        1994,
+        1418
+      ],
+      "width": 32,
+      "height": 187
+    },
+    {
+      "name": "oar_coloured_02",
+      "file": "oar_coloured_02.png",
+      "source_box": [
+        2028,
+        1231,
+        2061,
+        1418
+      ],
+      "width": 33,
+      "height": 187
+    },
+    {
+      "name": "oar_coloured_03",
+      "file": "oar_coloured_03.png",
+      "source_box": [
+        2096,
+        1231,
+        2128,
+        1418
+      ],
+      "width": 32,
+      "height": 187
+    },
+    {
+      "name": "oar_coloured_04",
+      "file": "oar_coloured_04.png",
+      "source_box": [
+        2188,
+        1231,
+        2253,
+        1420
+      ],
+      "width": 65,
+      "height": 189
+    },
+    {
+      "name": "oar_coloured_05",
+      "file": "oar_coloured_05.png",
+      "source_box": [
+        2280,
+        1231,
+        2348,
+        1420
+      ],
+      "width": 68,
+      "height": 189
+    },
+    {
+      "name": "oar_coloured_06",
+      "file": "oar_coloured_06.png",
+      "source_box": [
+        1848,
+        1454,
+        1880,
+        1642
+      ],
+      "width": 32,
+      "height": 188
+    },
+    {
+      "name": "oar_coloured_07",
+      "file": "oar_coloured_07.png",
+      "source_box": [
+        1962,
+        1454,
+        1994,
+        1642
+      ],
+      "width": 32,
+      "height": 188
+    },
+    {
+      "name": "oar_coloured_08",
+      "file": "oar_coloured_08.png",
+      "source_box": [
+        2028,
+        1454,
+        2061,
+        1642
+      ],
+      "width": 33,
+      "height": 188
+    },
+    {
+      "name": "oar_coloured_09",
+      "file": "oar_coloured_09.png",
+      "source_box": [
+        2096,
+        1454,
+        2128,
+        1642
+      ],
+      "width": 32,
+      "height": 188
+    },
+    {
+      "name": "oar_coloured_10",
+      "file": "oar_coloured_10.png",
+      "source_box": [
+        2182,
+        1454,
+        2253,
+        1645
+      ],
+      "width": 71,
+      "height": 191
+    },
+    {
+      "name": "oar_coloured_11",
+      "file": "oar_coloured_11.png",
+      "source_box": [
+        2273,
+        1454,
+        2353,
+        1643
+      ],
+      "width": 80,
+      "height": 189
+    },
+    {
+      "name": "splash_ripple_00",
+      "file": "splash_ripple_00.png",
+      "source_box": [
+        2318,
+        1668,
+        2340,
+        1678
+      ],
+      "width": 22,
+      "height": 10
+    },
+    {
+      "name": "splash_ripple_01",
+      "file": "splash_ripple_01.png",
+      "source_box": [
+        1746,
+        1690,
+        1762,
+        1702
+      ],
+      "width": 16,
+      "height": 12
+    },
+    {
+      "name": "splash_ripple_02",
+      "file": "splash_ripple_02.png",
+      "source_box": [
+        2190,
+        1665,
+        2360,
+        1758
+      ],
+      "width": 170,
+      "height": 93
+    },
+    {
+      "name": "splash_ripple_03",
+      "file": "splash_ripple_03.png",
+      "source_box": [
+        1225,
+        1713,
+        1333,
+        1755
+      ],
+      "width": 108,
+      "height": 42
+    },
+    {
+      "name": "splash_ripple_04",
+      "file": "splash_ripple_04.png",
+      "source_box": [
+        1361,
+        1729,
+        1392,
+        1752
+      ],
+      "width": 31,
+      "height": 23
+    },
+    {
+      "name": "splash_ripple_05",
+      "file": "splash_ripple_05.png",
+      "source_box": [
+        1366,
+        1698,
+        1481,
+        1757
+      ],
+      "width": 115,
+      "height": 59
+    },
+    {
+      "name": "splash_ripple_06",
+      "file": "splash_ripple_06.png",
+      "source_box": [
+        1511,
+        1704,
+        1625,
+        1756
+      ],
+      "width": 114,
+      "height": 52
+    },
+    {
+      "name": "splash_ripple_07",
+      "file": "splash_ripple_07.png",
+      "source_box": [
+        1651,
+        1724,
+        1695,
+        1753
+      ],
+      "width": 44,
+      "height": 29
+    },
+    {
+      "name": "splash_ripple_08",
+      "file": "splash_ripple_08.png",
+      "source_box": [
+        1693,
+        1702,
+        1814,
+        1757
+      ],
+      "width": 121,
+      "height": 55
+    },
+    {
+      "name": "splash_ripple_09",
+      "file": "splash_ripple_09.png",
+      "source_box": [
+        1838,
+        1718,
+        1910,
+        1757
+      ],
+      "width": 72,
+      "height": 39
+    },
+    {
+      "name": "splash_ripple_10",
+      "file": "splash_ripple_10.png",
+      "source_box": [
+        1922,
+        1719,
+        1991,
+        1757
+      ],
+      "width": 69,
+      "height": 38
+    },
+    {
+      "name": "splash_ripple_11",
+      "file": "splash_ripple_11.png",
+      "source_box": [
+        2015,
+        1690,
+        2170,
+        1758
+      ],
+      "width": 155,
+      "height": 68
+    }
+  ]
+}

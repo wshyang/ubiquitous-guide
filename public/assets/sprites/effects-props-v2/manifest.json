@@ -1,0 +1,1650 @@
+{
+  "sheet": "effects_props_v2",
+  "source": "src/images/sprite-sheets/water_fx_and_sports_day_props_sheet_v2.jpeg",
+  "pieces": [
+    {
+      "name": "water_wake_00",
+      "file": "water_wake_00.png",
+      "source_box": [
+        71,
+        173,
+        868,
+        266
+      ],
+      "width": 797,
+      "height": 93
+    },
+    {
+      "name": "water_wake_01",
+      "file": "water_wake_01.png",
+      "source_box": [
+        183,
+        351,
+        201,
+        364
+      ],
+      "width": 18,
+      "height": 13
+    },
+    {
+      "name": "water_wake_02",
+      "file": "water_wake_02.png",
+      "source_box": [
+        61,
+        299,
+        760,
+        440
+      ],
+      "width": 699,
+      "height": 141
+    },
+    {
+      "name": "water_wake_03",
+      "file": "water_wake_03.png",
+      "source_box": [
+        49,
+        472,
+        62,
+        486
+      ],
+      "width": 13,
+      "height": 14
+    },
+    {
+      "name": "water_wake_04",
+      "file": "water_wake_04.png",
+      "source_box": [
+        78,
+        472,
+        108,
+        487
+      ],
+      "width": 30,
+      "height": 15
+    },
+    {
+      "name": "water_wake_05",
+      "file": "water_wake_05.png",
+      "source_box": [
+        122,
+        471,
+        141,
+        489
+      ],
+      "width": 19,
+      "height": 18
+    },
+    {
+      "name": "water_wake_06",
+      "file": "water_wake_06.png",
+      "source_box": [
+        161,
+        520,
+        175,
+        534
+      ],
+      "width": 14,
+      "height": 14
+    },
+    {
+      "name": "water_wake_07",
+      "file": "water_wake_07.png",
+      "source_box": [
+        206,
+        520,
+        222,
+        534
+      ],
+      "width": 16,
+      "height": 14
+    },
+    {
+      "name": "water_wake_08",
+      "file": "water_wake_08.png",
+      "source_box": [
+        262,
+        523,
+        280,
+        540
+      ],
+      "width": 18,
+      "height": 17
+    },
+    {
+      "name": "water_wake_09",
+      "file": "water_wake_09.png",
+      "source_box": [
+        125,
+        474,
+        652,
+        620
+      ],
+      "width": 527,
+      "height": 146
+    },
+    {
+      "name": "water_wake_10",
+      "file": "water_wake_10.png",
+      "source_box": [
+        180,
+        554,
+        195,
+        567
+      ],
+      "width": 15,
+      "height": 13
+    },
+    {
+      "name": "water_wake_11",
+      "file": "water_wake_11.png",
+      "source_box": [
+        229,
+        546,
+        243,
+        570
+      ],
+      "width": 14,
+      "height": 24
+    },
+    {
+      "name": "water_wake_12",
+      "file": "water_wake_12.png",
+      "source_box": [
+        141,
+        560,
+        156,
+        574
+      ],
+      "width": 15,
+      "height": 14
+    },
+    {
+      "name": "water_wake_13",
+      "file": "water_wake_13.png",
+      "source_box": [
+        52,
+        606,
+        66,
+        620
+      ],
+      "width": 14,
+      "height": 14
+    },
+    {
+      "name": "water_wake_14",
+      "file": "water_wake_14.png",
+      "source_box": [
+        88,
+        603,
+        115,
+        620
+      ],
+      "width": 27,
+      "height": 17
+    },
+    {
+      "name": "water_wake_15",
+      "file": "water_wake_15.png",
+      "source_box": [
+        104,
+        660,
+        122,
+        677
+      ],
+      "width": 18,
+      "height": 17
+    },
+    {
+      "name": "water_wake_16",
+      "file": "water_wake_16.png",
+      "source_box": [
+        176,
+        654,
+        210,
+        694
+      ],
+      "width": 34,
+      "height": 40
+    },
+    {
+      "name": "water_wake_17",
+      "file": "water_wake_17.png",
+      "source_box": [
+        140,
+        670,
+        162,
+        692
+      ],
+      "width": 22,
+      "height": 22
+    },
+    {
+      "name": "water_wake_18",
+      "file": "water_wake_18.png",
+      "source_box": [
+        90,
+        691,
+        105,
+        707
+      ],
+      "width": 15,
+      "height": 16
+    },
+    {
+      "name": "water_wake_19",
+      "file": "water_wake_19.png",
+      "source_box": [
+        126,
+        702,
+        140,
+        716
+      ],
+      "width": 14,
+      "height": 14
+    },
+    {
+      "name": "water_wake_20",
+      "file": "water_wake_20.png",
+      "source_box": [
+        166,
+        706,
+        183,
+        722
+      ],
+      "width": 17,
+      "height": 16
+    },
+    {
+      "name": "water_wake_21",
+      "file": "water_wake_21.png",
+      "source_box": [
+        190,
+        653,
+        474,
+        765
+      ],
+      "width": 284,
+      "height": 112
+    },
+    {
+      "name": "water_wake_22",
+      "file": "water_wake_22.png",
+      "source_box": [
+        138,
+        720,
+        151,
+        732
+      ],
+      "width": 13,
+      "height": 12
+    },
+    {
+      "name": "water_wake_23",
+      "file": "water_wake_23.png",
+      "source_box": [
+        102,
+        736,
+        116,
+        749
+      ],
+      "width": 14,
+      "height": 13
+    },
+    {
+      "name": "water_wake_24",
+      "file": "water_wake_24.png",
+      "source_box": [
+        140,
+        750,
+        162,
+        765
+      ],
+      "width": 22,
+      "height": 15
+    },
+    {
+      "name": "water_wake_25",
+      "file": "water_wake_25.png",
+      "source_box": [
+        176,
+        748,
+        201,
+        765
+      ],
+      "width": 25,
+      "height": 17
+    },
+    {
+      "name": "splash_00",
+      "file": "splash_00.png",
+      "source_box": [
+        1339,
+        180,
+        1354,
+        196
+      ],
+      "width": 15,
+      "height": 16
+    },
+    {
+      "name": "splash_01",
+      "file": "splash_01.png",
+      "source_box": [
+        1221,
+        190,
+        1234,
+        204
+      ],
+      "width": 13,
+      "height": 14
+    },
+    {
+      "name": "splash_02",
+      "file": "splash_02.png",
+      "source_box": [
+        986,
+        205,
+        999,
+        220
+      ],
+      "width": 13,
+      "height": 15
+    },
+    {
+      "name": "splash_03",
+      "file": "splash_03.png",
+      "source_box": [
+        1048,
+        202,
+        1066,
+        220
+      ],
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "splash_04",
+      "file": "splash_04.png",
+      "source_box": [
+        1188,
+        212,
+        1204,
+        226
+      ],
+      "width": 16,
+      "height": 14
+    },
+    {
+      "name": "splash_05",
+      "file": "splash_05.png",
+      "source_box": [
+        1252,
+        210,
+        1266,
+        224
+      ],
+      "width": 14,
+      "height": 14
+    },
+    {
+      "name": "splash_06",
+      "file": "splash_06.png",
+      "source_box": [
+        948,
+        228,
+        964,
+        242
+      ],
+      "width": 16,
+      "height": 14
+    },
+    {
+      "name": "splash_07",
+      "file": "splash_07.png",
+      "source_box": [
+        1050,
+        238,
+        1064,
+        251
+      ],
+      "width": 14,
+      "height": 13
+    },
+    {
+      "name": "splash_08",
+      "file": "splash_08.png",
+      "source_box": [
+        1209,
+        208,
+        1359,
+        294
+      ],
+      "width": 150,
+      "height": 86
+    },
+    {
+      "name": "splash_09",
+      "file": "splash_09.png",
+      "source_box": [
+        1467,
+        238,
+        1481,
+        252
+      ],
+      "width": 14,
+      "height": 14
+    },
+    {
+      "name": "splash_10",
+      "file": "splash_10.png",
+      "source_box": [
+        967,
+        222,
+        1050,
+        291
+      ],
+      "width": 83,
+      "height": 69
+    },
+    {
+      "name": "splash_11",
+      "file": "splash_11.png",
+      "source_box": [
+        1192,
+        259,
+        1206,
+        270
+      ],
+      "width": 14,
+      "height": 11
+    },
+    {
+      "name": "splash_12",
+      "file": "splash_12.png",
+      "source_box": [
+        1499,
+        279,
+        1518,
+        296
+      ],
+      "width": 19,
+      "height": 17
+    },
+    {
+      "name": "splash_13",
+      "file": "splash_13.png",
+      "source_box": [
+        1014,
+        342,
+        1028,
+        359
+      ],
+      "width": 14,
+      "height": 17
+    },
+    {
+      "name": "splash_14",
+      "file": "splash_14.png",
+      "source_box": [
+        1162,
+        344,
+        1178,
+        360
+      ],
+      "width": 16,
+      "height": 16
+    },
+    {
+      "name": "splash_15",
+      "file": "splash_15.png",
+      "source_box": [
+        1254,
+        343,
+        1268,
+        362
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "name": "splash_16",
+      "file": "splash_16.png",
+      "source_box": [
+        1358,
+        348,
+        1372,
+        364
+      ],
+      "width": 14,
+      "height": 16
+    },
+    {
+      "name": "splash_17",
+      "file": "splash_17.png",
+      "source_box": [
+        1063,
+        359,
+        1078,
+        376
+      ],
+      "width": 15,
+      "height": 17
+    },
+    {
+      "name": "splash_18",
+      "file": "splash_18.png",
+      "source_box": [
+        1498,
+        340,
+        1531,
+        379
+      ],
+      "width": 33,
+      "height": 39
+    },
+    {
+      "name": "splash_19",
+      "file": "splash_19.png",
+      "source_box": [
+        950,
+        366,
+        965,
+        382
+      ],
+      "width": 15,
+      "height": 16
+    },
+    {
+      "name": "splash_20",
+      "file": "splash_20.png",
+      "source_box": [
+        1202,
+        362,
+        1220,
+        380
+      ],
+      "width": 18,
+      "height": 18
+    },
+    {
+      "name": "splash_21",
+      "file": "splash_21.png",
+      "source_box": [
+        1388,
+        374,
+        1406,
+        391
+      ],
+      "width": 18,
+      "height": 17
+    },
+    {
+      "name": "splash_22",
+      "file": "splash_22.png",
+      "source_box": [
+        926,
+        397,
+        940,
+        410
+      ],
+      "width": 14,
+      "height": 13
+    },
+    {
+      "name": "splash_23",
+      "file": "splash_23.png",
+      "source_box": [
+        1162,
+        389,
+        1180,
+        404
+      ],
+      "width": 18,
+      "height": 15
+    },
+    {
+      "name": "splash_24",
+      "file": "splash_24.png",
+      "source_box": [
+        1079,
+        400,
+        1092,
+        412
+      ],
+      "width": 13,
+      "height": 12
+    },
+    {
+      "name": "splash_25",
+      "file": "splash_25.png",
+      "source_box": [
+        1512,
+        404,
+        1531,
+        428
+      ],
+      "width": 19,
+      "height": 24
+    },
+    {
+      "name": "splash_26",
+      "file": "splash_26.png",
+      "source_box": [
+        1169,
+        364,
+        1396,
+        494
+      ],
+      "width": 227,
+      "height": 130
+    },
+    {
+      "name": "splash_27",
+      "file": "splash_27.png",
+      "source_box": [
+        942,
+        394,
+        1076,
+        494
+      ],
+      "width": 134,
+      "height": 100
+    },
+    {
+      "name": "splash_28",
+      "file": "splash_28.png",
+      "source_box": [
+        1186,
+        474,
+        1206,
+        490
+      ],
+      "width": 20,
+      "height": 16
+    },
+    {
+      "name": "oar_splash_00",
+      "file": "oar_splash_00.png",
+      "source_box": [
+        1225,
+        494,
+        1288,
+        503
+      ],
+      "width": 63,
+      "height": 9
+    },
+    {
+      "name": "oar_splash_01",
+      "file": "oar_splash_01.png",
+      "source_box": [
+        1468,
+        496,
+        1662,
+        530
+      ],
+      "width": 194,
+      "height": 34
+    },
+    {
+      "name": "oar_splash_02",
+      "file": "oar_splash_02.png",
+      "source_box": [
+        1669,
+        496,
+        1827,
+        538
+      ],
+      "width": 158,
+      "height": 42
+    },
+    {
+      "name": "oar_splash_03",
+      "file": "oar_splash_03.png",
+      "source_box": [
+        1550,
+        553,
+        1570,
+        572
+      ],
+      "width": 20,
+      "height": 19
+    },
+    {
+      "name": "oar_splash_04",
+      "file": "oar_splash_04.png",
+      "source_box": [
+        1407,
+        524,
+        1584,
+        668
+      ],
+      "width": 177,
+      "height": 144
+    },
+    {
+      "name": "oar_splash_05",
+      "file": "oar_splash_05.png",
+      "source_box": [
+        1568,
+        584,
+        1587,
+        601
+      ],
+      "width": 19,
+      "height": 17
+    },
+    {
+      "name": "oar_splash_06",
+      "file": "oar_splash_06.png",
+      "source_box": [
+        1585,
+        627,
+        1602,
+        648
+      ],
+      "width": 17,
+      "height": 21
+    },
+    {
+      "name": "oar_splash_07",
+      "file": "oar_splash_07.png",
+      "source_box": [
+        892,
+        592,
+        1070,
+        790
+      ],
+      "width": 178,
+      "height": 198
+    },
+    {
+      "name": "oar_splash_08",
+      "file": "oar_splash_08.png",
+      "source_box": [
+        1072,
+        592,
+        1294,
+        790
+      ],
+      "width": 222,
+      "height": 198
+    },
+    {
+      "name": "oar_splash_09",
+      "file": "oar_splash_09.png",
+      "source_box": [
+        1240,
+        594,
+        1461,
+        790
+      ],
+      "width": 221,
+      "height": 196
+    },
+    {
+      "name": "oar_splash_10",
+      "file": "oar_splash_10.png",
+      "source_box": [
+        1524,
+        590,
+        1762,
+        790
+      ],
+      "width": 238,
+      "height": 200
+    },
+    {
+      "name": "oar_splash_11",
+      "file": "oar_splash_11.png",
+      "source_box": [
+        1732,
+        590,
+        1949,
+        790
+      ],
+      "width": 217,
+      "height": 200
+    },
+    {
+      "name": "oar_splash_12",
+      "file": "oar_splash_12.png",
+      "source_box": [
+        1436,
+        698,
+        1450,
+        713
+      ],
+      "width": 14,
+      "height": 15
+    },
+    {
+      "name": "oar_splash_13",
+      "file": "oar_splash_13.png",
+      "source_box": [
+        1420,
+        721,
+        1434,
+        737
+      ],
+      "width": 14,
+      "height": 16
+    },
+    {
+      "name": "oar_splash_14",
+      "file": "oar_splash_14.png",
+      "source_box": [
+        1448,
+        719,
+        1462,
+        731
+      ],
+      "width": 14,
+      "height": 12
+    },
+    {
+      "name": "oar_splash_15",
+      "file": "oar_splash_15.png",
+      "source_box": [
+        1528,
+        722,
+        1545,
+        733
+      ],
+      "width": 17,
+      "height": 11
+    },
+    {
+      "name": "oar_splash_16",
+      "file": "oar_splash_16.png",
+      "source_box": [
+        1564,
+        720,
+        1578,
+        736
+      ],
+      "width": 14,
+      "height": 16
+    },
+    {
+      "name": "oar_splash_17",
+      "file": "oar_splash_17.png",
+      "source_box": [
+        1072,
+        762,
+        1105,
+        790
+      ],
+      "width": 33,
+      "height": 28
+    },
+    {
+      "name": "ripple_00",
+      "file": "ripple_00.png",
+      "source_box": [
+        2066,
+        187,
+        2176,
+        210
+      ],
+      "width": 110,
+      "height": 23
+    },
+    {
+      "name": "ripple_01",
+      "file": "ripple_01.png",
+      "source_box": [
+        2315,
+        185,
+        2448,
+        275
+      ],
+      "width": 133,
+      "height": 90
+    },
+    {
+      "name": "ripple_02",
+      "file": "ripple_02.png",
+      "source_box": [
+        2032,
+        205,
+        2060,
+        267
+      ],
+      "width": 28,
+      "height": 62
+    },
+    {
+      "name": "ripple_03",
+      "file": "ripple_03.png",
+      "source_box": [
+        2178,
+        212,
+        2204,
+        267
+      ],
+      "width": 26,
+      "height": 55
+    },
+    {
+      "name": "ripple_04",
+      "file": "ripple_04.png",
+      "source_box": [
+        2284,
+        202,
+        2319,
+        275
+      ],
+      "width": 35,
+      "height": 73
+    },
+    {
+      "name": "ripple_05",
+      "file": "ripple_05.png",
+      "source_box": [
+        2448,
+        200,
+        2480,
+        272
+      ],
+      "width": 32,
+      "height": 72
+    },
+    {
+      "name": "ripple_06",
+      "file": "ripple_06.png",
+      "source_box": [
+        2063,
+        266,
+        2169,
+        287
+      ],
+      "width": 106,
+      "height": 21
+    },
+    {
+      "name": "ripple_07",
+      "file": "ripple_07.png",
+      "source_box": [
+        2322,
+        272,
+        2446,
+        294
+      ],
+      "width": 124,
+      "height": 22
+    },
+    {
+      "name": "ripple_08",
+      "file": "ripple_08.png",
+      "source_box": [
+        2002,
+        368,
+        2203,
+        482
+      ],
+      "width": 201,
+      "height": 114
+    },
+    {
+      "name": "ripple_09",
+      "file": "ripple_09.png",
+      "source_box": [
+        2173,
+        372,
+        2235,
+        455
+      ],
+      "width": 62,
+      "height": 83
+    },
+    {
+      "name": "ripple_10",
+      "file": "ripple_10.png",
+      "source_box": [
+        2290,
+        361,
+        2476,
+        493
+      ],
+      "width": 186,
+      "height": 132
+    },
+    {
+      "name": "ripple_11",
+      "file": "ripple_11.png",
+      "source_box": [
+        2446,
+        422,
+        2485,
+        474
+      ],
+      "width": 39,
+      "height": 52
+    },
+    {
+      "name": "ripple_12",
+      "file": "ripple_12.png",
+      "source_box": [
+        2132,
+        456,
+        2211,
+        486
+      ],
+      "width": 79,
+      "height": 30
+    },
+    {
+      "name": "ripple_13",
+      "file": "ripple_13.png",
+      "source_box": [
+        2027,
+        564,
+        2146,
+        634
+      ],
+      "width": 119,
+      "height": 70
+    },
+    {
+      "name": "ripple_14",
+      "file": "ripple_14.png",
+      "source_box": [
+        2039,
+        573,
+        2218,
+        723
+      ],
+      "width": 179,
+      "height": 150
+    },
+    {
+      "name": "ripple_15",
+      "file": "ripple_15.png",
+      "source_box": [
+        2072,
+        611,
+        2167,
+        696
+      ],
+      "width": 95,
+      "height": 85
+    },
+    {
+      "name": "ripple_16",
+      "file": "ripple_16.png",
+      "source_box": [
+        2297,
+        583,
+        2467,
+        722
+      ],
+      "width": 170,
+      "height": 139
+    },
+    {
+      "name": "ripple_17",
+      "file": "ripple_17.png",
+      "source_box": [
+        2022,
+        646,
+        2104,
+        740
+      ],
+      "width": 82,
+      "height": 94
+    },
+    {
+      "name": "ripple_18",
+      "file": "ripple_18.png",
+      "source_box": [
+        2121,
+        706,
+        2194,
+        742
+      ],
+      "width": 73,
+      "height": 36
+    },
+    {
+      "name": "banner_00",
+      "file": "banner_00.png",
+      "source_box": [
+        39,
+        1001,
+        447,
+        1101
+      ],
+      "width": 408,
+      "height": 100
+    },
+    {
+      "name": "banner_01",
+      "file": "banner_01.png",
+      "source_box": [
+        471,
+        1022,
+        494,
+        1242
+      ],
+      "width": 23,
+      "height": 220
+    },
+    {
+      "name": "banner_02",
+      "file": "banner_02.png",
+      "source_box": [
+        41,
+        1124,
+        314,
+        1242
+      ],
+      "width": 273,
+      "height": 118
+    },
+    {
+      "name": "banner_03",
+      "file": "banner_03.png",
+      "source_box": [
+        356,
+        1125,
+        440,
+        1241
+      ],
+      "width": 84,
+      "height": 116
+    },
+    {
+      "name": "banner_04",
+      "file": "banner_04.png",
+      "source_box": [
+        41,
+        1264,
+        270,
+        1348
+      ],
+      "width": 229,
+      "height": 84
+    },
+    {
+      "name": "banner_05",
+      "file": "banner_05.png",
+      "source_box": [
+        303,
+        1260,
+        337,
+        1346
+      ],
+      "width": 34,
+      "height": 86
+    },
+    {
+      "name": "banner_06",
+      "file": "banner_06.png",
+      "source_box": [
+        370,
+        1267,
+        494,
+        1342
+      ],
+      "width": 124,
+      "height": 75
+    },
+    {
+      "name": "banner_07",
+      "file": "banner_07.png",
+      "source_box": [
+        41,
+        1373,
+        341,
+        1438
+      ],
+      "width": 300,
+      "height": 65
+    },
+    {
+      "name": "banner_08",
+      "file": "banner_08.png",
+      "source_box": [
+        40,
+        1450,
+        341,
+        1518
+      ],
+      "width": 301,
+      "height": 68
+    },
+    {
+      "name": "banner_09",
+      "file": "banner_09.png",
+      "source_box": [
+        366,
+        1384,
+        445,
+        1624
+      ],
+      "width": 79,
+      "height": 240
+    },
+    {
+      "name": "banner_10",
+      "file": "banner_10.png",
+      "source_box": [
+        471,
+        1404,
+        494,
+        1624
+      ],
+      "width": 23,
+      "height": 220
+    },
+    {
+      "name": "banner_11",
+      "file": "banner_11.png",
+      "source_box": [
+        40,
+        1530,
+        341,
+        1600
+      ],
+      "width": 301,
+      "height": 70
+    },
+    {
+      "name": "outpost_tent_00",
+      "file": "outpost_tent_00.png",
+      "source_box": [
+        638,
+        1000,
+        862,
+        1200
+      ],
+      "width": 224,
+      "height": 200
+    },
+    {
+      "name": "outpost_tent_01",
+      "file": "outpost_tent_01.png",
+      "source_box": [
+        885,
+        1000,
+        1109,
+        1200
+      ],
+      "width": 224,
+      "height": 200
+    },
+    {
+      "name": "outpost_tent_02",
+      "file": "outpost_tent_02.png",
+      "source_box": [
+        638,
+        1212,
+        861,
+        1413
+      ],
+      "width": 223,
+      "height": 201
+    },
+    {
+      "name": "outpost_tent_03",
+      "file": "outpost_tent_03.png",
+      "source_box": [
+        885,
+        1212,
+        1109,
+        1412
+      ],
+      "width": 224,
+      "height": 200
+    },
+    {
+      "name": "outpost_tent_04",
+      "file": "outpost_tent_04.png",
+      "source_box": [
+        638,
+        1424,
+        862,
+        1624
+      ],
+      "width": 224,
+      "height": 200
+    },
+    {
+      "name": "outpost_tent_05",
+      "file": "outpost_tent_05.png",
+      "source_box": [
+        884,
+        1424,
+        1109,
+        1624
+      ],
+      "width": 225,
+      "height": 200
+    },
+    {
+      "name": "event_infra_00",
+      "file": "event_infra_00.png",
+      "source_box": [
+        1200,
+        1001,
+        1620,
+        1224
+      ],
+      "width": 420,
+      "height": 223
+    },
+    {
+      "name": "event_infra_01",
+      "file": "event_infra_01.png",
+      "source_box": [
+        1206,
+        1239,
+        1396,
+        1432
+      ],
+      "width": 190,
+      "height": 193
+    },
+    {
+      "name": "event_infra_02",
+      "file": "event_infra_02.png",
+      "source_box": [
+        1424,
+        1239,
+        1614,
+        1432
+      ],
+      "width": 190,
+      "height": 193
+    },
+    {
+      "name": "event_infra_03",
+      "file": "event_infra_03.png",
+      "source_box": [
+        1206,
+        1442,
+        1396,
+        1630
+      ],
+      "width": 190,
+      "height": 188
+    },
+    {
+      "name": "event_infra_04",
+      "file": "event_infra_04.png",
+      "source_box": [
+        1424,
+        1442,
+        1614,
+        1630
+      ],
+      "width": 190,
+      "height": 188
+    },
+    {
+      "name": "award_00",
+      "file": "award_00.png",
+      "source_box": [
+        1744,
+        1023,
+        1975,
+        1154
+      ],
+      "width": 231,
+      "height": 131
+    },
+    {
+      "name": "award_01",
+      "file": "award_01.png",
+      "source_box": [
+        1720,
+        1208,
+        1943,
+        1284
+      ],
+      "width": 223,
+      "height": 76
+    },
+    {
+      "name": "award_02",
+      "file": "award_02.png",
+      "source_box": [
+        1966,
+        1182,
+        1975,
+        1284
+      ],
+      "width": 9,
+      "height": 102
+    },
+    {
+      "name": "equipment_00",
+      "file": "equipment_00.png",
+      "source_box": [
+        2134,
+        1007,
+        2298,
+        1108
+      ],
+      "width": 164,
+      "height": 101
+    },
+    {
+      "name": "equipment_01",
+      "file": "equipment_01.png",
+      "source_box": [
+        2314,
+        1007,
+        2478,
+        1108
+      ],
+      "width": 164,
+      "height": 101
+    },
+    {
+      "name": "equipment_02",
+      "file": "equipment_02.png",
+      "source_box": [
+        2137,
+        1144,
+        2198,
+        1222
+      ],
+      "width": 61,
+      "height": 78
+    },
+    {
+      "name": "equipment_03",
+      "file": "equipment_03.png",
+      "source_box": [
+        2226,
+        1144,
+        2286,
+        1222
+      ],
+      "width": 60,
+      "height": 78
+    },
+    {
+      "name": "equipment_04",
+      "file": "equipment_04.png",
+      "source_box": [
+        2314,
+        1124,
+        2478,
+        1224
+      ],
+      "width": 164,
+      "height": 100
+    },
+    {
+      "name": "equipment_05",
+      "file": "equipment_05.png",
+      "source_box": [
+        2282,
+        1264,
+        2363,
+        1330
+      ],
+      "width": 81,
+      "height": 66
+    },
+    {
+      "name": "equipment_06",
+      "file": "equipment_06.png",
+      "source_box": [
+        2412,
+        1272,
+        2455,
+        1314
+      ],
+      "width": 43,
+      "height": 42
+    },
+    {
+      "name": "equipment_07",
+      "file": "equipment_07.png",
+      "source_box": [
+        2135,
+        1252,
+        2254,
+        1432
+      ],
+      "width": 119,
+      "height": 180
+    },
+    {
+      "name": "equipment_08",
+      "file": "equipment_08.png",
+      "source_box": [
+        2240,
+        1374,
+        2299,
+        1433
+      ],
+      "width": 59,
+      "height": 59
+    },
+    {
+      "name": "equipment_09",
+      "file": "equipment_09.png",
+      "source_box": [
+        2319,
+        1374,
+        2377,
+        1433
+      ],
+      "width": 58,
+      "height": 59
+    },
+    {
+      "name": "equipment_10",
+      "file": "equipment_10.png",
+      "source_box": [
+        2401,
+        1351,
+        2476,
+        1434
+      ],
+      "width": 75,
+      "height": 83
+    },
+    {
+      "name": "equipment_11",
+      "file": "equipment_11.png",
+      "source_box": [
+        2240,
+        1455,
+        2299,
+        1514
+      ],
+      "width": 59,
+      "height": 59
+    },
+    {
+      "name": "equipment_12",
+      "file": "equipment_12.png",
+      "source_box": [
+        2318,
+        1455,
+        2377,
+        1514
+      ],
+      "width": 59,
+      "height": 59
+    },
+    {
+      "name": "equipment_13",
+      "file": "equipment_13.png",
+      "source_box": [
+        2401,
+        1450,
+        2422,
+        1523
+      ],
+      "width": 21,
+      "height": 73
+    },
+    {
+      "name": "equipment_14",
+      "file": "equipment_14.png",
+      "source_box": [
+        2445,
+        1445,
+        2478,
+        1522
+      ],
+      "width": 33,
+      "height": 77
+    },
+    {
+      "name": "equipment_15",
+      "file": "equipment_15.png",
+      "source_box": [
+        2131,
+        1498,
+        2270,
+        1624
+      ],
+      "width": 139,
+      "height": 126
+    },
+    {
+      "name": "equipment_16",
+      "file": "equipment_16.png",
+      "source_box": [
+        2288,
+        1551,
+        2342,
+        1624
+      ],
+      "width": 54,
+      "height": 73
+    },
+    {
+      "name": "equipment_17",
+      "file": "equipment_17.png",
+      "source_box": [
+        2360,
+        1551,
+        2415,
+        1624
+      ],
+      "width": 55,
+      "height": 73
+    },
+    {
+      "name": "equipment_18",
+      "file": "equipment_18.png",
+      "source_box": [
+        2434,
+        1551,
+        2488,
+        1624
+      ],
+      "width": 54,
+      "height": 73
+    }
+  ]
+}
