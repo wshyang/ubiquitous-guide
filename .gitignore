@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+package-lock.json.bak
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Local environment (real secrets never committed; see .env.example if introduced)
+.env
+.env.local
+
+# Scratch render/inspection output (kept out of Git; regenerate via scripts)
+work/
+tmp/
