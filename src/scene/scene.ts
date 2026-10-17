@@ -22,16 +22,21 @@ export const WORLD_HEIGHT = 1536;
  *  tools/prepare_backdrops.py) composited over five sky gradients. */
 export type BackdropThemeId = "dawn" | "morning" | "day" | "evening" | "dusk";
 
+export type SpriteVariant = "day" | "dawn" | "dusk";
+
 export interface BackdropTheme {
   id: BackdropThemeId; label: string; skyUrl: string; sceneUrl: string;
+  /** Recoloured sprite set matching this lighting (addendum 0010):
+   *  morning reuses day sprites, evening reuses the dusk set. */
+  spriteVariant: SpriteVariant;
 }
 
 export const BACKDROP_THEMES: readonly BackdropTheme[] = [
-  { id: "dawn", label: "Dawn", skyUrl: "/backdrops/sky-early-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-dawn.png" },
-  { id: "morning", label: "Morning", skyUrl: "/backdrops/sky-late-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
-  { id: "day", label: "Day", skyUrl: "/backdrops/sky-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
-  { id: "evening", label: "Evening", skyUrl: "/backdrops/sky-late-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
-  { id: "dusk", label: "Dusk", skyUrl: "/backdrops/sky-dusk.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
+  { spriteVariant: "dawn", id: "dawn", label: "Dawn", skyUrl: "/backdrops/sky-early-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-dawn.png" },
+  { spriteVariant: "day", id: "morning", label: "Morning", skyUrl: "/backdrops/sky-late-morning.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
+  { spriteVariant: "day", id: "day", label: "Day", skyUrl: "/backdrops/sky-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-day.png" },
+  { spriteVariant: "dusk", id: "evening", label: "Evening", skyUrl: "/backdrops/sky-late-afternoon.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
+  { spriteVariant: "dusk", id: "dusk", label: "Dusk", skyUrl: "/backdrops/sky-dusk.jpeg", sceneUrl: "/backdrops/kallang-scene-dusk.png" },
 ];
 
 const DAY_THEME: BackdropTheme = BACKDROP_THEMES[2] as BackdropTheme;

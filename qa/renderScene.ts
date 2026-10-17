@@ -5,17 +5,17 @@
 import { loadAnchors } from "../src/lib/anchors";
 import type { Ctx } from "../src/lib/types";
 import {
-  BOARDWALK, COURTS, PROMENADE_BACK, PROMENADE_FRONT, boatSpecs, buildScene,
-  renderScene, waterEffectPlacements, WORLD_HEIGHT, WORLD_WIDTH,
+  BOARDWALK, COURTS, PROMENADE_BACK, PROMENADE_FRONT, backdropTheme,
+  boatSpecs, buildScene, renderScene, waterEffectPlacements, WORLD_HEIGHT, WORLD_WIDTH,
 } from "../src/scene/scene";
 import { boatRectsAt } from "../src/scene/traffic";
 import { DOCK_RECT, PONTOON_RECT, SHORELINE, type Rect } from "../src/scene/waterMap";
 import { createCanvas, loadBackdrop, loadNodeStore, saveCanvas } from "./nodeCanvas";
 
 const SEED = 20261017;
-const store = await loadNodeStore();
-const anchors = loadAnchors();
 const themeArg = process.argv.find((a) => a.startsWith("--theme="))?.split("=")[1] ?? "day";
+const store = await loadNodeStore(backdropTheme(themeArg).spriteVariant);
+const anchors = loadAnchors();
 const backdrop = await loadBackdrop(themeArg);
 const entities = buildScene(store, anchors, SEED);
 const withGrid = process.argv.includes("--grid");

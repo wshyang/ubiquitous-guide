@@ -38,3 +38,28 @@ describe("layered backdrop themes (addendum 0009)", () => {
     expect(drawn).toEqual([sky, scene]);
   });
 });
+
+import manifestDawn from "../../src/generated/sprite-manifest-dawn.json";
+import manifestDay from "../../src/generated/sprite-manifest.json";
+import manifestDusk from "../../src/generated/sprite-manifest-dusk.json";
+
+describe("themed sprite variants (addendum 0010)", () => {
+  it("themes map to sprite lighting sets", () => {
+    const byId = Object.fromEntries(BACKDROP_THEMES.map((t) => [t.id, t.spriteVariant]));
+    expect(byId).toEqual({ dawn: "dawn", morning: "day", day: "day", evening: "dusk", dusk: "dusk" });
+  });
+
+  it("dawn/dusk manifests mirror the day manifest ids and dimensions", () => {
+    const day = manifestDay.sprites;
+    for (const [name, themed] of [["dawn", manifestDawn.sprites], ["dusk", manifestDusk.sprites]] as const) {
+      expect(themed).toHaveLength(day.length);
+      themed.forEach((entry, i) => {
+        const base = day[i]!;
+        expect(entry.id, name).toBe(base.id);
+        expect([entry.width, entry.height], name).toEqual([base.width, base.height]);
+        expect(entry.url, name).toBe(base.url.replace("/sprites/", `/sprites-${name}/`));
+        expect(existsSync(`public${entry.url}`), entry.url).toBe(true);
+      });
+    }
+  });
+});

@@ -1,13 +1,21 @@
 /** Browser entrypoint: load sprites, then run the deterministic scene clock. */
-import manifestJson from "./generated/sprite-manifest.json";
+import manifestDawnJson from "./generated/sprite-manifest-dawn.json";
+import manifestDayJson from "./generated/sprite-manifest.json";
+import manifestDuskJson from "./generated/sprite-manifest-dusk.json";
 import { loadAnchors } from "./lib/anchors";
 import { buildStore } from "./lib/sprites";
 import type { SpriteEntry, SpriteImage, SpriteManifest } from "./lib/types";
 import { buildLab, LAB_HEIGHT, LAB_WIDTH, renderLab } from "./scene/lab";
 import {
   backdropTheme, buildScene, renderScene, WORLD_HEIGHT, WORLD_WIDTH,
-  type BackdropLayers, type BackdropTheme,
+  type BackdropLayers, type BackdropTheme, type SpriteVariant,
 } from "./scene/scene";
+
+function manifestForVariant(variant: SpriteVariant): SpriteManifest {
+  if (variant === "dawn") return manifestDawnJson as SpriteManifest;
+  if (variant === "dusk") return manifestDuskJson as SpriteManifest;
+  return manifestDayJson as SpriteManifest;
+}
 
 interface Controls {
   pause: HTMLButtonElement;
@@ -59,8 +67,8 @@ async function boot(): Promise<void> {
     theme: must(document.querySelector<HTMLSelectElement>("#theme-select"), "#theme-select"),
   };
   const params = parseParams();
-  const manifest = manifestJson as SpriteManifest;
-  const store = await buildStore(manifest, (entry: SpriteEntry) => loadHtmlImage(entry.url));
+  const loadEntry = (entry: SpriteEntry) => loadHtmlImage(entry.url);
+  const store = await buildStore(manifestForVariant(params.theme.spriteVariant), loadEntry);
   const backdrop = await loadBackdropLayers(params.theme);
   const anchors = loadAnchors();
   const scene = buildScene(store, anchors, params.seed);
@@ -73,8 +81,8 @@ async function boot(): Promise<void> {
   controls.theme.value = params.theme.id;
   wireControls(controls, state, () => applyView(canvas, controls, state.view));
   applyView(canvas, controls, state.view);
-  const clockArgs: ClockArgs = { backdrop, scene, lab, state };
-  wireThemeSelect(controls.theme, clockArgs);
+  const clockArgs: ClockArgs = { backdrop, scene, lab, state, spriteVariant: params.theme.spriteVariant };
+  wireThemeSelect(controls.theme, clockArgs, params.seed, anchors);
   startClock(ctx, clockArgs);
 }
 
@@ -110,13 +118,28 @@ function applyView(canvas: HTMLCanvasElement, controls: Controls, view: "scene" 
   controls.view.textContent = isLab ? "View: Composite lab" : "View: Scene";
 }
 
-function wireThemeSelect(select: HTMLSelectElement, clockArgs: ClockArgs): void {
+function wireThemeSelect(select: HTMLSelectElement, clockArgs: ClockArgs,
+                         seed: number, anchors: ReturnType<typeof loadAnchors>): void {
   let request = 0;
+  let variant: SpriteVariant | null = null;
   select.addEventListener("change", () => {
     const mine = (request += 1);
-    void loadBackdropLayers(backdropTheme(select.value)).then((layers) => {
-      if (mine === request) clockArgs.backdrop = layers; // ignore stale loads
-    });
+    const theme = backdropTheme(select.value);
+    void (async () => {
+      const layers = await loadBackdropLayers(theme);
+      if (mine !== request) return; // ignore stale loads
+      clockArgs.backdrop = layers;
+      if (variant === null) variant = clockArgs.spriteVariant;
+      if (theme.spriteVariant !== variant) {
+        variant = theme.spriteVariant;
+        const themed = await buildStore(manifestForVariant(variant),
+          (entry: SpriteEntry) => loadHtmlImage(entry.url));
+        if (mine !== request) return;
+        clockArgs.scene = buildScene(themed, anchors, seed);
+        clockArgs.lab = buildLab(themed, anchors);
+        clockArgs.spriteVariant = variant;
+      }
+    })();
   });
 }
 
@@ -125,6 +148,7 @@ interface ClockArgs {
   scene: ReturnType<typeof buildScene>;
   lab: ReturnType<typeof buildLab>;
   state: MutableState;
+  spriteVariant: SpriteVariant;
 }
 
 function startClock(ctx: CanvasRenderingContext2D, args: ClockArgs): void {

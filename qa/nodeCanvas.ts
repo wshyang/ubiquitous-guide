@@ -4,10 +4,11 @@ import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { readFile, writeFile } from "node:fs/promises";
 import { buildStore, type SpriteStore } from "../src/lib/sprites";
 import type { SpriteImage, SpriteManifest } from "../src/lib/types";
-import { backdropTheme, type BackdropLayers } from "../src/scene/scene";
+import { backdropTheme, type BackdropLayers, type SpriteVariant } from "../src/scene/scene";
 
-export async function loadNodeStore(): Promise<SpriteStore> {
-  const raw = await readFile("src/generated/sprite-manifest.json", "utf8");
+export async function loadNodeStore(variant: SpriteVariant = "day"): Promise<SpriteStore> {
+  const file = variant === "day" ? "sprite-manifest.json" : `sprite-manifest-${variant}.json`;
+  const raw = await readFile(`src/generated/${file}`, "utf8");
   const manifest = JSON.parse(raw) as SpriteManifest;
   return buildStore(manifest, async (entry) => loadImage(`public${entry.url}`) as Promise<SpriteImage>);
 }

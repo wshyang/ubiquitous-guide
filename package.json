@@ -17,7 +17,8 @@
     "assets:extract": "python3 tools/extract_sprites.py",
     "assets:contact": "python3 tools/contact_sheet.py",
     "qa:gait": "tsx qa/renderGait.ts",
-    "assets:backdrops": "python3 tools/prepare_backdrops.py"
+    "assets:backdrops": "python3 tools/prepare_backdrops.py",
+    "assets:recolour": "python3 tools/recolour_sprites.py"
   },
   "devDependencies": {
     "@napi-rs/canvas": "^0.1.65",

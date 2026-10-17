@@ -21,6 +21,7 @@ from sheet_config import SHEETS, Region, Sheet  # noqa: E402
 from sprite_pipeline import Component, find_labelled, key_magenta, sort_reading_order  # noqa: E402
 from repair_dragon_rower_arm import repair_paths  # noqa: E402
 from prepare_backdrops import prepare_all as prepare_backdrops  # noqa: E402
+from recolour_sprites import recolour_all  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_SPRITES = ROOT / "public" / "sprites"
@@ -209,6 +210,7 @@ def main() -> None:
     publish_backdrops()
     MANIFEST.write_text(json.dumps({"sprites": entries}, indent=2) + "\n")
     print(f"Wrote {len(entries)} sprites; manifest -> {MANIFEST.relative_to(ROOT)}")
+    recolour_all()  # dawn/dusk sprite variants (addendum 0010)
 
 
 if __name__ == "__main__":
